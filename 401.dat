@@ -1,0 +1,59 @@
+{
+  "author": "Quaternius",
+  "source": "https://quaternius.com/packs/universalbasecharacters.html",
+  "downloadPage": "https://quaternius.itch.io/universal-base-characters",
+  "license": "CC0-1.0",
+  "archiveBytes": 128968391,
+  "archiveSha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
+  "license_notice": "hero-52.txt",
+  "original_archive_notice_member": "Universal Base Characters[Standard]/License_Standard.txt",
+  "scope": "Universal Base Characters Standard source pack used for head, hair and face material components; the remaining Quaternius pack sources are listed in ASSET-LICENSES.md.",
+  "recorded_source_archives": [
+    {
+      "name": "Base characters",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "source": "https://quaternius.itch.io/universal-base-characters",
+      "sourceFile": "base.zip",
+      "bytes": 128968391,
+      "sha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40"
+    },
+    {
+      "name": "Fantasy outfits",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "source": "https://quaternius.itch.io/modular-character-outfits-fantasy",
+      "sourceFile": "outfits.zip",
+      "bytes": 294347394,
+      "sha256": "c3468b18871cc8c8f05ab14df7712baf22cb9f389cbd870babf130e595187f70"
+    },
+    {
+      "name": "Animation library",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "source": "https://quaternius.itch.io/universal-animation-library",
+      "sourceFile": "animations.zip",
+      "bytes": 15904933,
+      "sha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724"
+    },
+    {
+      "name": "Animation library 2",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "source": "https://quaternius.itch.io/universal-animation-library-2",
+      "sourceFile": "animations2.zip",
+      "bytes": 18735003,
+      "sha256": "4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68"
+    },
+    {
+      "name": "Aquatic creatures",
+      "author": "Quaternius",
+      "license": "CC0-1.0",
+      "source": "https://opengameart.org/content/animated-fish",
+      "sourceFile": "fish.zip",
+      "bytes": 1024233,
+      "sha256": "c56a4bf3468e900ed9d881037334152dc203f93b656373347c8a7fc3dedb1855"
+    }
+  ],
+  "verification_note": "Archive identifiers are preserved source records, not newly recomputed checksums; the original source archives are not included in this release."
+}
