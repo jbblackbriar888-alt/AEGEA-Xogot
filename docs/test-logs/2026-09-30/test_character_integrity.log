@@ -1,0 +1,3 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CHARACTER_INTEGRITY_RESULT {"checks":5173,"clips":["death","harvest","gather","hit","idle","interact","run","land","jump","jumpStart","pickup","dodge","sprint","swim","swimIdle","guard","combatIdle","attack","attack2","heavyAttack","chop","carry","walk","mine","pullCart","bow"],"failures":[],"passed":5173}

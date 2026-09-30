@@ -1,0 +1,311 @@
+{
+  "date_utc": "2026-09-30",
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "platform": "Linux headless; graphical replay on Linux Compatibility/llvmpipe",
+  "physical_iphone_tested": false,
+  "hero": "Original ranger; cape removed",
+  "total_checks": 28937,
+  "all_listed_suites_passed": true,
+  "long_simulation_backend_matches_final": true,
+  "results": [
+    {
+      "suite": "clean-import",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 4.237,
+      "assertions": [],
+      "log": "clean-import.log"
+    },
+    {
+      "suite": "test_boot_recovery",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 3.56,
+      "assertions": [
+        {
+          "checks": 12,
+          "failures": [],
+          "passed": 12
+        }
+      ],
+      "log": "test_boot_recovery.log"
+    },
+    {
+      "suite": "test_boundary_parity",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 0.95,
+      "assertions": [
+        {
+          "checks": 27,
+          "failures": [],
+          "passed": 27
+        }
+      ],
+      "log": "test_boundary_parity.log"
+    },
+    {
+      "suite": "test_character_integrity",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 0.761,
+      "assertions": [
+        {
+          "checks": 5173,
+          "clips": [
+            "death",
+            "harvest",
+            "gather",
+            "hit",
+            "idle",
+            "interact",
+            "run",
+            "land",
+            "jump",
+            "jumpStart",
+            "pickup",
+            "dodge",
+            "sprint",
+            "swim",
+            "swimIdle",
+            "guard",
+            "combatIdle",
+            "attack",
+            "attack2",
+            "heavyAttack",
+            "chop",
+            "carry",
+            "walk",
+            "mine",
+            "pullCart",
+            "bow"
+          ],
+          "failures": [],
+          "passed": 5173
+        }
+      ],
+      "log": "test_character_integrity.log"
+    },
+    {
+      "suite": "test_deferred_logistics",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 0.781,
+      "assertions": [
+        {
+          "checks": 5,
+          "failures": [],
+          "passed": 5
+        }
+      ],
+      "log": "test_deferred_logistics.log"
+    },
+    {
+      "suite": "test_engine_features",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 3.536,
+      "assertions": [
+        {
+          "checks": 53,
+          "failures": [],
+          "passed": 53
+        }
+      ],
+      "log": "test_engine_features.log"
+    },
+    {
+      "suite": "test_parity_combat",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 2.353,
+      "assertions": [
+        {
+          "checks": 96,
+          "passed": 96,
+          "failures": []
+        }
+      ],
+      "log": "test_parity_combat.log"
+    },
+    {
+      "suite": "test_parity_economy",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 1.702,
+      "assertions": [
+        {
+          "checks": 83,
+          "passed": 83,
+          "failures": []
+        }
+      ],
+      "log": "test_parity_economy.log"
+    },
+    {
+      "suite": "test_parity_gameplay",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 1.772,
+      "assertions": [
+        {
+          "checks": 92,
+          "failures": [],
+          "passed": 92
+        }
+      ],
+      "log": "test_parity_gameplay.log"
+    },
+    {
+      "suite": "test_parity_geometry",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 1.02,
+      "assertions": [
+        {
+          "checks": 16381,
+          "failures": [],
+          "passed": 16381
+        }
+      ],
+      "log": "test_parity_geometry.log"
+    },
+    {
+      "suite": "test_parity_migration",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 16.281,
+      "assertions": [
+        {
+          "checks": 5961,
+          "passed": 5961,
+          "failures": []
+        }
+      ],
+      "log": "test_parity_migration.log"
+    },
+    {
+      "suite": "test_parity_ui",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 8.485,
+      "assertions": [
+        {
+          "checks": 143,
+          "failures": [],
+          "passed": 143
+        }
+      ],
+      "log": "test_parity_ui.log"
+    },
+    {
+      "suite": "test_review_regressions",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 1.111,
+      "assertions": [
+        {
+          "checks": 25,
+          "failures": [],
+          "passed": 25
+        }
+      ],
+      "log": "test_review_regressions.log"
+    },
+    {
+      "suite": "test_rig_damage",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 3.639,
+      "assertions": [
+        {
+          "checks": 43,
+          "failures": [],
+          "passed": 43
+        }
+      ],
+      "log": "test_rig_damage.log"
+    },
+    {
+      "suite": "test_simulation",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 1.608,
+      "assertions": [
+        {
+          "checks": 203,
+          "failures": [],
+          "passed": 203
+        }
+      ],
+      "log": "test_simulation.log"
+    },
+    {
+      "suite": "test_ui",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 4.2,
+      "assertions": [
+        {
+          "checks": 375,
+          "failures": [],
+          "passed": 375
+        }
+      ],
+      "log": "test_ui.log"
+    },
+    {
+      "suite": "test_world_rules",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 0.754,
+      "assertions": [
+        {
+          "checks": 11,
+          "failures": [],
+          "passed": 11
+        }
+      ],
+      "log": "test_world_rules.log"
+    },
+    {
+      "suite": "main-scene",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 7.08,
+      "assertions": [],
+      "log": "main-scene.log"
+    },
+    {
+      "suite": "test_integration",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 267.914,
+      "assertions": [
+        {
+          "checks": 254,
+          "failures": [],
+          "passed": 254
+        }
+      ],
+      "log": "test_integration.log"
+    }
+  ],
+  "final_script_sha256": {
+    "scripts/ai.gd": "14e59a8a25c3ef85f34893523e1108da9ef854d28636f7b6f1865be643819d63",
+    "scripts/joystick.gd": "a577fa59c4971a9dfa2d49169d953ba6cf57ee7afc616300482b7510496066fb",
+    "scripts/character_contact.gd": "97a7123b3cc3dcabae10cdcce2be61b5a614768f243bfdc28451e05f7a257d08",
+    "scripts/world.gd": "71e134d011ae5b5232bf79505891d3b73747e87b517f4babd5411106e64f56e5",
+    "scripts/assets.gd": "09d026afd769f6c2b5e17ac649b215d657fc79ea25e869961e7cfc2e81649146",
+    "scripts/map.gd": "3910ab6a891d764eb7ca3cdde15559b1f0790ff9b4728e8e84876c4fe1eeb4ca",
+    "scripts/map_world.gd": "c929329a1624b428ba6f282a705bafe5b36b70f4bcad8a5285ab228b99edf4bc",
+    "scripts/gallery.gd": "c495f46bf8224b38fa3788ab2466d5c4a8074e358e466b02962701f76237debc",
+    "scripts/hud.gd": "d26369652fd5d89cc27b7def65b201ace3d770cb6ccfb0bf51082c332d9c0855",
+    "scripts/save_migration.gd": "596a00c22df21daed7acfa9575c1846f07f58d39a8a8b52e39512851e5a39589",
+    "scripts/game.gd": "019ee163e35883508c33d9aade0a54f44c97e6a69d32ab93ba58f78104ef4301",
+    "scripts/building_geometry.gd": "cf2730ed7d46068200320a7bfbcef54039748a59e52f1471819d776d4b1202af",
+    "scripts/economy_parity.gd": "31f1310d59fa22ae4625188e2d72d50912d514beca75e66aa13079ca5b79a263",
+    "scripts/combat_parity.gd": "8a1e0094665287499a44b93a56f5b3c3627a73a83ae4ede1c6cb11605b0cbbb5",
+    "scripts/character_rig.gd": "9c8fe2211757d907443caedf3f9ba48f4c3cf6f6504e70f90d93468233074ff0"
+  }
+}
