@@ -1,0 +1,175 @@
+[
+  {
+    "file": "wind.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/ambient/weather/windleaves_10.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/ambient/weather/windleaves_10.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "water.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/ambient/water/wave_21.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/ambient/water/wave_21.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "ship.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/ship/ship_move.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/ship/ship_move.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "sink.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/ship/warship_death_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/ship/warship_death_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "chop.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "chop2.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_03.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/lumbering/lumber_tree_03.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "stone.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/mining/mine_stone_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/mining/mine_stone_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "stone2.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/mining/mine_stone_04.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/mining/mine_stone_04.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "bow.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/attack/weapon/bow_attack_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/attack/weapon/bow_attack_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "arrow.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/attack/impact/arrow_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/attack/impact/arrow_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "boar.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/fauna/animal/pig_10.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/actor/fauna/animal/pig_10.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "build.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/construction/con_wood_01.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/resource/construction/con_wood_01.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "music.mp3",
+    "source": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/music/Mediterranean_Waves.ogg",
+    "download": "https://raw.githubusercontent.com/0ad/0ad/master/binaries/data/mods/public/audio/music/Mediterranean_Waves.ogg",
+    "author": "Wildfire Games",
+    "license": "CC-BY-SA-3.0"
+  },
+  {
+    "file": "wolf.mp3",
+    "source": "https://freesound.org/people/NaturesTemper/sounds/398430/",
+    "download": "https://cdn.freesound.org/previews/398/398430_3862281-lq.mp3",
+    "author": "NaturesTemper",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "bear.mp3",
+    "source": "https://freesound.org/people/celldroid/sounds/763026/",
+    "download": "https://cdn.freesound.org/previews/763/763026_1764719-lq.mp3",
+    "author": "celldroid",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "deer.mp3",
+    "source": "https://freesound.org/people/ferventtorpor/sounds/696774/",
+    "download": "https://cdn.freesound.org/previews/696/696774_9391615-lq.mp3",
+    "author": "ferventtorpor",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "goat.mp3",
+    "source": "https://freesound.org/people/leosalom/sounds/234286/",
+    "download": "https://cdn.freesound.org/previews/234/234286_3120802-lq.mp3",
+    "author": "leosalom",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "step1.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "step2.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "step3.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "swing.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "metal.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "cloth.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "loot.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "inventory.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  },
+  {
+    "file": "creak.mp3",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "author": "Kenney",
+    "license": "CC0-1.0"
+  }
+]
