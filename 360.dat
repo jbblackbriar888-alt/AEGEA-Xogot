@@ -1,0 +1,3240 @@
+{
+  "range": "500 BCE — 1000 CE",
+  "region": "User Mediterranean map",
+  "target_building_types": 28,
+  "game_modified": true,
+  "candidates": [
+    {
+      "id": "B01",
+      "name": "Греческий дом",
+      "culture": "Греция",
+      "actor": "structures/hellenes/house.xml",
+      "role": "Жильё",
+      "variant": "Hellenes House A",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/hellenes/house.xml",
+        "textures": {
+          "baseTex": "structural/hele_struct_b.png",
+          "normTex": "structural/hele_struct_b_norm.png",
+          "specTex": "structural/hele_struct_b_spec.png",
+          "aoTex": "structural/ao/hele_house_a.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/hellenes/house_a_shields.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/house_a_shields.xml",
+              "textures": {
+                "baseTex": "props/hele_props_b.dds",
+                "specTex": "null_white.dds",
+                "normTex": "default_norm.png"
+              },
+              "props": [],
+              "material": "player_trans_norm_spec.xml",
+              "mesh": "props/hele_house_a_shields.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/house_a_nature.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/house_a_nature.xml",
+              "textures": {
+                "baseTex": "props/structs_nature.png",
+                "normTex": "props/structs_nature_norm.png",
+                "specTex": "props/structs_nature_spec.png",
+                "aoTex": "structural/ao/hele_house_a.png"
+              },
+              "props": [],
+              "material": "basic_trans_ao_parallax_spec.xml",
+              "mesh": "props/hele_house_a_nature.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/house_a_struct.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/house_a_struct.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct.dds",
+                "normTex": "structural/hele_struct_norm.png",
+                "specTex": "structural/hele_struct_spec.png",
+                "aoTex": "structural/ao/hele_house_a.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/hele_house_a_struct.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/house_a_props_a.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/house_a_props_a.xml",
+              "textures": {
+                "baseTex": "props/hele_props_a.dds",
+                "normTex": "props/hele_props_a_norm.png",
+                "specTex": "props/hele_props_a_spec.png",
+                "aoTex": "structural/ao/hele_house_a.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/hele_house_a_props_a.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/house_a_decor.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/house_a_decor.xml",
+              "textures": {
+                "baseTex": "props/hele_decor.png",
+                "normTex": "props/hele_decor_norm.png",
+                "specTex": "props/hele_decor_spec.png",
+                "aoTex": "structural/ao/hele_house_a.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/hele_house_a_decor.dae"
+            }
+          }
+        ],
+        "material": "no_trans_ao_parallax_spec.xml",
+        "mesh": "structural/hele_house_a.dae"
+      },
+      "geometry_triangles": 2565,
+      "source_bounds": [
+        [
+          -8.014946937561035,
+          -5.0517964363098145,
+          -7.24076509475708
+        ],
+        [
+          8.678071975708008,
+          9.605011940002441,
+          6.756311416625977
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B01.jpg",
+      "game_type": "hut",
+      "game_size": 5.5
+    },
+    {
+      "id": "B02",
+      "name": "Римская усадьба",
+      "culture": "Римская республика",
+      "actor": "structures/romans/farmstead.xml",
+      "role": "Ферма",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/romans/farmstead.xml",
+        "textures": {
+          "baseTex": "structural/rome_struct_2.png",
+          "normTex": "structural/rome_struct_2_norm.png",
+          "specTex": "structural/rome_struct_2_spec.png",
+          "aoTex": "structural/ao/rome_fc.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/romans/farmstead_wood.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/romans/farmstead_wood.xml",
+              "textures": {
+                "baseTex": "structural/rome_ram.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "no_trans_norm_spec.xml",
+              "mesh": "props/rome_farmstead_wood.dae"
+            }
+          },
+          {
+            "actor": "props/structures/romans/farmstead_plants.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/romans/farmstead_plants.xml",
+              "textures": {
+                "baseTex": "props/structs_nature.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_norm_spec.xml",
+              "mesh": "props/rome_farmstead_plants.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/rome_fc.dae"
+      },
+      "geometry_triangles": 2744,
+      "source_bounds": [
+        [
+          -10.896820068359375,
+          -2.79066801071167,
+          -10.137478828430176
+        ],
+        [
+          12.60374641418457,
+          12.810079574584961,
+          9.003664016723633
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B02.jpg",
+      "game_type": "farmstead",
+      "game_size": 7
+    },
+    {
+      "id": "B03",
+      "name": "Карфагенский рынок",
+      "culture": "Карфаген",
+      "actor": "structures/carthaginians/market.xml",
+      "role": "Торговля",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/carthaginians/market.xml",
+        "textures": {
+          "baseTex": "structural/kart_struct.dds",
+          "normTex": "structural/kart_struct_norm.png",
+          "specTex": "structural/kart_struct_spec.png",
+          "aoTex": "structural/ao/kart_tc.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_01.xml",
+            "attachpoint": "stall_01",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_01.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_01.dae"
+            }
+          },
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_02.xml",
+            "attachpoint": "stall_02",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_02.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_02.dae"
+            }
+          },
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_03.xml",
+            "attachpoint": "stall_03",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_03.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_03.dae"
+            }
+          },
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_04.xml",
+            "attachpoint": "stall_04",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_04.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_04.dae"
+            }
+          },
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_05.xml",
+            "attachpoint": "stall_05",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_05.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_05.dae"
+            }
+          },
+          {
+            "actor": "props/structures/carthaginians/kart_tc_stall_06.xml",
+            "attachpoint": "stall_06",
+            "resolved": {
+              "actor": "props/structures/carthaginians/kart_tc_stall_06.xml",
+              "textures": {
+                "baseTex": "structural/kart_struct.dds",
+                "normTex": "structural/kart_struct_norm.png",
+                "specTex": "structural/kart_struct_spec.png",
+                "aoTex": "structural/ao/kart_tc.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/kart_tc_stall_06.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/kart_tc.dae"
+      },
+      "geometry_triangles": 9241,
+      "source_bounds": [
+        [
+          -14.936826705932617,
+          -8.938529014587402,
+          -12.351619720458984
+        ],
+        [
+          15.903674125671387,
+          10.286439895629883,
+          14.119283676147461
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B03.jpg",
+      "game_type": "market",
+      "game_size": 10
+    },
+    {
+      "id": "B04",
+      "name": "Египетский склад",
+      "culture": "Птолемеевский Египет",
+      "actor": "structures/ptolemies/storehouse.xml",
+      "role": "Хранение ресурсов",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/ptolemies/storehouse.xml",
+        "textures": {
+          "baseTex": "structural/ptol_struct.png",
+          "normTex": "structural/ptol_struct_norm.png",
+          "specTex": "structural/ptol_struct_spec.png",
+          "aoTex": "structural/ao/ptol_storehouse.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/ptol_storehouse.dae"
+      },
+      "geometry_triangles": 2357,
+      "source_bounds": [
+        [
+          -8.447904586791992,
+          -5.589472770690918,
+          -8.678043365478516
+        ],
+        [
+          8.316104888916016,
+          14.226329803466797,
+          7.7748589515686035
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B04.jpg",
+      "game_type": "warehouse",
+      "game_size": 4.2
+    },
+    {
+      "id": "B05",
+      "name": "Спартанская кузница",
+      "culture": "Спарта",
+      "actor": "structures/spartans/blacksmith.xml",
+      "role": "Обработка металла",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/spartans/blacksmith.xml",
+        "textures": {
+          "baseTex": "structural/sparta_struct.png",
+          "normTex": "structural/sparta_struct_norm.png",
+          "specTex": "structural/sparta_struct_spec.png",
+          "aoTex": "structural/ao/spart_blacksmith_AO.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/spart_blacksmith.dae"
+      },
+      "geometry_triangles": 2731,
+      "source_bounds": [
+        [
+          -10.111249923706055,
+          -8.598983764648438,
+          -9.617919921875
+        ],
+        [
+          10.924010276794434,
+          13.026570320129395,
+          9.919063568115234
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B05.jpg",
+      "game_type": "forge",
+      "game_size": 5.5
+    },
+    {
+      "id": "B06",
+      "name": "Иберийская башня",
+      "culture": "Иберия",
+      "actor": "structures/iberians/scout_tower.xml",
+      "role": "Оборона",
+      "variant": "round",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/iberians/scout_tower.xml",
+        "textures": {
+          "baseTex": "structural/iber_struct.png",
+          "normTex": "structural/iber_struct_norm.png",
+          "specTex": "structural/iber_struct_spec.png",
+          "aoTex": "structural/ao/iber_tower_1_AO.png"
+        },
+        "props": [
+          {
+            "actor": "props/flora/bush_desert_dry_a.xml",
+            "attachpoint": "plant_1",
+            "resolved": {
+              "actor": "props/flora/bush_desert_dry_a.xml",
+              "textures": {
+                "baseTex": "gaia/bush_dese_dry_a.dds",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_norm_spec.xml",
+              "mesh": "gaia/bush_dese_a_1.dae"
+            }
+          },
+          {
+            "actor": "props/flora/bush_desert_a.xml",
+            "attachpoint": "plant_2",
+            "resolved": {
+              "actor": "props/flora/bush_desert_a.xml",
+              "textures": {
+                "baseTex": "gaia/bush_dese_a.dds",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_norm_spec.xml",
+              "mesh": "gaia/bush_dese_a_1.dae"
+            }
+          },
+          {
+            "actor": "props/flora/bush_medit_me_dry.xml",
+            "attachpoint": "plant_3",
+            "resolved": {
+              "actor": "props/flora/bush_medit_me_dry.xml",
+              "textures": {
+                "baseTex": "gaia/bush_medit_c.dds",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_norm_spec.xml",
+              "mesh": "gaia/bush_me_1.dae"
+            }
+          },
+          {
+            "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+            "attachpoint": "shield_1",
+            "resolved": {
+              "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+              "textures": {
+                "specTex": "props/shield/celt_shield_spec.png",
+                "normTex": "props/shield/celt_shield_norm.png",
+                "baseTex": "props/shield/iber_shield_01.png"
+              },
+              "props": [
+                {
+                  "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                    "textures": {
+                      "baseTex": "props/shield/oval_03_border.png",
+                      "specTex": "props/shield/oval_03_spec.png",
+                      "normTex": "props/shield/oval_03_norm.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_parallax_spec.xml",
+                    "mesh": "props/shield/oval_03_b.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/celt_manipula.xml",
+                  "attachpoint": "handle",
+                  "resolved": {
+                    "actor": "props/units/shields/props/celt_manipula.xml",
+                    "textures": {
+                      "baseTex": "props/shield/shield_props_01.png",
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png"
+                    },
+                    "props": [],
+                    "material": "no_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/celt_manipula_a.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                  "attachpoint": "spina",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                    "textures": {
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png",
+                      "baseTex": "props/shield/shield_props_01.png"
+                    },
+                    "props": [],
+                    "material": "player_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/spina_a.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_parallax_spec.xml",
+              "mesh": "props/shield/oval_03.dae"
+            }
+          },
+          {
+            "actor": "props/units/shields/iber_shield_spear_oval_c_02.xml",
+            "attachpoint": "shield_3",
+            "resolved": {
+              "actor": "props/units/shields/iber_shield_spear_oval_c_02.xml",
+              "textures": {
+                "specTex": "props/shield/celt_shield_spec.png",
+                "normTex": "props/shield/celt_shield_norm.png",
+                "baseTex": "props/shield/iber_shield_01.png"
+              },
+              "props": [
+                {
+                  "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                    "textures": {
+                      "baseTex": "props/shield/oval_03_border.png",
+                      "specTex": "props/shield/oval_03_spec.png",
+                      "normTex": "props/shield/oval_03_norm.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_parallax_spec.xml",
+                    "mesh": "props/shield/oval_03_b.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/celt_manipula.xml",
+                  "attachpoint": "handle",
+                  "resolved": {
+                    "actor": "props/units/shields/props/celt_manipula.xml",
+                    "textures": {
+                      "baseTex": "props/shield/shield_props_01.png",
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png"
+                    },
+                    "props": [],
+                    "material": "no_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/celt_manipula_a.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/shield_spina_boss_a_03.xml",
+                  "attachpoint": "spina",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_spina_boss_a_03.xml",
+                    "textures": {
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png",
+                      "baseTex": "props/shield/shield_props_01.png"
+                    },
+                    "props": [
+                      {
+                        "actor": "props/units/shields/props/shield_boss_a_03.xml",
+                        "attachpoint": "root",
+                        "resolved": {
+                          "actor": "props/units/shields/props/shield_boss_a_03.xml",
+                          "textures": {
+                            "normTex": "props/shield/shield_props_norm.png",
+                            "specTex": "props/shield/shield_props_spec.png",
+                            "baseTex": "props/shield/shield_props_01.png"
+                          },
+                          "props": [],
+                          "material": "no_trans_parallax_spec.xml",
+                          "mesh": "props/shield/props/boss_a_1.dae"
+                        }
+                      }
+                    ],
+                    "material": "player_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/spina_a.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_parallax_spec.xml",
+              "mesh": "props/shield/oval_03.dae"
+            }
+          },
+          {
+            "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+            "attachpoint": "shield_4",
+            "resolved": {
+              "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+              "textures": {
+                "specTex": "props/shield/celt_shield_spec.png",
+                "normTex": "props/shield/celt_shield_norm.png",
+                "baseTex": "props/shield/iber_shield_01.png"
+              },
+              "props": [
+                {
+                  "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                    "textures": {
+                      "baseTex": "props/shield/oval_03_border.png",
+                      "specTex": "props/shield/oval_03_spec.png",
+                      "normTex": "props/shield/oval_03_norm.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_parallax_spec.xml",
+                    "mesh": "props/shield/oval_03_b.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/celt_manipula.xml",
+                  "attachpoint": "handle",
+                  "resolved": {
+                    "actor": "props/units/shields/props/celt_manipula.xml",
+                    "textures": {
+                      "baseTex": "props/shield/shield_props_01.png",
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png"
+                    },
+                    "props": [],
+                    "material": "no_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/celt_manipula_a.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                  "attachpoint": "spina",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                    "textures": {
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png",
+                      "baseTex": "props/shield/shield_props_01.png"
+                    },
+                    "props": [],
+                    "material": "player_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/spina_a.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_parallax_spec.xml",
+              "mesh": "props/shield/oval_03.dae"
+            }
+          },
+          {
+            "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+            "attachpoint": "shield_2",
+            "resolved": {
+              "actor": "props/units/shields/iber_shield_spear_oval_c_01.xml",
+              "textures": {
+                "specTex": "props/shield/celt_shield_spec.png",
+                "normTex": "props/shield/celt_shield_norm.png",
+                "baseTex": "props/shield/iber_shield_01.png"
+              },
+              "props": [
+                {
+                  "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_oval_c_b.xml",
+                    "textures": {
+                      "baseTex": "props/shield/oval_03_border.png",
+                      "specTex": "props/shield/oval_03_spec.png",
+                      "normTex": "props/shield/oval_03_norm.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_parallax_spec.xml",
+                    "mesh": "props/shield/oval_03_b.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/celt_manipula.xml",
+                  "attachpoint": "handle",
+                  "resolved": {
+                    "actor": "props/units/shields/props/celt_manipula.xml",
+                    "textures": {
+                      "baseTex": "props/shield/shield_props_01.png",
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png"
+                    },
+                    "props": [],
+                    "material": "no_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/celt_manipula_a.dae"
+                  }
+                },
+                {
+                  "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                  "attachpoint": "spina",
+                  "resolved": {
+                    "actor": "props/units/shields/props/shield_spina_a_01.xml",
+                    "textures": {
+                      "normTex": "props/shield/shield_props_norm.png",
+                      "specTex": "props/shield/shield_props_spec.png",
+                      "baseTex": "props/shield/shield_props_01.png"
+                    },
+                    "props": [],
+                    "material": "player_trans_parallax_spec.xml",
+                    "mesh": "props/shield/props/spina_a.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_parallax_spec.xml",
+              "mesh": "props/shield/oval_03.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/iber_tower_1.dae"
+      },
+      "geometry_triangles": 2384,
+      "source_bounds": [
+        [
+          -9.330349922180176,
+          -8.498825073242188,
+          -7.8899383544921875
+        ],
+        [
+          7.382304668426514,
+          18.634740829467773,
+          8.55816650390625
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B06.jpg",
+      "game_type": "tower",
+      "game_size": 4.7
+    },
+    {
+      "id": "B07",
+      "revision": "R2",
+      "name": "Очаг с походным котлом",
+      "culture": "Средиземноморский вариант",
+      "role": "Лагерь и приготовление еды",
+      "game_type": "campfire",
+      "actor": "B07-hearth-r2",
+      "model": {
+        "actor": "B07-hearth-r2",
+        "custom": "B07-hearth-r2",
+        "props": [],
+        "textures": {},
+        "material": "custom_pbr"
+      },
+      "source_project": "AEGEA; Poly Haven PBR maps",
+      "license": "Custom geometry CC BY-SA 3.0; PBR maps CC0",
+      "status": "approved",
+      "note": "Новая геометрия AEGEA. Материалы камня и дерева — Poly Haven.",
+      "geometry_triangles": 13092,
+      "source_bounds": [
+        [
+          -1.3085647821426392,
+          -0.0407504104077816,
+          -1.2640080451965332
+        ],
+        [
+          1.909999966621399,
+          2.1658642292022705,
+          1.2573111057281494
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B07.jpg",
+      "game_size": 1.95
+    },
+    {
+      "id": "B08",
+      "name": "Греческая палатка",
+      "culture": "Греция",
+      "actor": "structures/tent_greek.xml",
+      "role": "Личный лагерь",
+      "game_type": "tent",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/tent_greek.xml",
+        "textures": {
+          "baseTex": "structural/tent_greek.png",
+          "normTex": "structural/tent_greek_norm.png",
+          "specTex": "structural/tent_greek_spec.png",
+          "aoTex": "structural/ao/tent_greek.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/hellenes/tent_greek_props.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/tent_greek_props.xml",
+              "textures": {
+                "baseTex": "structural/ptol_struct.png",
+                "normTex": "structural/ptol_struct_norm.png",
+                "specTex": "structural/ptol_struct_spec.png",
+                "aoTex": "structural/ao/tent_greek.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/tent_greek_props.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/tent_greek.dae"
+      },
+      "geometry_triangles": 1388,
+      "source_bounds": [
+        [
+          -4.12047815322876,
+          -3.4485790729522705,
+          -3.2754180431365967
+        ],
+        [
+          4.42571496963501,
+          4.540327072143555,
+          4.838136196136475
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B08.jpg",
+      "game_size": 3.2,
+      "approval_revision": "R1 — first Greek tent explicitly chosen by user"
+    },
+    {
+      "id": "B09",
+      "name": "Лесная мастерская",
+      "culture": "Галлия",
+      "actor": "structures/gauls/workshop.xml",
+      "role": "Заготовка дерева",
+      "game_type": "lumbercamp",
+      "note": "Галльская мастерская адаптируется под лесопилку.",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/gauls/workshop.xml",
+        "textures": {
+          "baseTex": "structural/celt_struct.dds",
+          "normTex": "structural/celt_struct_norm.png",
+          "specTex": "structural/celt_struct_spec.png",
+          "aoTex": "structural/ao/gaul_workshop.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/gaul_workshop.dae"
+      },
+      "geometry_triangles": 12679,
+      "source_bounds": [
+        [
+          -15.573220252990723,
+          -5.070158004760742,
+          -13.132019996643066
+        ],
+        [
+          14.490500450134277,
+          13.20026969909668,
+          14.433460235595703
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B09.jpg",
+      "game_size": 6.5
+    },
+    {
+      "id": "B10",
+      "name": "Каменоломня с навесом",
+      "culture": "Средиземноморье",
+      "actor": "structures/hellenes/storehouse.xml",
+      "role": "Добыча камня",
+      "game_type": "quarry",
+      "extra": [
+        {
+          "actor": "geology/stonemine_medit_quarry.xml",
+          "position": [
+            13,
+            0,
+            0
+          ],
+          "scale": 0.6
+        }
+      ],
+      "note": "Композиция готовых моделей навеса и каменного карьера.",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "B10 composition",
+        "props": [
+          {
+            "actor": "structures/hellenes/storehouse.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "structures/hellenes/storehouse.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct_b.png",
+                "normTex": "structural/hele_struct_b_norm.png",
+                "specTex": "structural/hele_struct_b_spec.png",
+                "aoTex": "structural/ao/hele_storehouse.png"
+              },
+              "props": [
+                {
+                  "actor": "props/structures/hellenes/storehouse_blocks.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/structures/hellenes/storehouse_blocks.xml",
+                    "textures": {
+                      "baseTex": "structural/hele_struct.dds",
+                      "normTex": "structural/hele_struct_norm.png",
+                      "specTex": "structural/hele_struct_spec.png",
+                      "aoTex": "structural/ao/hele_storehouse.png"
+                    },
+                    "props": [],
+                    "material": "player_trans_ao_parallax_spec.xml",
+                    "mesh": "props/hele_storehouse_blocks.dae"
+                  }
+                },
+                {
+                  "actor": "props/structures/hellenes/storehouse_roof.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/structures/hellenes/storehouse_roof.xml",
+                    "textures": {
+                      "baseTex": "structural/rooftiles_broken.png",
+                      "aoTex": "structural/ao/hele_storehouse.png",
+                      "normTex": "default_norm.png",
+                      "specTex": "null_black.dds"
+                    },
+                    "props": [],
+                    "material": "basic_trans_ao_norm_spec.xml",
+                    "mesh": "props/hele_storehouse_roof.dae"
+                  }
+                },
+                {
+                  "actor": "props/structures/hellenes/storehouse_props.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/structures/hellenes/storehouse_props.xml",
+                    "textures": {
+                      "baseTex": "props/hele_props_a.dds",
+                      "normTex": "props/hele_props_a_norm.png",
+                      "specTex": "props/hele_props_a_spec.png",
+                      "aoTex": "structural/ao/hele_storehouse.png"
+                    },
+                    "props": [],
+                    "material": "player_trans_ao_parallax_spec.xml",
+                    "mesh": "props/hele_storehouse_props.dae"
+                  }
+                },
+                {
+                  "actor": "props/structures/hellenes/storehouse_wood.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/structures/hellenes/storehouse_wood.xml",
+                    "textures": {
+                      "baseTex": "props/wood_c.png",
+                      "aoTex": "structural/ao/hele_storehouse.png",
+                      "normTex": "default_norm.png",
+                      "specTex": "null_black.dds"
+                    },
+                    "props": [],
+                    "material": "no_trans_ao_norm_spec.xml",
+                    "mesh": "props/hele_storehouse_wood.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/hele_storehouse.dae"
+            }
+          },
+          {
+            "actor": "geology/stonemine_medit_quarry.xml",
+            "position": [
+              13,
+              0,
+              0
+            ],
+            "scale": 0.6,
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "geology/stonemine_medit_quarry.xml",
+              "textures": {
+                "baseTex": "gaia/stone_aegean_01.png",
+                "normTex": "gaia/stone_india_01_norm.png",
+                "specTex": "gaia/stone_india_01_spec.png",
+                "aoTex": "gaia/ao/geo_stonemine_large_ao.png"
+              },
+              "props": [],
+              "material": "rock_norm_spec_ao.xml",
+              "mesh": "gaia/geo_stonemine_large.dae"
+            }
+          }
+        ],
+        "textures": {},
+        "material": "default.xml"
+      },
+      "geometry_triangles": 3975,
+      "source_bounds": [
+        [
+          -7.017897129058838,
+          -4.323397636413574,
+          -7.7742462158203125
+        ],
+        [
+          18.637130737304688,
+          11.956330299377441,
+          7.474895000457764
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B10.jpg",
+      "game_size": 7.3
+    },
+    {
+      "id": "B11",
+      "name": "Иберийская шахта",
+      "culture": "Иберия",
+      "actor": "structures/iberians/storehouse.xml",
+      "role": "Добыча руды",
+      "game_type": "mine",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "Iberian mine composition",
+        "textures": {},
+        "props": [
+          {
+            "actor": "structures/iberians/storehouse.xml",
+            "attachpoint": "root",
+            "position": [
+              -4,
+              0,
+              -8
+            ],
+            "scale": 0.6,
+            "resolved": {
+              "actor": "structures/iberians/storehouse.xml",
+              "textures": {
+                "baseTex": "structural/iber_struct.png",
+                "aoTex": "structural/ao/iber_storehouse.png",
+                "normTex": "structural/iber_struct_norm.png",
+                "specTex": "structural/iber_struct_spec.png"
+              },
+              "props": [
+                {
+                  "actor": "props/structures/iberians/storehouse.xml",
+                  "attachpoint": "root",
+                  "resolved": {
+                    "actor": "props/structures/iberians/storehouse.xml",
+                    "textures": {
+                      "baseTex": "structural/iber_struct.png",
+                      "normTex": "structural/iber_struct_norm.png",
+                      "specTex": "structural/iber_struct_spec.png"
+                    },
+                    "props": [],
+                    "material": "no_trans_norm_spec.xml",
+                    "mesh": "props/iber_storehouse_a.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/iber_storehouse.dae"
+            }
+          },
+          {
+            "actor": "B11-mine-entry-r2",
+            "attachpoint": "root",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "scale": 1.7,
+            "resolved": {
+              "actor": "B11-mine-entry-r2",
+              "custom": "B11-mine-entry-r2",
+              "props": [],
+              "textures": {},
+              "material": "custom_pbr"
+            }
+          }
+        ],
+        "material": "custom_pbr"
+      },
+      "revision": "R2",
+      "note": "Новый вход в скалу с деревянными крепями; хозяйственный корпус 0 A.D.",
+      "geometry_triangles": 7207,
+      "source_bounds": [
+        [
+          -7.755040168762207,
+          -1.87355375289917,
+          -11.868080139160156
+        ],
+        [
+          7.557412147521973,
+          6.969404697418213,
+          1.7470145225524902
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B11.jpg",
+      "game_size": 6.6
+    },
+    {
+      "id": "B12",
+      "name": "Ремесленная мастерская",
+      "culture": "Греция",
+      "actor": "structures/hellenes/workshop.xml",
+      "role": "Изготовление инструментов",
+      "game_type": "workbench",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/hellenes/workshop.xml",
+        "textures": {
+          "baseTex": "structural/hele_struct_b.png",
+          "normTex": "structural/hele_struct_b_norm.png",
+          "specTex": "structural/hele_struct_b_spec.png",
+          "aoTex": "structural/ao/hele_workshop.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/hellenes/workshop_2.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/workshop_2.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct_2.dds",
+                "aoTex": "structural/ao/hele_workshop.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "player_trans_ao_norm_spec.xml",
+              "mesh": "props/hele_workshop_2.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/workshop_struct.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/workshop_struct.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct.dds",
+                "normTex": "structural/hele_struct_norm.png",
+                "specTex": "structural/hele_struct_spec.png",
+                "aoTex": "structural/ao/hele_workshop.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/hele_workshop_struct.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/hele_workshop.dae"
+      },
+      "geometry_triangles": 8465,
+      "source_bounds": [
+        [
+          -15.125439643859863,
+          -9.790002822875977,
+          -13.473010063171387
+        ],
+        [
+          13.38385009765625,
+          10.200180053710938,
+          14.1741304397583
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B12.jpg",
+      "game_size": 9
+    },
+    {
+      "id": "B13",
+      "name": "Египетская кожевенная мастерская",
+      "culture": "Птолемеевский Египет",
+      "actor": "structures/ptolemies/workshop.xml",
+      "role": "Выделка кожи",
+      "game_type": "tannery",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "B13 replacement composition",
+        "props": [
+          {
+            "actor": "structures/ptolemies/workshop.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "structures/ptolemies/workshop.xml",
+              "textures": {
+                "baseTex": "structural/ptol_struct.png",
+                "normTex": "structural/ptol_struct_norm.png",
+                "specTex": "structural/ptol_struct_spec.png",
+                "aoTex": "structural/ao/ptol_workshop_AO.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/ptol_workshop.dae"
+            }
+          },
+          {
+            "actor": "B13-tannery-props-r2",
+            "attachpoint": "root",
+            "position": [
+              14.5,
+              0,
+              6
+            ],
+            "scale": 1.8,
+            "resolved": {
+              "actor": "B13-tannery-props-r2",
+              "custom": "B13-tannery-props-r2",
+              "props": [],
+              "textures": {},
+              "material": "custom_pbr"
+            }
+          }
+        ],
+        "textures": {},
+        "material": "custom_pbr"
+      },
+      "revision": "R2",
+      "note": "Мастерская 0 A.D.; добавлены объёмные чаны и рамы с кожами.",
+      "geometry_triangles": 9195,
+      "source_bounds": [
+        [
+          -14.37992000579834,
+          -6.886745929718018,
+          -14.328080177307129
+        ],
+        [
+          20.71000099182129,
+          13.325249671936035,
+          15.692790031433105
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B13.jpg",
+      "game_size": 8.5
+    },
+    {
+      "id": "B14",
+      "name": "Пшеничное поле",
+      "culture": "Средиземноморье",
+      "actor": "structures/plot_field_medit.xml",
+      "role": "Выращивание пищи",
+      "game_type": "farm",
+      "variant": "field_wheat_1",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/plot_field_medit.xml",
+        "textures": {
+          "baseTex": "null_white.dds",
+          "normTex": "default_norm.png",
+          "specTex": "null_black.dds"
+        },
+        "props": [
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_001",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_002",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_003",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_004",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_005",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_006",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_007",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_008",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_009",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_010",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_011",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_012",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_013",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_014",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_015",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_016",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_017",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_018",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_019",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_020",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_021",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_022",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_023",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_024",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_025",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_026",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_027",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_028",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_029",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_030",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_031",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_032",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_033",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_034",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_035",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_036",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_037",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_038",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_039",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_040",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_041",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_042",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_043",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_044",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_045",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_046",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_047",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_b.xml",
+            "attachpoint": "patch_048",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_b.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/grass_la_tall_a.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_049",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_050",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_051",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_052",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_053",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_054",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_055",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_056",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_057",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_058",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_059",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_060",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_061",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_062",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          },
+          {
+            "actor": "props/flora/farming_wheat_harvest_a.xml",
+            "attachpoint": "patch_063",
+            "resolved": {
+              "actor": "props/flora/farming_wheat_harvest_a.xml",
+              "textures": {
+                "baseTex": "gaia/farming_wheat_harvest_a.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "basic_trans_wind_grain_norm_spec.xml",
+              "mesh": "gaia/cross_large_short.dae"
+            }
+          }
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "mesh": "structural/field_propped_a_8x8.dae"
+      },
+      "geometry_triangles": 598,
+      "source_bounds": [
+        [
+          -38.12016677856445,
+          -27.11540985107422,
+          -39.587223052978516
+        ],
+        [
+          38.47657012939453,
+          36.79951095581055,
+          39.03226852416992
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B14.jpg",
+      "game_size": 5
+    },
+    {
+      "id": "B15",
+      "revision": "R2",
+      "name": "Каменный колодец с воротом",
+      "culture": "Средиземноморский вариант",
+      "role": "Вода для поселения",
+      "game_type": "well",
+      "actor": "B15-well-r2",
+      "model": {
+        "actor": "B15-well-r2",
+        "custom": "B15-well-r2",
+        "props": [],
+        "textures": {},
+        "material": "custom_pbr"
+      },
+      "source_project": "AEGEA; Poly Haven PBR maps",
+      "license": "Custom geometry CC BY-SA 3.0; PBR maps CC0",
+      "status": "approved",
+      "note": "Новая геометрия AEGEA. Материалы камня и дерева — Poly Haven.",
+      "geometry_triangles": 27920,
+      "source_bounds": [
+        [
+          -1.850000023841858,
+          -0.12999999523162842,
+          -1.7868212461471558
+        ],
+        [
+          1.9700000286102295,
+          3.755000114440918,
+          1.7372350692749023
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B15.jpg",
+      "game_size": 2.5
+    },
+    {
+      "id": "B16",
+      "name": "Египетская пекарня",
+      "culture": "Птолемеевский Египет",
+      "actor": "structures/ptolemies/farmstead.xml",
+      "role": "Приготовление еды",
+      "game_type": "bakery",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "B16 replacement composition",
+        "props": [
+          {
+            "actor": "structures/ptolemies/farmstead.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "structures/ptolemies/farmstead.xml",
+              "textures": {
+                "baseTex": "structural/ptol_struct.png",
+                "normTex": "structural/ptol_struct_norm.png",
+                "specTex": "structural/ptol_struct_spec.png",
+                "aoTex": "structural/ao/ptol_farmstead.png"
+              },
+              "props": [
+                {
+                  "actor": "props/structures/ptolemies/farmstead_cart.xml",
+                  "attachpoint": "cart",
+                  "resolved": {
+                    "actor": "props/structures/ptolemies/farmstead_cart.xml",
+                    "textures": {
+                      "baseTex": "structural/ptol_struct.png",
+                      "normTex": "structural/ptol_struct_norm.png",
+                      "specTex": "structural/ptol_struct_spec.png"
+                    },
+                    "props": [
+                      {
+                        "actor": "props/structures/ptolemies/farmstead_cart_hay.xml",
+                        "attachpoint": "root",
+                        "resolved": {
+                          "actor": "props/structures/ptolemies/farmstead_cart_hay.xml",
+                          "textures": {
+                            "baseTex": "props/wrld_hay_a.dds",
+                            "normTex": "default_norm.png",
+                            "specTex": "null_black.dds"
+                          },
+                          "props": [],
+                          "material": "no_trans_norm_spec.xml",
+                          "mesh": "props/ptol_hay_cart_prop.dae"
+                        }
+                      }
+                    ],
+                    "material": "no_trans_parallax_spec.xml",
+                    "mesh": "props/ptol_hay_cart.dae"
+                  }
+                }
+              ],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/ptol_farmstead.dae"
+            }
+          },
+          {
+            "actor": "B16-oven-r2",
+            "attachpoint": "root",
+            "position": [
+              7,
+              0,
+              12
+            ],
+            "scale": 1.8,
+            "resolved": {
+              "actor": "B16-oven-r2",
+              "custom": "B16-oven-r2",
+              "props": [],
+              "textures": {},
+              "material": "custom_pbr"
+            }
+          }
+        ],
+        "textures": {},
+        "material": "custom_pbr"
+      },
+      "revision": "R2",
+      "note": "Египетское подворье 0 A.D.; добавлены печь и стол пекаря.",
+      "geometry_triangles": 6174,
+      "source_bounds": [
+        [
+          -10.398046493530273,
+          -4.896420478820801,
+          -9.301486015319824
+        ],
+        [
+          12.039999961853027,
+          10.369109153747559,
+          14.753999710083008
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B16.jpg",
+      "game_size": 6.3
+    },
+    {
+      "id": "B17",
+      "name": "Римская гавань",
+      "culture": "Рим",
+      "actor": "structures/romans/dock.xml",
+      "role": "Причал и перегрузка товаров",
+      "game_type": "dock",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/romans/dock.xml",
+        "textures": {
+          "baseTex": "structural/rome_struct_2.png",
+          "normTex": "structural/rome_struct_2_norm.png",
+          "specTex": "structural/rome_struct_2_spec.png",
+          "aoTex": "structural/ao/rome_dock.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/romans/dock.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/romans/dock.xml",
+              "textures": {
+                "baseTex": "props/wood_c.png",
+                "aoTex": "props/ao/rome_dock_1.png",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "player_trans_ao_norm_spec.xml",
+              "mesh": "props/rome_dock_1.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/rome_dock.dae"
+      },
+      "revision": "R2",
+      "note": "Другая исходная 3D-модель. Освещение для предпросмотра.",
+      "geometry_triangles": 3710,
+      "source_bounds": [
+        [
+          -11.843750953674316,
+          -6.13651180267334,
+          -21.575220108032227
+        ],
+        [
+          11.341790199279785,
+          15.739032745361328,
+          13.121480941772461
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B17.jpg",
+      "game_size": 12
+    },
+    {
+      "id": "B18",
+      "name": "Карфагенская верфь",
+      "culture": "Карфаген",
+      "actor": "structures/carthaginians/super_dock.xml",
+      "role": "Строительство кораблей",
+      "game_type": "shipyard",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/carthaginians/super_dock.xml",
+        "textures": {
+          "baseTex": "structural/kart_struct.dds",
+          "normTex": "structural/kart_struct_norm.png",
+          "specTex": "structural/kart_struct_spec.png",
+          "aoTex": "structural/ao/kart_superdock.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/kart_superdock.dae"
+      },
+      "geometry_triangles": 3265,
+      "source_bounds": [
+        [
+          -21.820220947265625,
+          -10.549530029296875,
+          -47.930179595947266
+        ],
+        [
+          21.819379806518555,
+          14.444950103759766,
+          28.97138023376465
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B18.jpg",
+      "game_size": 13.5
+    },
+    {
+      "id": "B19",
+      "name": "Укреплённый частокол",
+      "culture": "Средиземноморье",
+      "actor": "props/special/palisade_rocks_long.xml",
+      "role": "Защитная стена",
+      "game_type": "palisade",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "props/special/palisade_rocks_long.xml",
+        "textures": {
+          "baseTex": "props/palisade_main.png",
+          "normTex": "default_norm.png",
+          "specTex": "null_black.dds"
+        },
+        "props": [],
+        "material": "no_trans_norm_spec.xml",
+        "mesh": "props/palisade_rocks_long.dae"
+      },
+      "geometry_triangles": 842,
+      "source_bounds": [
+        [
+          -7.666770935058594,
+          -2.9238109588623047,
+          -1.4226590394973755
+        ],
+        [
+          7.899929046630859,
+          6.448607921600342,
+          1.6279369592666626
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B19.jpg",
+      "game_size": 4.5
+    },
+    {
+      "id": "B20",
+      "name": "Римские городские ворота",
+      "culture": "Римская республика",
+      "actor": "structures/romans/wall_gate.xml",
+      "role": "Въезд в поселение",
+      "game_type": "gate",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/romans/wall_gate.xml",
+        "textures": {
+          "baseTex": "structural/rome_struct_2.png",
+          "normTex": "structural/rome_struct_2_norm.png",
+          "specTex": "structural/rome_struct_2_spec.png"
+        },
+        "props": [],
+        "material": "player_trans_parallax_spec.xml",
+        "mesh": "structural/rome_wall_gate.dae"
+      },
+      "geometry_triangles": 1538,
+      "source_bounds": [
+        [
+          -18.618629455566406,
+          -9.118531227111816,
+          -4.756748199462891
+        ],
+        [
+          18.618629455566406,
+          13.444589614868164,
+          4.756748199462891
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B20.jpg",
+      "game_size": 8.5
+    },
+    {
+      "id": "B21",
+      "name": "Римский двухэтажный дом",
+      "culture": "Рим",
+      "actor": "structures/romans/house.xml",
+      "role": "Жильё поселенцев",
+      "game_type": "longhouse",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/romans/house.xml",
+        "textures": {
+          "aoTex": "structural/ao/rome_house_a.png",
+          "baseTex": "structural/rome_struct_2.png",
+          "normTex": "structural/rome_struct_2_norm.png",
+          "specTex": "structural/rome_struct_2_spec.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/roman_house_a.dae"
+      },
+      "revision": "R2",
+      "note": "Другая исходная 3D-модель. Освещение для предпросмотра.",
+      "geometry_triangles": 1173,
+      "source_bounds": [
+        [
+          -7.767844200134277,
+          -6.503641128540039,
+          -8.206303596496582
+        ],
+        [
+          7.070613861083984,
+          11.183810234069824,
+          8.206303596496582
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B21.jpg",
+      "game_size": 5.7
+    },
+    {
+      "id": "B22",
+      "name": "Афинский пританей",
+      "culture": "Афины",
+      "actor": "structures/athenians/prytaneion.xml",
+      "role": "Центр поселения",
+      "game_type": "townhall",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/athenians/prytaneion.xml",
+        "textures": {
+          "baseTex": "structural/hele_struct_b.png",
+          "normTex": "structural/hele_struct_b_norm.png",
+          "specTex": "structural/hele_struct_b_spec.png",
+          "aoTex": "structural/ao/athen_prytaneion.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/hellenes/prytaneion.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/prytaneion.xml",
+              "textures": {
+                "baseTex": "props/hele_props_a.dds",
+                "normTex": "props/hele_props_a_norm.png",
+                "specTex": "props/hele_props_a_spec.png",
+                "aoTex": "structural/ao/athen_prytaneion.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/hele_Prytaneion_props.dae"
+            }
+          },
+          {
+            "actor": "structures/hellenes/prytaneion_struct.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "structures/hellenes/prytaneion_struct.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct.dds",
+                "normTex": "structural/hele_struct_norm.png",
+                "specTex": "structural/hele_struct_spec.png",
+                "aoTex": "structural/ao/athen_prytaneion.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/hele_Prytaneion_struct.dae"
+            }
+          },
+          {
+            "actor": "structures/hellenes/prytaneion_decor.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "structures/hellenes/prytaneion_decor.xml",
+              "textures": {
+                "baseTex": "props/hele_decor.png",
+                "normTex": "props/hele_decor_norm.png",
+                "specTex": "props/hele_decor_spec.png",
+                "aoTex": "structural/ao/athen_prytaneion.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/hele_Prytaneion_decor.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/prytaneion_tiles.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/prytaneion_tiles.xml",
+              "textures": {
+                "baseTex": "props/hele_tile_c.dds",
+                "normTex": "props/hele_tile_c_norm.png",
+                "specTex": "props/hele_tile_c_spec.png",
+                "aoTex": "structural/ao/athen_prytaneion.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "structural/hele_Prytaneion_tiles.dae"
+            }
+          }
+        ],
+        "material": "no_trans_ao_parallax_spec.xml",
+        "mesh": "structural/hele_Prytaneion_structB.dae"
+      },
+      "geometry_triangles": 4232,
+      "source_bounds": [
+        [
+          -11.333939552307129,
+          -7.465837478637695,
+          -11.333940505981445
+        ],
+        [
+          11.333939552307129,
+          17.663070678710938,
+          20.071271896362305
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B22.jpg",
+      "game_size": 6
+    },
+    {
+      "id": "B23",
+      "name": "Мощёная дорога",
+      "culture": "Средиземноморье",
+      "actor": "props/special/eyecandy/road_temperate_short.xml",
+      "role": "Дорожное покрытие",
+      "game_type": "road",
+      "note": "Новая поверхность с готовой текстурой мощения 0 A.D.",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "props/special/eyecandy/road_temperate_short.xml",
+        "textures": {
+          "baseTex": "props/road_temperate_straight_short.dds",
+          "normTex": "default_norm.png",
+          "specTex": "null_black.dds"
+        },
+        "props": [],
+        "material": "terrain_norm_spec.xml",
+        "decal": {
+          "width": 10.0,
+          "depth": 20.0,
+          "angle": 0.0,
+          "offsetx": 0.0,
+          "offsetz": 0.0
+        }
+      },
+      "geometry_triangles": 2,
+      "source_bounds": [
+        [
+          -5.0,
+          0.03999999910593033,
+          -10.0
+        ],
+        [
+          5.0,
+          0.03999999910593033,
+          10.0
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B23.jpg",
+      "game_size": 2
+    },
+    {
+      "id": "B24",
+      "name": "Сирийская конюшня",
+      "culture": "Государство Селевкидов",
+      "actor": "structures/seleucids/stable.xml",
+      "role": "Лошади и повозки",
+      "game_type": "stable",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/seleucids/stable.xml",
+        "textures": {
+          "baseTex": "structural/Sele_struct_2.png",
+          "normTex": "structural/Sele_struct_2_norm.png",
+          "aoTex": "structural/ao/sele_stable_AO.png",
+          "specTex": "structural/Sele_struct_2_spec.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/persians/stable_horse_a.xml",
+            "attachpoint": "horse",
+            "resolved": {
+              "actor": "props/structures/persians/stable_horse_a.xml",
+              "textures": {
+                "normTex": "skeletal/horse_norm.png",
+                "specTex": "skeletal/horse_spec.png",
+                "baseTex": "skeletal/horse_brown.png"
+              },
+              "props": [
+                {
+                  "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_mane_01.dae"
+                  }
+                },
+                {
+                  "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_tail_01.dae"
+                  }
+                }
+              ],
+              "material": "no_trans_parallax_spec.xml",
+              "mesh": "skeletal/horse_persian.dae"
+            }
+          },
+          {
+            "actor": "props/structures/persians/stable_horse_b.xml",
+            "attachpoint": "horse_1",
+            "resolved": {
+              "actor": "props/structures/persians/stable_horse_b.xml",
+              "textures": {
+                "normTex": "skeletal/horse_norm.png",
+                "specTex": "skeletal/horse_spec.png",
+                "baseTex": "skeletal/horse_brown.png"
+              },
+              "props": [
+                {
+                  "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_mane_01.dae"
+                  }
+                },
+                {
+                  "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_tail_01.dae"
+                  }
+                }
+              ],
+              "material": "no_trans_parallax_spec.xml",
+              "mesh": "skeletal/horse_persian.dae"
+            }
+          },
+          {
+            "actor": "props/structures/persians/stable_horse_c.xml",
+            "attachpoint": "horse_2",
+            "resolved": {
+              "actor": "props/structures/persians/stable_horse_c.xml",
+              "textures": {
+                "normTex": "skeletal/horse_norm.png",
+                "specTex": "skeletal/horse_spec.png",
+                "baseTex": "skeletal/horse_brown.png"
+              },
+              "props": [
+                {
+                  "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_mane_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_mane_01.dae"
+                  }
+                },
+                {
+                  "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                  "attachpoint": "hair",
+                  "resolved": {
+                    "actor": "props/horse/stable/horse_hair_tail_black_brown.xml",
+                    "textures": {
+                      "normTex": "props/horse/hair_norm.png",
+                      "specTex": "props/horse/hair_spec.png",
+                      "baseTex": "props/horse/hair_brown.png"
+                    },
+                    "props": [],
+                    "material": "basic_trans_norm_spec.xml",
+                    "mesh": "props/horse/hair_tail_01.dae"
+                  }
+                }
+              ],
+              "material": "no_trans_parallax_spec.xml",
+              "mesh": "skeletal/horse_persian.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/sele_stable.dae"
+      },
+      "geometry_triangles": 9142,
+      "source_bounds": [
+        [
+          -11.682979583740234,
+          -13.881830215454102,
+          -11.430859565734863
+        ],
+        [
+          12.426750183105469,
+          11.084239959716797,
+          11.38366985321045
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B24.jpg",
+      "game_size": 7.5
+    },
+    {
+      "id": "B25",
+      "name": "Спартанский амбар",
+      "culture": "Спарта",
+      "actor": "structures/spartans/farmstead.xml",
+      "role": "Запасы продовольствия",
+      "game_type": "granary",
+      "note": "Хозяйственная модель для отдельного амбара.",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/spartans/farmstead.xml",
+        "textures": {
+          "baseTex": "structural/sparta_struct.png",
+          "specTex": "structural/sparta_struct_spec.png",
+          "normTex": "structural/sparta_struct_norm.png",
+          "aoTex": "structural/ao/spart_farmstead_AO.png"
+        },
+        "props": [],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/spart_farmstead.dae"
+      },
+      "geometry_triangles": 4820,
+      "source_bounds": [
+        [
+          -8.151809692382812,
+          -10.4447603225708,
+          -9.5007963180542
+        ],
+        [
+          7.985630035400391,
+          9.853748321533203,
+          8.567712783813477
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B25.jpg",
+      "game_size": 5.5
+    },
+    {
+      "id": "B26",
+      "revision": "R3",
+      "name": "Средиземноморский постоялый двор",
+      "culture": "Античное Средиземноморье · художественная модель",
+      "role": "Отдых и жильё",
+      "status": "approved",
+      "source_project": "AEGEA original 3D geometry / Poly Haven materials",
+      "license": "Geometry CC BY-SA 3.0; textures CC0",
+      "note": "Черепица, каменные арки, деревянная галерея, лестница, внутренний двор и навес.",
+      "model": {
+        "actor": "B26-inn-r3",
+        "custom": "B26-inn-r3",
+        "props": [],
+        "textures": {},
+        "material": "custom_pbr"
+      },
+      "geometry_triangles": 154796,
+      "source_bounds": [
+        [
+          -7.53000020980835,
+          -0.009999999776482582,
+          -7.755000114440918
+        ],
+        [
+          7.401000022888184,
+          7.650000095367432,
+          5.539999961853027
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B26-R3.jpg",
+      "game_type": "inn",
+      "game_size": 10.5,
+      "approval_revision": "R3 — courtyard inn explicitly approved by user"
+    },
+    {
+      "id": "B27",
+      "name": "Македонская казарма",
+      "culture": "Македония",
+      "actor": "structures/macedonians/barracks.xml",
+      "role": "Жильё отряда",
+      "game_type": "barracks",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/macedonians/barracks.xml",
+        "textures": {
+          "baseTex": "structural/hele_struct.dds",
+          "normTex": "structural/hele_struct_norm.png",
+          "specTex": "structural/hele_struct_spec.png",
+          "aoTex": "structural/ao/mace_barracks.png"
+        },
+        "props": [
+          {
+            "actor": "props/structures/macedonians/barracks_struct_b.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/macedonians/barracks_struct_b.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct_b.png",
+                "normTex": "structural/hele_struct_b_norm.png",
+                "specTex": "structural/hele_struct_b_spec.png",
+                "aoTex": "structural/ao/mace_barracks.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/mace_barracks_struct_b.dae"
+            }
+          },
+          {
+            "actor": "props/structures/macedonians/barracks_props_a.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/macedonians/barracks_props_a.xml",
+              "textures": {
+                "baseTex": "props/hele_props_a.dds",
+                "normTex": "props/hele_props_a_norm.png",
+                "specTex": "props/hele_props_a_spec.png",
+                "aoTex": "structural/ao/mace_barracks.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/mace_barracks_props_a.dae"
+            }
+          },
+          {
+            "actor": "props/structures/macedonians/barracks_props_shields.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/macedonians/barracks_props_shields.xml",
+              "textures": {
+                "baseTex": "props/mace_prop_shields.png",
+                "normTex": "props/mace_prop_shields_norm.png",
+                "specTex": "props/mace_prop_shields_spec.png"
+              },
+              "props": [],
+              "material": "player_trans_parallax_spec.xml",
+              "mesh": "props/mace_barracks_shields.dae"
+            }
+          },
+          {
+            "actor": "props/structures/macedonians/barracks_tile_c.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/macedonians/barracks_tile_c.xml",
+              "textures": {
+                "baseTex": "props/hele_tile_c.dds",
+                "normTex": "props/hele_tile_c_norm.png",
+                "specTex": "props/hele_tile_c_spec.png",
+                "aoTex": "structural/ao/mace_barracks.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/mace_barracks_tile_c.dae"
+            }
+          },
+          {
+            "actor": "props/structures/macedonians/barracks_decor.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/macedonians/barracks_decor.xml",
+              "textures": {
+                "baseTex": "props/hele_decor.png",
+                "normTex": "props/hele_decor_norm.png",
+                "specTex": "props/hele_decor_spec.png",
+                "aoTex": "structural/ao/mace_barracks.png"
+              },
+              "props": [],
+              "material": "player_trans_ao_parallax_spec.xml",
+              "mesh": "props/mace_barracks_decor.dae"
+            }
+          }
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "mesh": "structural/mace_barracks_struct.dae"
+      },
+      "geometry_triangles": 10340,
+      "source_bounds": [
+        [
+          -10.340100288391113,
+          -5.287436485290527,
+          -11.496339797973633
+        ],
+        [
+          10.340100288391113,
+          12.589738845825195,
+          9.905481338500977
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B27.jpg",
+      "game_size": 6
+    },
+    {
+      "id": "B28",
+      "name": "Греческий храм",
+      "culture": "Греция",
+      "actor": "structures/hellenes/temple.xml",
+      "role": "Общественное здание",
+      "game_type": "temple",
+      "status": "approved",
+      "source_revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+      "source_project": "0 A.D. / Wildfire Games",
+      "license": "CC BY-SA 3.0",
+      "model": {
+        "actor": "structures/hellenes/temple.xml",
+        "textures": {
+          "baseTex": "props/hele_tile_c.dds",
+          "normTex": "default_norm.png",
+          "specTex": "null_black.dds"
+        },
+        "props": [
+          {
+            "actor": "props/structures/hellenes/temple_a_columns.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/temple_a_columns.xml",
+              "textures": {
+                "baseTex": "props/hele_props_a.dds",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "player_trans_norm_spec.xml",
+              "mesh": "structural/hele_temple_a_props.dae"
+            }
+          },
+          {
+            "actor": "props/structures/hellenes/temple_a_struct.xml",
+            "attachpoint": "root",
+            "resolved": {
+              "actor": "props/structures/hellenes/temple_a_struct.xml",
+              "textures": {
+                "baseTex": "structural/hele_struct.dds",
+                "normTex": "default_norm.png",
+                "specTex": "null_black.dds"
+              },
+              "props": [],
+              "material": "player_trans_norm_spec.xml",
+              "mesh": "structural/hele_temple_a_struct.dae"
+            }
+          }
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "mesh": "structural/hele_temple_a_base.dae"
+      },
+      "geometry_triangles": 942,
+      "source_bounds": [
+        [
+          -8.458399772644043,
+          -0.0078000095672905445,
+          -14.46139907836914
+        ],
+        [
+          8.466699600219727,
+          17.862337112426758,
+          14.46139907836914
+        ]
+      ],
+      "render_notes": "Original meshes, source diffuse/normal/AO maps. Neutral ground and preview lighting. Two opposite views. Not an in-game screenshot.",
+      "preview_file": "AEGEA-B28.jpg",
+      "game_size": 5
+    }
+  ],
+  "game_version": "5.6.0"
+}

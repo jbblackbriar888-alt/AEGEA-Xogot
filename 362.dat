@@ -1,0 +1,2116 @@
+{
+  "ANIMALS": {
+    "deer": {
+      "name": "Олень",
+      "hp": 48,
+      "speed": 7,
+      "damage": 0,
+      "food": 5,
+      "leather": 3,
+      "color": 9598035,
+      "scale": 1.05
+    },
+    "boar": {
+      "name": "Кабан",
+      "hp": 68,
+      "speed": 5.2,
+      "damage": 11,
+      "food": 6,
+      "leather": 2,
+      "color": 5326136,
+      "scale": 1
+    },
+    "wolf": {
+      "name": "Волк",
+      "hp": 62,
+      "speed": 7,
+      "damage": 12,
+      "food": 3,
+      "leather": 3,
+      "color": 7764333,
+      "scale": 0.95
+    },
+    "goat": {
+      "name": "Коза",
+      "hp": 38,
+      "speed": 5.7,
+      "damage": 0,
+      "food": 4,
+      "leather": 2,
+      "color": 12629408,
+      "scale": 0.8
+    },
+    "bear": {
+      "name": "Медведь",
+      "hp": 155,
+      "speed": 4.8,
+      "damage": 22,
+      "food": 10,
+      "leather": 6,
+      "color": 5193779,
+      "scale": 1.5
+    }
+  },
+  "BUILDINGS": [
+    {
+      "id": "campfire",
+      "name": "Костёр",
+      "category": "Лагерь",
+      "cost": {
+        "wood": 6,
+        "stone": 4
+      },
+      "size": 1.95,
+      "hp": 80,
+      "description": "Отдых рядом восстанавливает здоровье. Готовая пища насыщает.",
+      "approvalId": "B07",
+      "architectureModel": "building-campfire"
+    },
+    {
+      "id": "tent",
+      "name": "Греческая палатка",
+      "category": "Лагерь",
+      "cost": {
+        "wood": 6,
+        "fiber": 10,
+        "leather": 2
+      },
+      "size": 3.2,
+      "hp": 120,
+      "description": "Личный лагерь. Можно назначить точкой возрождения.",
+      "approvalId": "B08",
+      "architectureModel": "building-tent"
+    },
+    {
+      "id": "hut",
+      "name": "Дом поселенца",
+      "category": "Жильё",
+      "cost": {
+        "wood": 18,
+        "stone": 8,
+        "fiber": 8
+      },
+      "size": 5.5,
+      "hp": 300,
+      "description": "Жилой дом. NPC возводят такие дома при развитии своего поселения.",
+      "approvalId": "B01",
+      "architectureModel": "building-hut"
+    },
+    {
+      "id": "warehouse",
+      "name": "Склад",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 16,
+        "stone": 8
+      },
+      "size": 4.2,
+      "hp": 450,
+      "capacity": 800,
+      "description": "800 кг отдельного хранилища. Строительство использует материалы склада в радиусе 18 м.",
+      "approvalId": "B04",
+      "architectureModel": "building-warehouse"
+    },
+    {
+      "id": "lumbercamp",
+      "name": "Лесопилка",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 20,
+        "stone": 6,
+        "ore": 2
+      },
+      "size": 6.5,
+      "hp": 280,
+      "production": {
+        "out": "wood",
+        "amount": 3
+      },
+      "description": "Каждые 35 секунд даёт 6 дерева на Эосе или 2 на других островах. Нужен свой склад рядом.",
+      "approvalId": "B09",
+      "architectureModel": "building-lumbercamp"
+    },
+    {
+      "id": "quarry",
+      "name": "Каменоломня",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 14,
+        "stone": 10,
+        "ore": 2
+      },
+      "size": 7.3,
+      "hp": 350,
+      "production": {
+        "out": "stone",
+        "amount": 3
+      },
+      "description": "Добывает камень каждые 35 секунд.",
+      "approvalId": "B10",
+      "architectureModel": "building-quarry"
+    },
+    {
+      "id": "mine",
+      "name": "Рудник",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 24,
+        "stone": 16,
+        "ore": 4
+      },
+      "size": 6.6,
+      "hp": 400,
+      "production": {
+        "out": "ore",
+        "amount": 2
+      },
+      "description": "Добывает руду на Кеосе или уголь на Тере каждые 35 секунд. На других островах не работает.",
+      "approvalId": "B11",
+      "architectureModel": "building-mine"
+    },
+    {
+      "id": "forge",
+      "name": "Кузница",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 18,
+        "stone": 24,
+        "ore": 8,
+        "clay": 6
+      },
+      "size": 5.5,
+      "hp": 450,
+      "description": "Открывает изготовление железного меча и доспеха в радиусе 12 м.",
+      "approvalId": "B05",
+      "architectureModel": "building-forge"
+    },
+    {
+      "id": "workbench",
+      "name": "Верстак",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 10,
+        "stone": 4
+      },
+      "size": 9,
+      "hp": 180,
+      "description": "Инструменты рядом изготавливаются со скидкой 25% материалов.",
+      "approvalId": "B12",
+      "architectureModel": "building-workbench"
+    },
+    {
+      "id": "tannery",
+      "name": "Кожевня",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 16,
+        "fiber": 8,
+        "leather": 4
+      },
+      "size": 8.5,
+      "hp": 250,
+      "production": {
+        "out": "leather",
+        "amount": 2,
+        "input": {
+          "food": 2
+        }
+      },
+      "description": "Перерабатывает 2 пищи в 2 кожи каждые 35 секунд; нужен свой склад рядом.",
+      "approvalId": "B13",
+      "architectureModel": "building-tannery"
+    },
+    {
+      "id": "farm",
+      "name": "Поле",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 10,
+        "fiber": 8,
+        "clay": 4
+      },
+      "size": 5,
+      "hp": 150,
+      "production": {
+        "out": "food",
+        "amount": 4
+      },
+      "description": "Каждые 35 секунд даёт 8 пищи на Наксосе или 3 на других островах.",
+      "approvalId": "B14",
+      "architectureModel": "building-farm"
+    },
+    {
+      "id": "well",
+      "name": "Колодец",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 18,
+        "wood": 8,
+        "fiber": 4
+      },
+      "size": 2.5,
+      "hp": 300,
+      "description": "Взаимодействие полностью восстанавливает выносливость.",
+      "approvalId": "B15",
+      "architectureModel": "building-well"
+    },
+    {
+      "id": "bakery",
+      "name": "Пекарня",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 20,
+        "wood": 14,
+        "clay": 12
+      },
+      "size": 6.3,
+      "hp": 320,
+      "production": {
+        "out": "food",
+        "amount": 5,
+        "input": {
+          "wood": 2
+        }
+      },
+      "description": "Перерабатывает 2 дерева в 5 пищи каждые 35 секунд.",
+      "approvalId": "B16",
+      "architectureModel": "building-bakery"
+    },
+    {
+      "id": "dock",
+      "name": "Причал",
+      "category": "Море",
+      "cost": {
+        "wood": 24,
+        "fiber": 8
+      },
+      "size": 12,
+      "hp": 350,
+      "coast": true,
+      "description": "Строится у воды. Ориентир для высадки; плот разворачивается рядом с берегом.",
+      "approvalId": "B17",
+      "architectureModel": "building-dock"
+    },
+    {
+      "id": "shipyard",
+      "name": "Верфь",
+      "category": "Море",
+      "cost": {
+        "planks": 30,
+        "stone": 20,
+        "ingots": 8,
+        "cloth": 6
+      },
+      "size": 13.5,
+      "hp": 500,
+      "coast": true,
+      "description": "Открывает строительство парусников и галеонов в пределах 22 м. Материалы берутся из рюкзака и своих складов рядом.",
+      "approvalId": "B18",
+      "architectureModel": "building-shipyard"
+    },
+    {
+      "id": "palisade",
+      "name": "Частокол",
+      "category": "Защита",
+      "cost": {
+        "wood": 10,
+        "fiber": 2
+      },
+      "size": 4.5,
+      "hp": 500,
+      "description": "Препятствие для людей и зверей. Разрушается ударами.",
+      "approvalId": "B19",
+      "architectureModel": "building-palisade"
+    },
+    {
+      "id": "gate",
+      "name": "Ворота",
+      "category": "Защита",
+      "cost": {
+        "wood": 18,
+        "ore": 4,
+        "fiber": 4
+      },
+      "size": 8.5,
+      "hp": 600,
+      "description": "Взаимодействие открывает и закрывает ваши ворота.",
+      "approvalId": "B20",
+      "architectureModel": "building-gate"
+    },
+    {
+      "id": "tower",
+      "name": "Сторожевая башня",
+      "category": "Защита",
+      "cost": {
+        "wood": 28,
+        "stone": 22,
+        "ore": 6
+      },
+      "size": 4.7,
+      "hp": 700,
+      "description": "Автоматически защищает лагерь от агрессивных зверей и враждебных NPC.",
+      "approvalId": "B06",
+      "architectureModel": "building-tower"
+    },
+    {
+      "id": "longhouse",
+      "name": "Общий дом",
+      "category": "Жильё",
+      "cost": {
+        "planks": 30,
+        "stone": 24,
+        "cloth": 10,
+        "leather": 6
+      },
+      "size": 5.7,
+      "hp": 650,
+      "description": "Большой дом поселения. Отдых рядом восстанавливает здоровье.",
+      "approvalId": "B21",
+      "architectureModel": "building-longhouse"
+    },
+    {
+      "id": "townhall",
+      "name": "Ратуша",
+      "category": "Жильё",
+      "cost": {
+        "planks": 40,
+        "stone": 40,
+        "ingots": 12,
+        "clay": 16
+      },
+      "size": 6,
+      "hp": 1000,
+      "description": "Центр вашего поселения. Лечение и отметка поселения на карте.",
+      "approvalId": "B22",
+      "architectureModel": "building-townhall"
+    },
+    {
+      "id": "road",
+      "name": "Каменная дорога",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 3,
+        "clay": 1
+      },
+      "size": 2,
+      "hp": 240,
+      "description": "Секция 4 × 4 м. Стыкуется по сетке; ускоряет движение пешком и с тележкой на 20%. Доступны ремонт и улучшение.",
+      "approvalId": "B23",
+      "architectureModel": "building-road"
+    },
+    {
+      "id": "farmstead",
+      "name": "Римская усадьба",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 24,
+        "stone": 20,
+        "planks": 12,
+        "clay": 8
+      },
+      "size": 7,
+      "hp": 550,
+      "production": {
+        "out": "food",
+        "amount": 5
+      },
+      "description": "Хозяйственный двор: 5 пищи за цикл и 3 места для жителей. Нужен склад рядом.",
+      "approvalId": "B02",
+      "architectureModel": "building-farmstead"
+    },
+    {
+      "id": "market",
+      "name": "Карфагенский рынок",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 30,
+        "stone": 30,
+        "planks": 16,
+        "cloth": 6
+      },
+      "size": 10,
+      "hp": 650,
+      "description": "Место обмена с местным поселением. Цены зависят от его запасов; работают перевозки между островами.",
+      "approvalId": "B03",
+      "architectureModel": "building-market"
+    },
+    {
+      "id": "stable",
+      "name": "Сирийская конюшня",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 24,
+        "stone": 18,
+        "planks": 14,
+        "leather": 8
+      },
+      "size": 7.5,
+      "hp": 500,
+      "description": "Позволяет изготовить конную повозку рядом с конюшней. Материалы и стоимость указаны в панели транспорта.",
+      "approvalId": "B24",
+      "architectureModel": "building-stable"
+    },
+    {
+      "id": "granary",
+      "name": "Спартанский амбар",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 22,
+        "stone": 22,
+        "planks": 10,
+        "clay": 10
+      },
+      "size": 5.5,
+      "hp": 500,
+      "capacity": 1200,
+      "description": "1200 кг запасов. Снабжает строительство и производства рядом; можно переносить ресурсы из транспорта.",
+      "approvalId": "B25",
+      "architectureModel": "building-granary"
+    },
+    {
+      "id": "barracks",
+      "name": "Македонская казарма",
+      "category": "Защита",
+      "cost": {
+        "wood": 34,
+        "stone": 36,
+        "planks": 18,
+        "ingots": 6
+      },
+      "size": 6,
+      "hp": 850,
+      "description": "Жильё для восьми жителей. Увеличивает число поселенцев, которых можно пригласить.",
+      "approvalId": "B27",
+      "architectureModel": "building-barracks"
+    },
+    {
+      "id": "temple",
+      "name": "Греческий храм",
+      "category": "Жильё",
+      "cost": {
+        "stone": 60,
+        "clay": 18,
+        "planks": 16,
+        "ingots": 4
+      },
+      "size": 5,
+      "hp": 950,
+      "description": "Общественное место отдыха. Стоя рядом с храмом, герой восстанавливает здоровье.",
+      "approvalId": "B28",
+      "architectureModel": "building-temple"
+    },
+    {
+      "id": "inn",
+      "name": "Средиземноморский постоялый двор",
+      "category": "Жильё",
+      "cost": {
+        "wood": 48,
+        "stone": 64,
+        "planks": 30,
+        "clay": 26,
+        "cloth": 8
+      },
+      "size": 10.5,
+      "hp": 1050,
+      "description": "Постоялый двор с открытым двором. Даёт 10 мест жителям; отдых во дворе восстанавливает здоровье.",
+      "approvalId": "B26",
+      "architectureModel": "building-inn"
+    }
+  ],
+  "BUILDING_BY_ID": {
+    "campfire": {
+      "id": "campfire",
+      "name": "Костёр",
+      "category": "Лагерь",
+      "cost": {
+        "wood": 6,
+        "stone": 4
+      },
+      "size": 1.95,
+      "hp": 80,
+      "description": "Отдых рядом восстанавливает здоровье. Готовая пища насыщает.",
+      "approvalId": "B07",
+      "architectureModel": "building-campfire"
+    },
+    "tent": {
+      "id": "tent",
+      "name": "Греческая палатка",
+      "category": "Лагерь",
+      "cost": {
+        "wood": 6,
+        "fiber": 10,
+        "leather": 2
+      },
+      "size": 3.2,
+      "hp": 120,
+      "description": "Личный лагерь. Можно назначить точкой возрождения.",
+      "approvalId": "B08",
+      "architectureModel": "building-tent"
+    },
+    "hut": {
+      "id": "hut",
+      "name": "Дом поселенца",
+      "category": "Жильё",
+      "cost": {
+        "wood": 18,
+        "stone": 8,
+        "fiber": 8
+      },
+      "size": 5.5,
+      "hp": 300,
+      "description": "Жилой дом. NPC возводят такие дома при развитии своего поселения.",
+      "approvalId": "B01",
+      "architectureModel": "building-hut"
+    },
+    "warehouse": {
+      "id": "warehouse",
+      "name": "Склад",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 16,
+        "stone": 8
+      },
+      "size": 4.2,
+      "hp": 450,
+      "capacity": 800,
+      "description": "800 кг отдельного хранилища. Строительство использует материалы склада в радиусе 18 м.",
+      "approvalId": "B04",
+      "architectureModel": "building-warehouse"
+    },
+    "lumbercamp": {
+      "id": "lumbercamp",
+      "name": "Лесопилка",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 20,
+        "stone": 6,
+        "ore": 2
+      },
+      "size": 6.5,
+      "hp": 280,
+      "production": {
+        "out": "wood",
+        "amount": 3
+      },
+      "description": "Каждые 35 секунд даёт 6 дерева на Эосе или 2 на других островах. Нужен свой склад рядом.",
+      "approvalId": "B09",
+      "architectureModel": "building-lumbercamp"
+    },
+    "quarry": {
+      "id": "quarry",
+      "name": "Каменоломня",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 14,
+        "stone": 10,
+        "ore": 2
+      },
+      "size": 7.3,
+      "hp": 350,
+      "production": {
+        "out": "stone",
+        "amount": 3
+      },
+      "description": "Добывает камень каждые 35 секунд.",
+      "approvalId": "B10",
+      "architectureModel": "building-quarry"
+    },
+    "mine": {
+      "id": "mine",
+      "name": "Рудник",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 24,
+        "stone": 16,
+        "ore": 4
+      },
+      "size": 6.6,
+      "hp": 400,
+      "production": {
+        "out": "ore",
+        "amount": 2
+      },
+      "description": "Добывает руду на Кеосе или уголь на Тере каждые 35 секунд. На других островах не работает.",
+      "approvalId": "B11",
+      "architectureModel": "building-mine"
+    },
+    "forge": {
+      "id": "forge",
+      "name": "Кузница",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 18,
+        "stone": 24,
+        "ore": 8,
+        "clay": 6
+      },
+      "size": 5.5,
+      "hp": 450,
+      "description": "Открывает изготовление железного меча и доспеха в радиусе 12 м.",
+      "approvalId": "B05",
+      "architectureModel": "building-forge"
+    },
+    "workbench": {
+      "id": "workbench",
+      "name": "Верстак",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 10,
+        "stone": 4
+      },
+      "size": 9,
+      "hp": 180,
+      "description": "Инструменты рядом изготавливаются со скидкой 25% материалов.",
+      "approvalId": "B12",
+      "architectureModel": "building-workbench"
+    },
+    "tannery": {
+      "id": "tannery",
+      "name": "Кожевня",
+      "category": "Ремесло",
+      "cost": {
+        "wood": 16,
+        "fiber": 8,
+        "leather": 4
+      },
+      "size": 8.5,
+      "hp": 250,
+      "production": {
+        "out": "leather",
+        "amount": 2,
+        "input": {
+          "food": 2
+        }
+      },
+      "description": "Перерабатывает 2 пищи в 2 кожи каждые 35 секунд; нужен свой склад рядом.",
+      "approvalId": "B13",
+      "architectureModel": "building-tannery"
+    },
+    "farm": {
+      "id": "farm",
+      "name": "Поле",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 10,
+        "fiber": 8,
+        "clay": 4
+      },
+      "size": 5,
+      "hp": 150,
+      "production": {
+        "out": "food",
+        "amount": 4
+      },
+      "description": "Каждые 35 секунд даёт 8 пищи на Наксосе или 3 на других островах.",
+      "approvalId": "B14",
+      "architectureModel": "building-farm"
+    },
+    "well": {
+      "id": "well",
+      "name": "Колодец",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 18,
+        "wood": 8,
+        "fiber": 4
+      },
+      "size": 2.5,
+      "hp": 300,
+      "description": "Взаимодействие полностью восстанавливает выносливость.",
+      "approvalId": "B15",
+      "architectureModel": "building-well"
+    },
+    "bakery": {
+      "id": "bakery",
+      "name": "Пекарня",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 20,
+        "wood": 14,
+        "clay": 12
+      },
+      "size": 6.3,
+      "hp": 320,
+      "production": {
+        "out": "food",
+        "amount": 5,
+        "input": {
+          "wood": 2
+        }
+      },
+      "description": "Перерабатывает 2 дерева в 5 пищи каждые 35 секунд.",
+      "approvalId": "B16",
+      "architectureModel": "building-bakery"
+    },
+    "dock": {
+      "id": "dock",
+      "name": "Причал",
+      "category": "Море",
+      "cost": {
+        "wood": 24,
+        "fiber": 8
+      },
+      "size": 12,
+      "hp": 350,
+      "coast": true,
+      "description": "Строится у воды. Ориентир для высадки; плот разворачивается рядом с берегом.",
+      "approvalId": "B17",
+      "architectureModel": "building-dock"
+    },
+    "shipyard": {
+      "id": "shipyard",
+      "name": "Верфь",
+      "category": "Море",
+      "cost": {
+        "planks": 30,
+        "stone": 20,
+        "ingots": 8,
+        "cloth": 6
+      },
+      "size": 13.5,
+      "hp": 500,
+      "coast": true,
+      "description": "Открывает строительство парусников и галеонов в пределах 22 м. Материалы берутся из рюкзака и своих складов рядом.",
+      "approvalId": "B18",
+      "architectureModel": "building-shipyard"
+    },
+    "palisade": {
+      "id": "palisade",
+      "name": "Частокол",
+      "category": "Защита",
+      "cost": {
+        "wood": 10,
+        "fiber": 2
+      },
+      "size": 4.5,
+      "hp": 500,
+      "description": "Препятствие для людей и зверей. Разрушается ударами.",
+      "approvalId": "B19",
+      "architectureModel": "building-palisade"
+    },
+    "gate": {
+      "id": "gate",
+      "name": "Ворота",
+      "category": "Защита",
+      "cost": {
+        "wood": 18,
+        "ore": 4,
+        "fiber": 4
+      },
+      "size": 8.5,
+      "hp": 600,
+      "description": "Взаимодействие открывает и закрывает ваши ворота.",
+      "approvalId": "B20",
+      "architectureModel": "building-gate"
+    },
+    "tower": {
+      "id": "tower",
+      "name": "Сторожевая башня",
+      "category": "Защита",
+      "cost": {
+        "wood": 28,
+        "stone": 22,
+        "ore": 6
+      },
+      "size": 4.7,
+      "hp": 700,
+      "description": "Автоматически защищает лагерь от агрессивных зверей и враждебных NPC.",
+      "approvalId": "B06",
+      "architectureModel": "building-tower"
+    },
+    "longhouse": {
+      "id": "longhouse",
+      "name": "Общий дом",
+      "category": "Жильё",
+      "cost": {
+        "planks": 30,
+        "stone": 24,
+        "cloth": 10,
+        "leather": 6
+      },
+      "size": 5.7,
+      "hp": 650,
+      "description": "Большой дом поселения. Отдых рядом восстанавливает здоровье.",
+      "approvalId": "B21",
+      "architectureModel": "building-longhouse"
+    },
+    "townhall": {
+      "id": "townhall",
+      "name": "Ратуша",
+      "category": "Жильё",
+      "cost": {
+        "planks": 40,
+        "stone": 40,
+        "ingots": 12,
+        "clay": 16
+      },
+      "size": 6,
+      "hp": 1000,
+      "description": "Центр вашего поселения. Лечение и отметка поселения на карте.",
+      "approvalId": "B22",
+      "architectureModel": "building-townhall"
+    },
+    "road": {
+      "id": "road",
+      "name": "Каменная дорога",
+      "category": "Хозяйство",
+      "cost": {
+        "stone": 3,
+        "clay": 1
+      },
+      "size": 2,
+      "hp": 240,
+      "description": "Секция 4 × 4 м. Стыкуется по сетке; ускоряет движение пешком и с тележкой на 20%. Доступны ремонт и улучшение.",
+      "approvalId": "B23",
+      "architectureModel": "building-road"
+    },
+    "farmstead": {
+      "id": "farmstead",
+      "name": "Римская усадьба",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 24,
+        "stone": 20,
+        "planks": 12,
+        "clay": 8
+      },
+      "size": 7,
+      "hp": 550,
+      "production": {
+        "out": "food",
+        "amount": 5
+      },
+      "description": "Хозяйственный двор: 5 пищи за цикл и 3 места для жителей. Нужен склад рядом.",
+      "approvalId": "B02",
+      "architectureModel": "building-farmstead"
+    },
+    "market": {
+      "id": "market",
+      "name": "Карфагенский рынок",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 30,
+        "stone": 30,
+        "planks": 16,
+        "cloth": 6
+      },
+      "size": 10,
+      "hp": 650,
+      "description": "Место обмена с местным поселением. Цены зависят от его запасов; работают перевозки между островами.",
+      "approvalId": "B03",
+      "architectureModel": "building-market"
+    },
+    "stable": {
+      "id": "stable",
+      "name": "Сирийская конюшня",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 24,
+        "stone": 18,
+        "planks": 14,
+        "leather": 8
+      },
+      "size": 7.5,
+      "hp": 500,
+      "description": "Позволяет изготовить конную повозку рядом с конюшней. Материалы и стоимость указаны в панели транспорта.",
+      "approvalId": "B24",
+      "architectureModel": "building-stable"
+    },
+    "granary": {
+      "id": "granary",
+      "name": "Спартанский амбар",
+      "category": "Хозяйство",
+      "cost": {
+        "wood": 22,
+        "stone": 22,
+        "planks": 10,
+        "clay": 10
+      },
+      "size": 5.5,
+      "hp": 500,
+      "capacity": 1200,
+      "description": "1200 кг запасов. Снабжает строительство и производства рядом; можно переносить ресурсы из транспорта.",
+      "approvalId": "B25",
+      "architectureModel": "building-granary"
+    },
+    "barracks": {
+      "id": "barracks",
+      "name": "Македонская казарма",
+      "category": "Защита",
+      "cost": {
+        "wood": 34,
+        "stone": 36,
+        "planks": 18,
+        "ingots": 6
+      },
+      "size": 6,
+      "hp": 850,
+      "description": "Жильё для восьми жителей. Увеличивает число поселенцев, которых можно пригласить.",
+      "approvalId": "B27",
+      "architectureModel": "building-barracks"
+    },
+    "temple": {
+      "id": "temple",
+      "name": "Греческий храм",
+      "category": "Жильё",
+      "cost": {
+        "stone": 60,
+        "clay": 18,
+        "planks": 16,
+        "ingots": 4
+      },
+      "size": 5,
+      "hp": 950,
+      "description": "Общественное место отдыха. Стоя рядом с храмом, герой восстанавливает здоровье.",
+      "approvalId": "B28",
+      "architectureModel": "building-temple"
+    },
+    "inn": {
+      "id": "inn",
+      "name": "Средиземноморский постоялый двор",
+      "category": "Жильё",
+      "cost": {
+        "wood": 48,
+        "stone": 64,
+        "planks": 30,
+        "clay": 26,
+        "cloth": 8
+      },
+      "size": 10.5,
+      "hp": 1050,
+      "description": "Постоялый двор с открытым двором. Даёт 10 мест жителям; отдых во дворе восстанавливает здоровье.",
+      "approvalId": "B26",
+      "architectureModel": "building-inn"
+    }
+  },
+  "ISLANDS": [
+    {
+      "id": "eos",
+      "name": "Эос",
+      "sub": "Сосновые берега",
+      "x": -559.0169943749474,
+      "z": 491.93495504995377,
+      "rx": 491.93495504995377,
+      "rz": 406.96437190496175,
+      "peak": 27,
+      "color": "#899773",
+      "rich": "wood",
+      "settlement": "Элея"
+    },
+    {
+      "id": "thera",
+      "name": "Тера",
+      "sub": "Вулканические высоты",
+      "x": 514.2956348249517,
+      "z": 536.6563145999496,
+      "rx": 384.60369212996386,
+      "rz": 415.9086438149609,
+      "peak": 46,
+      "color": "#8f8270",
+      "rich": "coal",
+      "settlement": "Каменоломня Теры"
+    },
+    {
+      "id": "naxos",
+      "name": "Наксос",
+      "sub": "Зелёные долины",
+      "x": -545.6005865099487,
+      "z": -563.489130329947,
+      "rx": 433.79718763495924,
+      "rz": 398.0200999949626,
+      "peak": 32,
+      "color": "#738f69",
+      "rich": "food",
+      "settlement": "Зелёная долина"
+    },
+    {
+      "id": "keos",
+      "name": "Кеос",
+      "sub": "Железные хребты",
+      "x": 532.18417864495,
+      "z": -514.2956348249517,
+      "rx": 447.21359549995793,
+      "rz": 366.7151483099655,
+      "peak": 40,
+      "color": "#8e9782",
+      "rich": "ore",
+      "settlement": "Железный мыс"
+    }
+  ],
+  "ISLAND_ECONOMY": {
+    "eos": {
+      "export": "wood",
+      "imports": [
+        "ore",
+        "coal",
+        "food"
+      ],
+      "label": "Корабельный лес",
+      "counts": {
+        "wood": 650,
+        "stone": 180,
+        "fiber": 130,
+        "food": 80,
+        "ore": 0,
+        "coal": 0,
+        "clay": 70
+      }
+    },
+    "thera": {
+      "export": "coal",
+      "imports": [
+        "wood",
+        "food",
+        "ore"
+      ],
+      "label": "Уголь и глина",
+      "counts": {
+        "wood": 130,
+        "stone": 250,
+        "fiber": 65,
+        "food": 45,
+        "ore": 0,
+        "coal": 240,
+        "clay": 240
+      }
+    },
+    "naxos": {
+      "export": "food",
+      "imports": [
+        "ore",
+        "coal",
+        "stone"
+      ],
+      "label": "Пища и волокно",
+      "counts": {
+        "wood": 400,
+        "stone": 130,
+        "fiber": 220,
+        "food": 270,
+        "ore": 0,
+        "coal": 0,
+        "clay": 80
+      }
+    },
+    "keos": {
+      "export": "ore",
+      "imports": [
+        "wood",
+        "food",
+        "coal"
+      ],
+      "label": "Богатая железная руда",
+      "counts": {
+        "wood": 180,
+        "stone": 250,
+        "fiber": 90,
+        "food": 45,
+        "ore": 300,
+        "coal": 0,
+        "clay": 85
+      }
+    }
+  },
+  "LIMITS": {
+    "weight": 120,
+    "slots": 24,
+    "stack": 25,
+    "world": 1386.3621460498696,
+    "storageRange": 18,
+    "cartCapacity": 700,
+    "wagonCapacity": 900,
+    "vehicleBuildRange": 12
+  },
+  "NAVAL_WEAPONS": {
+    "ballista": {
+      "name": "Баллиста",
+      "icon": "⌁",
+      "range": 125,
+      "damage": 95,
+      "delay": 2.7,
+      "speed": 48,
+      "cost": {
+        "wood": 1,
+        "stone": 1
+      }
+    },
+    "cannon": {
+      "name": "Пушки",
+      "icon": "●",
+      "range": 185,
+      "damage": 190,
+      "delay": 5.5,
+      "speed": 42,
+      "cost": {
+        "stone": 2,
+        "coal": 1
+      }
+    }
+  },
+  "NPC_NAMES": [
+    "Леон",
+    "Дорей",
+    "Мирина",
+    "Фалес",
+    "Клеон",
+    "Агата",
+    "Никон",
+    "Иона",
+    "Федон",
+    "Кира",
+    "Дамон",
+    "Лисса",
+    "Арис",
+    "Мелия",
+    "Симон",
+    "Тея",
+    "Эвандр",
+    "Рея",
+    "Ясон",
+    "Леда",
+    "Менон",
+    "Фила",
+    "Орион",
+    "Элла"
+  ],
+  "PREVIOUS_WORLD_SCALE": 2.23606797749979,
+  "RESOURCES": {
+    "wood": {
+      "name": "Дерево",
+      "icon": "♧",
+      "weight": 1,
+      "color": "#c69a61",
+      "tool": "axe"
+    },
+    "stone": {
+      "name": "Камень",
+      "icon": "◆",
+      "weight": 1.5,
+      "color": "#b5bab9",
+      "tool": "pickaxe"
+    },
+    "fiber": {
+      "name": "Волокно",
+      "icon": "≋",
+      "weight": 0.2,
+      "color": "#abb871",
+      "tool": null
+    },
+    "food": {
+      "name": "Пища",
+      "icon": "❧",
+      "weight": 0.4,
+      "color": "#d5a76f",
+      "tool": null
+    },
+    "ore": {
+      "name": "Железная руда",
+      "icon": "⬡",
+      "weight": 2,
+      "color": "#a6adb8",
+      "tool": "pickaxe"
+    },
+    "leather": {
+      "name": "Кожа",
+      "icon": "◈",
+      "weight": 0.5,
+      "color": "#b87a53",
+      "tool": null
+    },
+    "coal": {
+      "name": "Уголь",
+      "icon": "●",
+      "weight": 0.6,
+      "color": "#898a8d",
+      "tool": "pickaxe"
+    },
+    "clay": {
+      "name": "Глина",
+      "icon": "◒",
+      "weight": 0.8,
+      "color": "#c98460",
+      "tool": "pickaxe"
+    },
+    "planks": {
+      "name": "Доски",
+      "icon": "▤",
+      "weight": 0.8,
+      "color": "#d0ac78",
+      "processed": true
+    },
+    "ingots": {
+      "name": "Слитки",
+      "icon": "▰",
+      "weight": 1.6,
+      "color": "#c5d2d4",
+      "processed": true
+    },
+    "cloth": {
+      "name": "Парусина",
+      "icon": "⚑",
+      "weight": 0.35,
+      "color": "#d8ceb2",
+      "processed": true
+    }
+  },
+  "SHIPS": {
+    "rowboat": {
+      "name": "Гребная лодка",
+      "model": "boat-rowboat",
+      "length": 6.4,
+      "beam": 2,
+      "deck": 0.45,
+      "speed": 10,
+      "turn": 2.1,
+      "hp": 260,
+      "capacity": 180,
+      "ballistas": 0,
+      "cannons": 0,
+      "cost": {
+        "wood": 22,
+        "fiber": 12
+      }
+    },
+    "sloop": {
+      "name": "Парусный шлюп",
+      "model": "ship-sloop-53",
+      "length": 13,
+      "beam": 3.8,
+      "deck": 1.25,
+      "speed": 18,
+      "turn": 0.85,
+      "hp": 650,
+      "capacity": 450,
+      "ballistas": 1,
+      "cannons": 0,
+      "cost": {
+        "planks": 65,
+        "cloth": 22,
+        "ingots": 10,
+        "leather": 8
+      }
+    },
+    "merchant": {
+      "name": "Торговый парусник",
+      "model": "ship-merchant-53",
+      "length": 21,
+      "beam": 6,
+      "deck": 2.25,
+      "speed": 13,
+      "turn": 0.58,
+      "hp": 1150,
+      "capacity": 1600,
+      "ballistas": 2,
+      "cannons": 0,
+      "cost": {
+        "planks": 130,
+        "cloth": 38,
+        "ingots": 22,
+        "leather": 15
+      }
+    },
+    "warship": {
+      "name": "Боевой галеон",
+      "model": "ship-warship",
+      "length": 28,
+      "beam": 7.4,
+      "deck": 2.8,
+      "speed": 15,
+      "turn": 0.48,
+      "hp": 1800,
+      "capacity": 950,
+      "ballistas": 2,
+      "cannons": 4,
+      "cost": {
+        "planks": 190,
+        "cloth": 55,
+        "ingots": 55,
+        "coal": 30,
+        "leather": 20
+      }
+    }
+  },
+  "SKILLS": {
+    "power": {
+      "name": "Мощный удар",
+      "rangedName": "Пробивающий выстрел",
+      "icon": "✧",
+      "key": "Q",
+      "cooldown": 6,
+      "stamina": 18,
+      "multiplier": 2.05
+    },
+    "sweep": {
+      "name": "Круговой удар",
+      "rangedName": "Залп",
+      "icon": "✺",
+      "key": "R",
+      "cooldown": 10,
+      "stamina": 26,
+      "multiplier": 1.2
+    },
+    "dodge": {
+      "name": "Уклонение",
+      "rangedName": "Уклонение",
+      "icon": "➶",
+      "key": "T",
+      "cooldown": 4,
+      "stamina": 14
+    },
+    "guard": {
+      "name": "Защита",
+      "rangedName": "Защита",
+      "icon": "⬟",
+      "key": "G",
+      "cooldown": 12,
+      "stamina": 18
+    }
+  },
+  "TOOLS": {
+    "spear": {
+      "name": "Копьё",
+      "icon": "╱",
+      "weight": 3,
+      "damage": 24,
+      "reach": 3.4,
+      "delay": 0.72,
+      "stamina": 9,
+      "cost": {
+        "wood": 4,
+        "fiber": 2,
+        "stone": 2
+      }
+    },
+    "axe": {
+      "name": "Топор",
+      "icon": "⚒",
+      "weight": 3,
+      "damage": 17,
+      "reach": 2.6,
+      "delay": 0.8,
+      "stamina": 9,
+      "cost": {
+        "wood": 3,
+        "stone": 3,
+        "fiber": 2
+      }
+    },
+    "pickaxe": {
+      "name": "Кирка",
+      "icon": "⛏",
+      "weight": 4,
+      "damage": 15,
+      "reach": 2.6,
+      "delay": 0.9,
+      "stamina": 10,
+      "cost": {
+        "wood": 4,
+        "stone": 5,
+        "fiber": 2
+      }
+    },
+    "sword": {
+      "name": "Железный меч",
+      "icon": "⚔",
+      "weight": 3,
+      "damage": 37,
+      "reach": 2.9,
+      "delay": 0.52,
+      "stamina": 11,
+      "cost": {
+        "planks": 2,
+        "ingots": 4,
+        "leather": 2
+      },
+      "requires": "forge"
+    },
+    "bow": {
+      "name": "Охотничий лук",
+      "icon": "⌒",
+      "weight": 2,
+      "damage": 27,
+      "reach": 32,
+      "delay": 1,
+      "stamina": 10,
+      "cost": {
+        "wood": 8,
+        "fiber": 8,
+        "leather": 2
+      },
+      "ammo": "stone",
+      "ranged": true,
+      "model": "bow-short"
+    },
+    "longbow": {
+      "name": "Длинный лук",
+      "icon": "⌁",
+      "weight": 2.6,
+      "damage": 43,
+      "reach": 58,
+      "delay": 1.55,
+      "stamina": 16,
+      "cost": {
+        "wood": 18,
+        "fiber": 12,
+        "leather": 5
+      },
+      "ammo": "stone",
+      "ranged": true,
+      "model": "bow-long"
+    },
+    "compositebow": {
+      "name": "Составной лук",
+      "icon": "⋈",
+      "weight": 2.2,
+      "damage": 34,
+      "reach": 43,
+      "delay": 0.72,
+      "stamina": 12,
+      "cost": {
+        "wood": 12,
+        "fiber": 14,
+        "leather": 8,
+        "ore": 4
+      },
+      "requires": "workbench",
+      "ammo": "stone",
+      "ranged": true,
+      "model": "bow-composite"
+    },
+    "raft": {
+      "name": "Плот",
+      "icon": "≈",
+      "weight": 6,
+      "cost": {
+        "wood": 12,
+        "fiber": 6
+      }
+    },
+    "leatherArmor": {
+      "name": "Кожаный камзол",
+      "slot": "armor",
+      "weight": 3,
+      "defense": 5,
+      "color": 7951675,
+      "cost": {
+        "leather": 6,
+        "fiber": 4
+      },
+      "requires": "workbench",
+      "icon": "♜",
+      "equipment": true
+    },
+    "ironArmor": {
+      "name": "Ламеллярный доспех",
+      "slot": "armor",
+      "weight": 6,
+      "defense": 13,
+      "color": 8822178,
+      "cost": {
+        "ingots": 8,
+        "leather": 6,
+        "cloth": 2
+      },
+      "requires": "forge",
+      "icon": "♜",
+      "equipment": true
+    },
+    "leatherHelmet": {
+      "name": "Кожаный шлем",
+      "slot": "helmet",
+      "weight": 1,
+      "defense": 2,
+      "color": 7754299,
+      "cost": {
+        "leather": 3,
+        "fiber": 2
+      },
+      "requires": "workbench",
+      "icon": "♜",
+      "equipment": true
+    },
+    "ironHelmet": {
+      "name": "Железный шлем",
+      "slot": "helmet",
+      "weight": 2,
+      "defense": 5,
+      "color": 9939117,
+      "cost": {
+        "ingots": 3,
+        "leather": 2
+      },
+      "requires": "forge",
+      "icon": "♜",
+      "equipment": true
+    },
+    "leatherGloves": {
+      "name": "Кожаные перчатки",
+      "slot": "gloves",
+      "weight": 0.5,
+      "defense": 1,
+      "color": 6506546,
+      "cost": {
+        "leather": 2,
+        "fiber": 2
+      },
+      "requires": "workbench",
+      "icon": "♜",
+      "equipment": true
+    },
+    "ironGloves": {
+      "name": "Боевые рукавицы",
+      "slot": "gloves",
+      "weight": 1.2,
+      "defense": 3,
+      "color": 9675943,
+      "cost": {
+        "ingots": 2,
+        "leather": 2
+      },
+      "requires": "forge",
+      "icon": "♜",
+      "equipment": true
+    },
+    "leatherBoots": {
+      "name": "Кожаные сапоги",
+      "slot": "boots",
+      "weight": 1,
+      "defense": 2,
+      "color": 5126186,
+      "cost": {
+        "leather": 4,
+        "fiber": 2
+      },
+      "requires": "workbench",
+      "icon": "♜",
+      "equipment": true
+    },
+    "ironBoots": {
+      "name": "Сапоги с поножами",
+      "slot": "boots",
+      "weight": 2.4,
+      "defense": 4,
+      "color": 8690079,
+      "cost": {
+        "ingots": 3,
+        "leather": 3
+      },
+      "requires": "forge",
+      "icon": "♜",
+      "equipment": true
+    }
+  },
+  "VERSION": "5.6.0",
+  "WORLD_AREA_MULTIPLIER": 20,
+  "WORLD_SCALE": 4.47213595499958,
+  "EQUIPMENT_SLOTS": {
+    "helmet": "Шлем",
+    "armor": "Броня",
+    "gloves": "Перчатки",
+    "boots": "Обувь",
+    "weapon": "Оружие"
+  },
+  "GEAR": {
+    "leatherArmor": {
+      "name": "Кожаный камзол",
+      "slot": "armor",
+      "weight": 3,
+      "defense": 5,
+      "color": 7951675,
+      "cost": {
+        "leather": 6,
+        "fiber": 4
+      },
+      "requires": "workbench"
+    },
+    "ironArmor": {
+      "name": "Ламеллярный доспех",
+      "slot": "armor",
+      "weight": 6,
+      "defense": 13,
+      "color": 8822178,
+      "cost": {
+        "ingots": 8,
+        "leather": 6,
+        "cloth": 2
+      },
+      "requires": "forge"
+    },
+    "leatherHelmet": {
+      "name": "Кожаный шлем",
+      "slot": "helmet",
+      "weight": 1,
+      "defense": 2,
+      "color": 7754299,
+      "cost": {
+        "leather": 3,
+        "fiber": 2
+      },
+      "requires": "workbench"
+    },
+    "ironHelmet": {
+      "name": "Железный шлем",
+      "slot": "helmet",
+      "weight": 2,
+      "defense": 5,
+      "color": 9939117,
+      "cost": {
+        "ingots": 3,
+        "leather": 2
+      },
+      "requires": "forge"
+    },
+    "leatherGloves": {
+      "name": "Кожаные перчатки",
+      "slot": "gloves",
+      "weight": 0.5,
+      "defense": 1,
+      "color": 6506546,
+      "cost": {
+        "leather": 2,
+        "fiber": 2
+      },
+      "requires": "workbench"
+    },
+    "ironGloves": {
+      "name": "Боевые рукавицы",
+      "slot": "gloves",
+      "weight": 1.2,
+      "defense": 3,
+      "color": 9675943,
+      "cost": {
+        "ingots": 2,
+        "leather": 2
+      },
+      "requires": "forge"
+    },
+    "leatherBoots": {
+      "name": "Кожаные сапоги",
+      "slot": "boots",
+      "weight": 1,
+      "defense": 2,
+      "color": 5126186,
+      "cost": {
+        "leather": 4,
+        "fiber": 2
+      },
+      "requires": "workbench"
+    },
+    "ironBoots": {
+      "name": "Сапоги с поножами",
+      "slot": "boots",
+      "weight": 2.4,
+      "defense": 4,
+      "color": 8690079,
+      "cost": {
+        "ingots": 3,
+        "leather": 3
+      },
+      "requires": "forge"
+    }
+  },
+  "RECIPES": {
+    "planks": {
+      "name": "Распилить доски",
+      "station": "lumbercamp",
+      "input": {
+        "wood": 4
+      },
+      "output": {
+        "planks": 3
+      },
+      "seconds": 6
+    },
+    "ingots": {
+      "name": "Выплавить слитки",
+      "station": "forge",
+      "input": {
+        "ore": 6,
+        "coal": 2
+      },
+      "output": {
+        "ingots": 3
+      },
+      "seconds": 10
+    },
+    "cloth": {
+      "name": "Соткать парусину",
+      "station": "workbench",
+      "input": {
+        "fiber": 6
+      },
+      "output": {
+        "cloth": 2
+      },
+      "seconds": 8
+    }
+  },
+  "VEHICLE_COSTS": {
+    "cart": {
+      "planks": 12,
+      "ingots": 2,
+      "fiber": 5
+    },
+    "wagon": {
+      "planks": 28,
+      "ingots": 8,
+      "leather": 8,
+      "food": 20
+    }
+  },
+  "CREATURES": {
+    "dragon": {
+      "name": "Пепельный дракон",
+      "model": "dragon",
+      "height": 5.6,
+      "hp": 1100,
+      "damage": 24,
+      "speed": 3.8,
+      "reach": 6,
+      "aggro": 23,
+      "loot": {
+        "leather": 15,
+        "ore": 8,
+        "coal": 10
+      }
+    },
+    "troll": {
+      "name": "Каменный тролль",
+      "model": "troll",
+      "height": 3.2,
+      "hp": 380,
+      "damage": 18,
+      "speed": 2.7,
+      "reach": 3.5,
+      "aggro": 17,
+      "loot": {
+        "stone": 15,
+        "leather": 3
+      }
+    },
+    "warwolf": {
+      "name": "Лесной оборотень",
+      "model": "warwolf",
+      "height": 2.65,
+      "hp": 240,
+      "damage": 13,
+      "speed": 5.2,
+      "reach": 2.9,
+      "aggro": 20,
+      "loot": {
+        "leather": 8,
+        "food": 4
+      }
+    },
+    "golem": {
+      "name": "Земляной голем",
+      "model": "golem",
+      "height": 3.5,
+      "hp": 470,
+      "damage": 22,
+      "speed": 2.1,
+      "reach": 3.8,
+      "aggro": 15,
+      "loot": {
+        "stone": 18,
+        "ore": 6
+      }
+    }
+  },
+  "POPULATION": {
+    "npcs": 72,
+    "animals": 120,
+    "dragons": 8,
+    "monsters": 20,
+    "dolphins": 12,
+    "fish": 160
+  },
+  "ORDERS": {
+    "follow": "За мной",
+    "wait": "Ждать здесь",
+    "guard": "Охранять место",
+    "gather": "Добывать",
+    "attack": "Атаковать цель",
+    "repair": "Ремонтировать",
+    "build": "Строить",
+    "deliver": "Доставить груз",
+    "escort": "Сопровождать корабль"
+  },
+  "RESOURCE_PRICES": {
+    "wood": 4,
+    "stone": 3,
+    "fiber": 2,
+    "food": 5,
+    "ore": 11,
+    "leather": 8,
+    "coal": 7,
+    "clay": 3,
+    "planks": 8,
+    "ingots": 28,
+    "cloth": 9
+  },
+  "MELEE": {
+    "spear": {
+      "name": "Точный выпад",
+      "windup": 0.24,
+      "recovery": 0.32,
+      "reach": 3.4,
+      "arc": 0.9,
+      "multiplier": 1,
+      "stagger": 0.12
+    },
+    "sword": {
+      "name": "Режущий удар",
+      "windup": 0.18,
+      "recovery": 0.28,
+      "reach": 2.9,
+      "arc": 0.38,
+      "multiplier": 1,
+      "stagger": 0.18
+    },
+    "axe": {
+      "name": "Рубящий удар",
+      "windup": 0.39,
+      "recovery": 0.39,
+      "reach": 2.6,
+      "arc": 0.55,
+      "multiplier": 1.35,
+      "stagger": 0.32
+    },
+    "pickaxe": {
+      "name": "Пробивающий удар",
+      "windup": 0.43,
+      "recovery": 0.42,
+      "reach": 2.6,
+      "arc": 0.78,
+      "multiplier": 1.2,
+      "stagger": 0.25
+    }
+  },
+  "ARCHITECTURE55": {
+    "hut": {
+      "approvalId": "B01",
+      "width": 7.7,
+      "depth": 6.4564,
+      "height": 4.4305,
+      "buriedDepth": 2.3302,
+      "triangles": 2565
+    },
+    "farmstead": {
+      "approvalId": "B02",
+      "width": 9.8,
+      "depth": 7.9821,
+      "height": 5.3419,
+      "buriedDepth": 1.1637,
+      "triangles": 2744
+    },
+    "market": {
+      "approvalId": "B03",
+      "width": 14,
+      "depth": 12.0164,
+      "height": 4.6695,
+      "buriedDepth": 4.0576,
+      "triangles": 9241
+    },
+    "warehouse": {
+      "approvalId": "B04",
+      "width": 5.88,
+      "depth": 5.7709,
+      "height": 4.9899,
+      "buriedDepth": 1.9605,
+      "triangles": 2357
+    },
+    "forge": {
+      "approvalId": "B05",
+      "width": 7.7,
+      "depth": 7.1516,
+      "height": 4.7684,
+      "buriedDepth": 3.1477,
+      "triangles": 2731
+    },
+    "tower": {
+      "approvalId": "B06",
+      "width": 6.58,
+      "depth": 6.4758,
+      "height": 7.3368,
+      "buriedDepth": 3.3461,
+      "triangles": 2384
+    },
+    "campfire": {
+      "approvalId": "B07",
+      "width": 2.73,
+      "depth": 2.1386,
+      "height": 1.8371,
+      "buriedDepth": 0.0346,
+      "triangles": 13092
+    },
+    "tent": {
+      "approvalId": "B08",
+      "width": 4.48,
+      "depth": 4.2532,
+      "height": 2.3801,
+      "buriedDepth": 1.8078,
+      "triangles": 1388
+    },
+    "lumbercamp": {
+      "approvalId": "B09",
+      "width": 9.1,
+      "depth": 8.3438,
+      "height": 3.9956,
+      "buriedDepth": 1.5347,
+      "triangles": 12679
+    },
+    "quarry": {
+      "approvalId": "B10",
+      "width": 10.22,
+      "depth": 6.0747,
+      "height": 4.763,
+      "buriedDepth": 1.7223,
+      "triangles": 3975
+    },
+    "mine": {
+      "approvalId": "B11",
+      "width": 9.24,
+      "depth": 8.2158,
+      "height": 4.2056,
+      "buriedDepth": 1.1306,
+      "triangles": 7207
+    },
+    "workbench": {
+      "approvalId": "B12",
+      "width": 12.6,
+      "depth": 12.219,
+      "height": 4.5081,
+      "buriedDepth": 4.3268,
+      "triangles": 8465
+    },
+    "tannery": {
+      "approvalId": "B13",
+      "width": 11.9,
+      "depth": 10.1809,
+      "height": 4.519,
+      "buriedDepth": 2.3355,
+      "triangles": 9195
+    },
+    "farm": {
+      "approvalId": "B14",
+      "width": 6.8199,
+      "depth": 7,
+      "height": 1.35,
+      "buriedDepth": 0.9947,
+      "triangles": 598
+    },
+    "well": {
+      "approvalId": "B15",
+      "width": 3.5,
+      "depth": 3.2288,
+      "height": 3.4404,
+      "buriedDepth": 0.1191,
+      "triangles": 27920
+    },
+    "bakery": {
+      "approvalId": "B16",
+      "width": 8.227,
+      "depth": 8.82,
+      "height": 3.8019,
+      "buriedDepth": 1.7953,
+      "triangles": 6174
+    },
+    "dock": {
+      "approvalId": "B17",
+      "width": 11.2263,
+      "depth": 16.8,
+      "height": 7.6208,
+      "buriedDepth": 2.9713,
+      "triangles": 3710
+    },
+    "shipyard": {
+      "approvalId": "B18",
+      "width": 10.7253,
+      "depth": 18.9,
+      "height": 3.5501,
+      "buriedDepth": 2.5927,
+      "triangles": 3265
+    },
+    "palisade": {
+      "approvalId": "B19",
+      "width": 6.3,
+      "depth": 1.2346,
+      "height": 2.6098,
+      "buriedDepth": 1.1833,
+      "triangles": 842
+    },
+    "gate": {
+      "approvalId": "B20",
+      "width": 11.9,
+      "depth": 3.0403,
+      "height": 4.2965,
+      "buriedDepth": 2.914,
+      "triangles": 1538
+    },
+    "longhouse": {
+      "approvalId": "B21",
+      "width": 7.2146,
+      "depth": 7.98,
+      "height": 5.4377,
+      "buriedDepth": 3.1621,
+      "triangles": 1173
+    },
+    "townhall": {
+      "approvalId": "B22",
+      "width": 6.063,
+      "depth": 8.4,
+      "height": 4.7244,
+      "buriedDepth": 1.9969,
+      "triangles": 4232
+    },
+    "road": {
+      "approvalId": "B23",
+      "width": 4,
+      "depth": 4,
+      "height": 0.04,
+      "buriedDepth": -0.04,
+      "triangles": 2
+    },
+    "stable": {
+      "approvalId": "B24",
+      "width": 10.5,
+      "depth": 9.9359,
+      "height": 4.8273,
+      "buriedDepth": 6.0457,
+      "triangles": 9142
+    },
+    "granary": {
+      "approvalId": "B25",
+      "width": 6.8771,
+      "depth": 7.7,
+      "height": 4.1992,
+      "buriedDepth": 4.4511,
+      "triangles": 4820
+    },
+    "inn": {
+      "approvalId": "B26",
+      "width": 14.7,
+      "depth": 13.0893,
+      "height": 7.5316,
+      "buriedDepth": 0.0098,
+      "triangles": 154796
+    },
+    "barracks": {
+      "approvalId": "B27",
+      "width": 8.1168,
+      "depth": 8.4,
+      "height": 4.9413,
+      "buriedDepth": 2.0753,
+      "triangles": 10340
+    },
+    "temple": {
+      "approvalId": "B28",
+      "width": 4.0963,
+      "depth": 7,
+      "height": 4.3231,
+      "buriedDepth": 0.0019,
+      "triangles": 942
+    }
+  }
+}

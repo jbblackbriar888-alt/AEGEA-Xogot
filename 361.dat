@@ -1,0 +1,2047 @@
+{
+  "base_url": "https://raw.githubusercontent.com/0ad/0ad/61a3b9507d974084e6badb88a0826bd89a6d5b8b/binaries/data/mods/public/art/",
+  "revision": "61a3b9507d974084e6badb88a0826bd89a6d5b8b",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "ef98babd771c206032e005f3d440a1e610df409d9a9191f03e64deaa4abefbd9",
+      "bytes": 1426
+    },
+    {
+      "path": "actors/props/flora/bush_desert_a.xml",
+      "sha256": "bb261c61ff694e61207cae282594e44fdd5e83513b5b59a9d208652d084fa622",
+      "bytes": 765
+    },
+    {
+      "path": "actors/props/flora/bush_desert_dry_a.xml",
+      "sha256": "8cc14bd2e19b3d11a78d5731003e1427d55ee4c906d25a0d9b65a40e6aa8a248",
+      "bytes": 1088
+    },
+    {
+      "path": "actors/props/flora/bush_medit_me_dry.xml",
+      "sha256": "6b5c5bdee3acb520816d46c7031e8545918b1fceaf20a21e293176d8908669be",
+      "bytes": 1513
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_01.xml",
+      "sha256": "e4e481248e3d54ca6b389f9c90909432bc461e869405b41a6b462a8346499302",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_02.xml",
+      "sha256": "961cbed1e2b9efa169989e350300084ca1c715570b7a50ddfbfb6679a395bf07",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_03.xml",
+      "sha256": "51eb0742ccba56bbe4e1124813f476ec866a89073f3c6b74cb041cc3da63d472",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_04.xml",
+      "sha256": "d39b5cbc615ccf9aae74bf017b2471cb20ce309f5059c659763138d53e30d72c",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_05.xml",
+      "sha256": "ee160f38dc7d21a215a6b0504761ae66c17dcf8efd9a8099119522803a1041b1",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/carthaginians/kart_tc_stall_06.xml",
+      "sha256": "76906db340d1e5e3263bec505ea7bc2185e602b3278f5df3960039888e06b18b",
+      "bytes": 596
+    },
+    {
+      "path": "actors/props/structures/hellenes/house_a_decor.xml",
+      "sha256": "19532f834b8edf2509fdec22b5ccbe8aef75705cb45caf0110af61e6dc43ab73",
+      "bytes": 542
+    },
+    {
+      "path": "actors/props/structures/hellenes/house_a_nature.xml",
+      "sha256": "d572c93db3ad52d99c7dca70f965bfd2603f6f911777cf47ed3e0dc1826fe4cc",
+      "bytes": 554
+    },
+    {
+      "path": "actors/props/structures/hellenes/house_a_props_a.xml",
+      "sha256": "2232de26671beea31501d7953ea95b28f9a9affdfc06ce16fc898753eeea0db3",
+      "bytes": 550
+    },
+    {
+      "path": "actors/props/structures/hellenes/house_a_shields.xml",
+      "sha256": "4b2e1f6db76c96dca5ba9ef06fb95dfcd58c2cf64610ad1912754d1f35a9425d",
+      "bytes": 447
+    },
+    {
+      "path": "actors/props/structures/hellenes/house_a_struct.xml",
+      "sha256": "245819ba23a8a94f1f79a4bacad97bf19fb31eac9455984955f2061ae1df6592",
+      "bytes": 572
+    },
+    {
+      "path": "actors/props/structures/romans/farmstead_plants.xml",
+      "sha256": "ffac61aca99da603e20f375fe71da712a0bef7988fb90ed3153bc0fe7563f7fb",
+      "bytes": 449
+    },
+    {
+      "path": "actors/props/structures/romans/farmstead_wood.xml",
+      "sha256": "421538f9173d843bf7a0e8bb4c2ba7906ccb1fd2c49ee7316300efdc4e2c2404",
+      "bytes": 443
+    },
+    {
+      "path": "actors/props/units/shields/iber_shield_spear_oval_c_01.xml",
+      "sha256": "4b8e008029df6cd2951055f03db0d02a199536f96aba91dfac667217470574d2",
+      "bytes": 3275
+    },
+    {
+      "path": "actors/props/units/shields/iber_shield_spear_oval_c_02.xml",
+      "sha256": "df824965024b1aad4256c57b0dc8fb34df040828680f76a40bba9dfecb57a88a",
+      "bytes": 3508
+    },
+    {
+      "path": "actors/props/units/shields/props/celt_manipula.xml",
+      "sha256": "31708d009b42b6662d793f2f82d115215597de8b2f39a9c5cdb461128d916790",
+      "bytes": 704
+    },
+    {
+      "path": "actors/props/units/shields/props/shield_boss_a_03.xml",
+      "sha256": "bc90906a9837cc12e8933ead627ce3a5a941e68cf6393f1c77990996088708f5",
+      "bytes": 439
+    },
+    {
+      "path": "actors/props/units/shields/props/shield_oval_c_b.xml",
+      "sha256": "c54e6216bd9b9e0f4212f389a7196a841985efd563a276c160ccc588bfb82096",
+      "bytes": 509
+    },
+    {
+      "path": "actors/props/units/shields/props/shield_spina_a_01.xml",
+      "sha256": "9b973a323d093dbfce62253cfe0ce37618d8ab493dc516ae6debcd6a90b77879",
+      "bytes": 281
+    },
+    {
+      "path": "actors/props/units/shields/props/shield_spina_boss_a_03.xml",
+      "sha256": "874eb9bc13ba7ad7228e2232bcca9ce2053c4c1a4c12c1bf8250ea36a7faebe5",
+      "bytes": 400
+    },
+    {
+      "path": "actors/structures/carthaginians/market.xml",
+      "sha256": "0934ceb1cecdc69c40a3a49b7af41ef42580913fb8af2072732f8992de31360c",
+      "bytes": 1754
+    },
+    {
+      "path": "actors/structures/hellenes/house.xml",
+      "sha256": "047be7925ca6dfaf248cb1af818b9e434f2865da74d11c590221914527ea9cd9",
+      "bytes": 4614
+    },
+    {
+      "path": "actors/structures/iberians/scout_tower.xml",
+      "sha256": "f340981bac3e7f92f11e4fa3f951f652b6b48ff1da88127c1dab6865d495031b",
+      "bytes": 2718
+    },
+    {
+      "path": "actors/structures/ptolemies/storehouse.xml",
+      "sha256": "0ef15c349eb13cfb2e041775af16d4cf547dfbcc7b0c3978ca00de764ff041fc",
+      "bytes": 818
+    },
+    {
+      "path": "actors/structures/romans/farmstead.xml",
+      "sha256": "a5863c68e5b3a5ffa6374546eed6b2c3a55807e4cf481b4702513cb9a6decf33",
+      "bytes": 1191
+    },
+    {
+      "path": "actors/structures/spartans/blacksmith.xml",
+      "sha256": "eb35c16de194eb14d46999009f3caf6fc9bce24c1ddaeac31c5354506412b3ed",
+      "bytes": 1429
+    },
+    {
+      "path": "meshes/gaia/bush_dese_a_1.dae",
+      "sha256": "d5f10ee89f805c07608bd779c7d5f2c948dc8868482a4d55601b4f70f5bfceb3",
+      "bytes": 3609
+    },
+    {
+      "path": "meshes/gaia/bush_me_1.dae",
+      "sha256": "79f6172c887ad99b447d9498015a93a021b58805bfbf6a051e6027cca1330a91",
+      "bytes": 4460
+    },
+    {
+      "path": "meshes/props/hele_house_a_decor.dae",
+      "sha256": "2bc755aa7a4787c28e06a8f736d80632724021ca57302eb1d229a7073a3c6685",
+      "bytes": 8772
+    },
+    {
+      "path": "meshes/props/hele_house_a_nature.dae",
+      "sha256": "c7d2d5c61f5077498414286f35343077812ae4cf4d0074abb49c2f7b4ab4c28e",
+      "bytes": 101671
+    },
+    {
+      "path": "meshes/props/hele_house_a_props_a.dae",
+      "sha256": "434cde3e6eff49bb6a465d4710c8dfc386862aac8eb8ad5e0b12b4a54cd75eba",
+      "bytes": 58016
+    },
+    {
+      "path": "meshes/props/hele_house_a_shields.dae",
+      "sha256": "70d2d0d5a681c9001094b1a8ef2569052d3aac18b0b11faf7e8c7ea986f57298",
+      "bytes": 14859
+    },
+    {
+      "path": "meshes/props/hele_house_a_struct.dae",
+      "sha256": "dd055d11a43a0345c6775725c941be8254dd2f53557928e4fcb8fd43a739aae5",
+      "bytes": 11942
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_01.dae",
+      "sha256": "34542762e3de24d90dc3e291868f7f2585f4d7cff98ebf102f0b79f981df31ce",
+      "bytes": 319133
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_02.dae",
+      "sha256": "9c36a488bc94c80fdd3f51665182925086655af0d1408f71e60c8ef9d9782fe5",
+      "bytes": 121127
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_03.dae",
+      "sha256": "93bd8d0f669429e4833ddcf88d8e17386b3fd3561310afe225353713c04bce44",
+      "bytes": 37306
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_04.dae",
+      "sha256": "61794bca7bca2d287ea1871321d1ff6c6658590388717f62a3b5573fdd2a713b",
+      "bytes": 98416
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_05.dae",
+      "sha256": "85608e16449e222907cc9db0232a993b0552ecd37161432d2d33bc46a1db658b",
+      "bytes": 170390
+    },
+    {
+      "path": "meshes/props/kart_tc_stall_06.dae",
+      "sha256": "e86b75dc6d8b86894a89208c7551d41e11304aa3e9911318f0211fb35d5193fe",
+      "bytes": 28003
+    },
+    {
+      "path": "meshes/props/rome_farmstead_plants.dae",
+      "sha256": "e878f6df9f18f6768cd5942ffafd3dd450ba5d633950ed2b77b82935f60b1740",
+      "bytes": 117496
+    },
+    {
+      "path": "meshes/props/rome_farmstead_wood.dae",
+      "sha256": "bcc77e9e978d48f3906b73a458354bfdddb002bea0f95de143a5869f12760dbc",
+      "bytes": 67518
+    },
+    {
+      "path": "meshes/props/shield/oval_03.dae",
+      "sha256": "3f9344c5426d31ff063cf1eec8a436782da99977492ba827ecd3006e0bd3a90a",
+      "bytes": 8018
+    },
+    {
+      "path": "meshes/props/shield/oval_03_b.dae",
+      "sha256": "a93ba8793b725a05e59577e75c520c08a285ce897be307bfdc35b5ab154f8338",
+      "bytes": 16905
+    },
+    {
+      "path": "meshes/props/shield/props/boss_a_1.dae",
+      "sha256": "b54f0aa3d66b164cc5cf23e1a7beebf222779a14d74a8500137b9c9e410a5f57",
+      "bytes": 12299
+    },
+    {
+      "path": "meshes/props/shield/props/celt_manipula_a.dae",
+      "sha256": "7efae00d1c706ce5741839830e886df05f8b6137ef09eb39b060d169d8599911",
+      "bytes": 12104
+    },
+    {
+      "path": "meshes/props/shield/props/spina_a.dae",
+      "sha256": "83c7675dd58933015378fb803efdcf1661b1e073d0f463dec560f45640cf8b8b",
+      "bytes": 10832
+    },
+    {
+      "path": "meshes/structural/hele_house_a.dae",
+      "sha256": "4f208d4771cd8b0353ce65e18771ff343985dce54ec3879f4a227d8197f2f87e",
+      "bytes": 332784
+    },
+    {
+      "path": "meshes/structural/iber_tower_1.dae",
+      "sha256": "0bf9467cca406e3aaf11bd1f14c8c8d1c014053364a666d2095025ac1db47758",
+      "bytes": 207024
+    },
+    {
+      "path": "meshes/structural/kart_tc.dae",
+      "sha256": "a6844610413755fdc870d7f072c72f982c8127f43b5aba75ea34c059314b16bf",
+      "bytes": 1093953
+    },
+    {
+      "path": "meshes/structural/ptol_storehouse.dae",
+      "sha256": "bea7adf66688737a3051894a7fa160536173a601316233bc6ddf086b7dbb6724",
+      "bytes": 392236
+    },
+    {
+      "path": "meshes/structural/rome_fc.dae",
+      "sha256": "7ab9d71def3cf145418e8142a3ba8b24cd841398f565c05f63d1280b594ae753",
+      "bytes": 379583
+    },
+    {
+      "path": "meshes/structural/spart_blacksmith.dae",
+      "sha256": "34e62accb414eff0196d0260c512a5b1eec89934b1bbe7b14961909db941a832",
+      "bytes": 536374
+    },
+    {
+      "path": "textures/skins/default_norm.png",
+      "sha256": "b1ba25ca729a28c798a99a1a0bcf9310d0994a55b4f9d1a36f163fb31676cecf",
+      "bytes": 69
+    },
+    {
+      "path": "textures/skins/gaia/bush_dese_a.dds",
+      "sha256": "8b4da7f8427c0d364284d274063f847905bbc3084638c28fe73403494377f6c7",
+      "bytes": 87536
+    },
+    {
+      "path": "textures/skins/gaia/bush_dese_dry_a.dds",
+      "sha256": "4fba61d84ce0e239380756f7b483ff804121255ade955bca2cd9277b115e20a3",
+      "bytes": 87536
+    },
+    {
+      "path": "textures/skins/gaia/bush_medit_c.dds",
+      "sha256": "a847874f399840b8ffc0b4cd31ff8e66b59894a4edd87e787326d2722254fd9b",
+      "bytes": 11088
+    },
+    {
+      "path": "textures/skins/null_black.dds",
+      "sha256": "1b2fefc88f9523c56af637318150f92722e88bf93f3876d38b6c039114b21c7a",
+      "bytes": 152
+    },
+    {
+      "path": "textures/skins/null_white.dds",
+      "sha256": "8ce14a1e0f8acdde95f4982a60d784e0595b3e1efda2d28af7740ead3b1002ec",
+      "bytes": 152
+    },
+    {
+      "path": "textures/skins/props/hele_decor.png",
+      "sha256": "53206951440d85b794d2acb5118192c68a12653b20f28c19113673d35eda636b",
+      "bytes": 2002629
+    },
+    {
+      "path": "textures/skins/props/hele_decor_norm.png",
+      "sha256": "52144e7ec6c89497a6391b376bcae2754cbdf50f7fbda3598f8933ab827a09bd",
+      "bytes": 1936556
+    },
+    {
+      "path": "textures/skins/props/hele_decor_spec.png",
+      "sha256": "43e4ee6ad8b4ab6d11a551156d0e914c6c1793fead88d06f53f3a7b772c529c6",
+      "bytes": 241653
+    },
+    {
+      "path": "textures/skins/props/hele_props_a.dds",
+      "sha256": "88a111a8bab3c9b137fc0bc74b16e8c9d3cb84a033306ed2369e8caab77a5fb1",
+      "bytes": 174928
+    },
+    {
+      "path": "textures/skins/props/hele_props_a_norm.png",
+      "sha256": "ea02284a51d7d08ac0e23be9426b56e2838a7f9ad69a697a4d7dfe53b7675533",
+      "bytes": 237362
+    },
+    {
+      "path": "textures/skins/props/hele_props_a_spec.png",
+      "sha256": "f159107602b988013f33370db0ff87a53f39971bd12ba6c08bc739c6b1aa3e7b",
+      "bytes": 132182
+    },
+    {
+      "path": "textures/skins/props/hele_props_b.dds",
+      "sha256": "971ee879952557876459e79b4e0ebd26ffe426f3680232aa013dc12d0dff3039",
+      "bytes": 349680
+    },
+    {
+      "path": "textures/skins/props/shield/celt_shield_norm.png",
+      "sha256": "a4869ca1a546088881042c04ac07aa748f6e36026b7f41623be261518e640cb4",
+      "bytes": 135818
+    },
+    {
+      "path": "textures/skins/props/shield/celt_shield_spec.png",
+      "sha256": "01e10737774a7a926b2ce01f6868ec3076d71002d45629881af36582381ecfd4",
+      "bytes": 53322
+    },
+    {
+      "path": "textures/skins/props/shield/iber_shield_01.png",
+      "sha256": "99d15889f5418e413f02ff6a4dcefe5710a1002efdcc7a591a108324adfae3e9",
+      "bytes": 98330
+    },
+    {
+      "path": "textures/skins/props/shield/oval_03_border.png",
+      "sha256": "48047d02155743d9ad011524410f4b2ca94803087f991626d770c2d0bc9ee8fe",
+      "bytes": 408421
+    },
+    {
+      "path": "textures/skins/props/shield/oval_03_norm.png",
+      "sha256": "a179c9dd4e339eda821511a2a206243ecdc19a778354cc27fab2d7acc3e10a6f",
+      "bytes": 72096
+    },
+    {
+      "path": "textures/skins/props/shield/oval_03_spec.png",
+      "sha256": "0f02ba6204d1b4d583fad1534a39920be390c7e384bf477562e332b9fb1ea5b7",
+      "bytes": 85502
+    },
+    {
+      "path": "textures/skins/props/shield/shield_props_01.png",
+      "sha256": "4ddda73711bc57accbbc3f653a8b45d6d997f48298d9bee156a46393842d87a0",
+      "bytes": 193136
+    },
+    {
+      "path": "textures/skins/props/shield/shield_props_norm.png",
+      "sha256": "f64636f81d43de2ec7da02bab110e0b6a028f968d5ecb392db81037a07801021",
+      "bytes": 224818
+    },
+    {
+      "path": "textures/skins/props/shield/shield_props_spec.png",
+      "sha256": "8a646b8bae1f8ed7e58f4ff476e7243a53abbcc02fa3c79d8d70a2cebb5011bf",
+      "bytes": 52075
+    },
+    {
+      "path": "textures/skins/props/structs_nature.png",
+      "sha256": "4dff8a42a6224215fe2556a32663c6a73c8cce14d6855f2bcb4e73b9d472b43a",
+      "bytes": 1408347
+    },
+    {
+      "path": "textures/skins/props/structs_nature_norm.png",
+      "sha256": "ce8c3f8a844270df4bfc85847063b4c43b6caf84556f582eaeb33cd1b4fb011a",
+      "bytes": 1761654
+    },
+    {
+      "path": "textures/skins/props/structs_nature_spec.png",
+      "sha256": "04a1ed4cf0cb00a7aebbf01070d420bcef4c91752c9dbb52e7c815ff0429c66d",
+      "bytes": 877155
+    },
+    {
+      "path": "textures/skins/structural/ao/hele_house_a.png",
+      "sha256": "b8209b4790cafbb08d2ed09fe62015b654ba52ca751a36bb32e5c89f31116ac3",
+      "bytes": 267681
+    },
+    {
+      "path": "textures/skins/structural/ao/iber_tower_1_AO.png",
+      "sha256": "508145d8b9219afe522fb45d27fd06adecc3d4365f8a46f0691a1343e2e60824",
+      "bytes": 191924
+    },
+    {
+      "path": "textures/skins/structural/ao/kart_tc.png",
+      "sha256": "3137513b83a1a0ca360fe14c8bc069caa065c81114d1c189bacd9a13456e14c5",
+      "bytes": 342854
+    },
+    {
+      "path": "textures/skins/structural/ao/ptol_storehouse.png",
+      "sha256": "4677d667954ba48f6aeaa9f535a40a10c9e8ef4fb1e9f70a3334b894dafe5ed2",
+      "bytes": 272936
+    },
+    {
+      "path": "textures/skins/structural/ao/rome_fc.png",
+      "sha256": "76545e2a7c20851c79fa57ea9c764f450b1aa236ce65971bcb1d63dc3914320f",
+      "bytes": 79112
+    },
+    {
+      "path": "textures/skins/structural/ao/spart_blacksmith_AO.png",
+      "sha256": "0cf004abf8e5194dbd1a85eff5372246a39e1bc8333dd3a966272314a007f22d",
+      "bytes": 183080
+    },
+    {
+      "path": "textures/skins/structural/hele_struct.dds",
+      "sha256": "8b3c9339a0f1ab86e0d7ef812434c848a0815c52759d11dfbc827a21b1a2911b",
+      "bytes": 699216
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_b.png",
+      "sha256": "5da908b9e4d0565501398810fbff71abc33ba1f429a1443becbf99cca19c6c84",
+      "bytes": 1429849
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_b_norm.png",
+      "sha256": "c3340f69772222820afe63a06746f511061dfb36d79a30a33aec936e706638a0",
+      "bytes": 1292078
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_b_spec.png",
+      "sha256": "b8ee44c0b925c688addffe50ef68e01439e3814f714968f328d6545d259fa930",
+      "bytes": 505047
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_norm.png",
+      "sha256": "8e213eb84273c3e9eaea0793c3d0241a427bcf5ef494f675d3881adaa50d9992",
+      "bytes": 1510187
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_spec.png",
+      "sha256": "f33919d2790a0409f66f939d3288d864f5c7e64fd96649ad1d4056b00e417d12",
+      "bytes": 517159
+    },
+    {
+      "path": "textures/skins/structural/iber_struct.png",
+      "sha256": "482998da47ac80587b47c0adef49b437e8d82827eb9b42bd2c6598c29dab02ae",
+      "bytes": 4328021
+    },
+    {
+      "path": "textures/skins/structural/iber_struct_norm.png",
+      "sha256": "6429d8a2592b2bc874c8386ca03d267b5cc5110002eca7126829341c91e3bfe5",
+      "bytes": 3230276
+    },
+    {
+      "path": "textures/skins/structural/iber_struct_spec.png",
+      "sha256": "09639ce480d8d8e327f210739f069c5941360a2d452fc6e83fec0f87a0ec00d2",
+      "bytes": 462195
+    },
+    {
+      "path": "textures/skins/structural/kart_struct.dds",
+      "sha256": "8c8eada206a62372a0fbe872afadf8d8e82577a424916173755893e2ddaae683",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/skins/structural/kart_struct_norm.png",
+      "sha256": "17f39d3b066a42d93190cc6667882c29e49f486ac5f0ffa2fdd2c3b06a20eeb5",
+      "bytes": 2605446
+    },
+    {
+      "path": "textures/skins/structural/kart_struct_spec.png",
+      "sha256": "dd830471d92481016c98b36915fd114d5bea925199113f9ad2420fc0c1366056",
+      "bytes": 185248
+    },
+    {
+      "path": "textures/skins/structural/ptol_struct.png",
+      "sha256": "5381a9f592e156f4caecf5071e85497d16f9593d86ac10ca8b96fbde1467ab54",
+      "bytes": 5112918
+    },
+    {
+      "path": "textures/skins/structural/ptol_struct_norm.png",
+      "sha256": "f8a330f3001272ddbb00a6e21af23df0d25505413faa7d29789f5f1d2398cafa",
+      "bytes": 4034438
+    },
+    {
+      "path": "textures/skins/structural/ptol_struct_spec.png",
+      "sha256": "1ce31a195adebfc33c8b2a1fa8b1beeec9a83163bff73dfc2fefc22620a60d61",
+      "bytes": 2599058
+    },
+    {
+      "path": "textures/skins/structural/rome_ram.png",
+      "sha256": "e5c8aeb372370eaaede2ef2d1bafddf30eac7051bcc2ce7b8b893a4d46df3095",
+      "bytes": 586958
+    },
+    {
+      "path": "textures/skins/structural/rome_struct_2.png",
+      "sha256": "7ebc61edaa4e4febb00c769f825e8cb833cce2c6f83eef0528f64982b9dd8825",
+      "bytes": 2411592
+    },
+    {
+      "path": "textures/skins/structural/rome_struct_2_norm.png",
+      "sha256": "40408f41f39a030faccba786e01e00c7da89f74db8095cda7902f7b86840bc02",
+      "bytes": 2291384
+    },
+    {
+      "path": "textures/skins/structural/rome_struct_2_spec.png",
+      "sha256": "ab7c0bd35c6963684d348710f2ee80b3e0c9b92110bf1ece61e0c2bd1c758f66",
+      "bytes": 168415
+    },
+    {
+      "path": "textures/skins/structural/sparta_struct.png",
+      "sha256": "9c869c988573e535e55887ff030fc615f345a4d76f39ee98c7a2c0b11c44be2e",
+      "bytes": 3555079
+    },
+    {
+      "path": "textures/skins/structural/sparta_struct_norm.png",
+      "sha256": "ccc1518766984f5cdc41e6b939153b6552d0d7f920415db8c80c8b75aa0851b1",
+      "bytes": 4246271
+    },
+    {
+      "path": "textures/skins/structural/sparta_struct_spec.png",
+      "sha256": "6f769e1c5efd7bd51b8a6c98b18c1339b1cdc25c3cb0c307007853f571a222af",
+      "bytes": 890780
+    },
+    {
+      "path": "variants/shields/celt_shield_base.xml",
+      "sha256": "3bda339d4a67c9838f17ddae6b2a8df00f90c39b07b67f923c3ab56948c601e3",
+      "bytes": 241
+    },
+    {
+      "path": "variants/shields/iber_shield_01.xml",
+      "sha256": "c7ebac7e110058d055277d46dc1bf5f8b1fc9a1f16b5b641f65c5e93be67906c",
+      "bytes": 221
+    },
+    {
+      "path": "variants/shields/spina_01.xml",
+      "sha256": "41fa0b9dab98c554543621291c4a4b34e96a3bd1f2c75d19017f13b7f8060258",
+      "bytes": 199
+    },
+    {
+      "path": "variants/shields/spina_base.xml",
+      "sha256": "b724aa5324127ff21e51c715808832f30b7fb74f7547dad6b80cc17605f94a3d",
+      "bytes": 259
+    },
+    {
+      "path": "variants/structures/defensive_building.xml",
+      "sha256": "80d0d097247fdac914a46719d72def29acd3d780ab967bef0e69faf24ef1cd56",
+      "bytes": 550
+    },
+    {
+      "path": "actors/geology/decal_stone_medit_a.xml",
+      "sha256": "a50d42a08c583c807eba9b686867f6a0a503ad4a328851beed76818d657679be",
+      "bytes": 895
+    },
+    {
+      "path": "actors/geology/metalmine_mediterranean_slabs.xml",
+      "sha256": "2e495a9d2afa33ccb58803af259d7a916bfe6011ab68868830cc4ceca83b3eb5",
+      "bytes": 1186
+    },
+    {
+      "path": "actors/geology/stonemine_medit_quarry.xml",
+      "sha256": "42b3452abbe9f2f4592fe26ee7e501005d784bf49fe7c8df0f587403e9880dd9",
+      "bytes": 570
+    },
+    {
+      "path": "actors/props/flora/farming_wheat_harvest_a.xml",
+      "sha256": "e8582b1923f59c41bb55f23b65dfb5dd2eb7128147e85531992fbaf2d20da7b5",
+      "bytes": 592
+    },
+    {
+      "path": "actors/props/flora/farming_wheat_harvest_b.xml",
+      "sha256": "3159e9c2169f5a4b7ed1a7efde7dd7f29534c386c6f73e341470fc468a50fa63",
+      "bytes": 586
+    },
+    {
+      "path": "actors/props/horse/stable/horse_hair_mane_black_brown.xml",
+      "sha256": "aaab0c08c6991722ba7e29d7571ee2106897bbb6ed77329fbca64f1947bc3362",
+      "bytes": 562
+    },
+    {
+      "path": "actors/props/horse/stable/horse_hair_tail_black_brown.xml",
+      "sha256": "9d013c7d8c82221205cd121f1cd8057870d56cfdb0775f521ea8667bb82dd31e",
+      "bytes": 578
+    },
+    {
+      "path": "actors/props/special/eyecandy/campfire_decal.xml",
+      "sha256": "0a852dbff884cfefc684f327936156de6fa08994504f042b8db044f6be4b524f",
+      "bytes": 460
+    },
+    {
+      "path": "actors/props/special/eyecandy/campfire_prop.xml",
+      "sha256": "8541ad86b92c904581c626761912cbd3856ccd4b62990b185dbbdced5dda819c",
+      "bytes": 706
+    },
+    {
+      "path": "actors/props/special/eyecandy/road_temperate_short.xml",
+      "sha256": "855758459740fe41119ba9f9e1606f2de831318f71baf0eaf10a52814ac7fac7",
+      "bytes": 492
+    },
+    {
+      "path": "actors/props/special/eyecandy/well_1_a.xml",
+      "sha256": "a38c7d3c7ff42280e7b7c5062da31e5a0ec616e4114fceecb5a62b24a1936809",
+      "bytes": 578
+    },
+    {
+      "path": "actors/props/special/eyecandy/well_woodbit.xml",
+      "sha256": "6b4665fb5e2ce37d6784150ffd586b84d75ee7ca2d1a651c515e4277716f3804",
+      "bytes": 502
+    },
+    {
+      "path": "actors/props/special/palisade_rocks_long.xml",
+      "sha256": "9feb6c88225dc5530c75c9cf17f13c3d9b637f7ec4c84feb48bf907d764be089",
+      "bytes": 1079
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_decor.xml",
+      "sha256": "ac7c6c5766aee3efbeaac0272777f159c484c12e53df030ad5d9728996fbc78c",
+      "bytes": 518
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_fishing_boat.xml",
+      "sha256": "266a170c02cac7f3d9bdf59b3b5619a3970ebb0861a742570a3fb48940bcba96",
+      "bytes": 527
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_props.xml",
+      "sha256": "f9f39b75d8a0575cad4949b636d64344dff0288d99b5cec404b1c802401fac4f",
+      "bytes": 524
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_struct_b.xml",
+      "sha256": "c1160e211c40aab4f541aba5cfc800684e8906700fb34b507c5862f3227b2f5f",
+      "bytes": 606
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_tiles.xml",
+      "sha256": "e5a5fdc12f88d678cdd52269d1dfe05c1cc790e6de4d457224bc68bd11a723a8",
+      "bytes": 521
+    },
+    {
+      "path": "actors/props/structures/athenians/dock_warship.xml",
+      "sha256": "93a611de48d988e453b8f65c76368eae1328004bb6e454b108857993ebafaa0f",
+      "bytes": 529
+    },
+    {
+      "path": "actors/props/structures/britons/workshop_pelts.xml",
+      "sha256": "5a8dcf54b25c5c2451c31cbe26296819d989f5c6576bfa97543aedfe42456337",
+      "bytes": 566
+    },
+    {
+      "path": "actors/props/structures/carthaginians/house_a.xml",
+      "sha256": "841e5ae183ae761cc20daa9734d0d2bfbd0b391d195b9afe3868311134452cad",
+      "bytes": 482
+    },
+    {
+      "path": "actors/props/structures/gauls/house_a_props_1.xml",
+      "sha256": "3245235695ba28c5af82dc5a5101dfff34fe292e0a86fe08f283d96c3217d65f",
+      "bytes": 568
+    },
+    {
+      "path": "actors/props/structures/gauls/house_a_props_new.xml",
+      "sha256": "89c611c6f92bd94832d8533ef92d345bb2765e7560b636f2d06cd2d64b64f315",
+      "bytes": 579
+    },
+    {
+      "path": "actors/props/structures/gauls/storehouse_barrel_a.xml",
+      "sha256": "ba58af35eb3d5e7bbbcc294c5331bf83f2d4a347bc9fe3c4e3cf245ca6202e17",
+      "bytes": 1080
+    },
+    {
+      "path": "actors/props/structures/gauls/storehouse_barrel_b.xml",
+      "sha256": "ba58af35eb3d5e7bbbcc294c5331bf83f2d4a347bc9fe3c4e3cf245ca6202e17",
+      "bytes": 1080
+    },
+    {
+      "path": "actors/props/structures/gauls/storehouse_foliage.xml",
+      "sha256": "db90552014908a55b1c161afccc8fca2c4a8f051c0c98b478f3967910fc2ade2",
+      "bytes": 652
+    },
+    {
+      "path": "actors/props/structures/gauls/storehouse_ore.xml",
+      "sha256": "3c37db4fa6e687f27811e3728ba33ca4075ca386b530d7984ec254868e229886",
+      "bytes": 635
+    },
+    {
+      "path": "actors/props/structures/hellenes/prytaneion.xml",
+      "sha256": "56414eb35e2d633887e3c80fb39eb76bcf228e0a0019d230d6dcafd0645d59b3",
+      "bytes": 574
+    },
+    {
+      "path": "actors/props/structures/hellenes/prytaneion_tiles.xml",
+      "sha256": "a6523d05d26642c3165d2364ae093a2a2e2672f8e3df35a871f01b3bd14b6bab",
+      "bytes": 533
+    },
+    {
+      "path": "actors/props/structures/hellenes/storehouse_blocks.xml",
+      "sha256": "4d0e705a2de4d27d91f9371bf90e647a8be97233e0586964fe08bdd5254cfb5a",
+      "bytes": 541
+    },
+    {
+      "path": "actors/props/structures/hellenes/storehouse_props.xml",
+      "sha256": "ca79a4183b6f5660332eb3cea2136efd1341ada786d72e5705bc6d6c3f2e1f26",
+      "bytes": 530
+    },
+    {
+      "path": "actors/props/structures/hellenes/storehouse_roof.xml",
+      "sha256": "e9b5095cf80ad561c12a312970a3abaacd21f2084e4d69e7af9ff32125973f85",
+      "bytes": 531
+    },
+    {
+      "path": "actors/props/structures/hellenes/storehouse_wood.xml",
+      "sha256": "153626cd3ab48eadedcb2559bac1935f6dc33ef5721ee7dfb7e7011a66592d55",
+      "bytes": 513
+    },
+    {
+      "path": "actors/props/structures/hellenes/temple_a_columns.xml",
+      "sha256": "61babfc58d341b876fbe3c752b2419479364aa1825f4af62e9e5ee7564869b12",
+      "bytes": 475
+    },
+    {
+      "path": "actors/props/structures/hellenes/temple_a_struct.xml",
+      "sha256": "784595cbd842205c5fb3bddf8a6eb6a266fcef9d35379bd8db369d059917ce70",
+      "bytes": 482
+    },
+    {
+      "path": "actors/props/structures/hellenes/tent_greek_props.xml",
+      "sha256": "638fbe8af456da3a0078da2c28eb1b88fd26cc12283b15b20b2267490ed7901c",
+      "bytes": 561
+    },
+    {
+      "path": "actors/props/structures/hellenes/workshop_2.xml",
+      "sha256": "4ae284b4dd4a16d18534fc1fc1160eedaf4f3ff9a57a57ea6cdb2ca8d471de37",
+      "bytes": 550
+    },
+    {
+      "path": "actors/props/structures/hellenes/workshop_struct.xml",
+      "sha256": "bb4ece2850e1aa77b1e96e0c3c5bb0a3d190dea7cb132f9f5a0edf62f51ee5d6",
+      "bytes": 589
+    },
+    {
+      "path": "actors/props/structures/iberians/farmstead_hay.xml",
+      "sha256": "2cf6aaae8163494ec3fe1f1f11da2da429d926c75e43a2950cba1aa5ea093a23",
+      "bytes": 439
+    },
+    {
+      "path": "actors/props/structures/macedonians/barracks_decor.xml",
+      "sha256": "b88697a335d18e87c0888c45c979797b75c67ac1fb458ac3e1985ff9dcbc2640",
+      "bytes": 542
+    },
+    {
+      "path": "actors/props/structures/macedonians/barracks_props_a.xml",
+      "sha256": "424e2c0dacc9ed91f57e87074f76f978179a49f5a782ca25f3d60de5258c7dfb",
+      "bytes": 551
+    },
+    {
+      "path": "actors/props/structures/macedonians/barracks_props_shields.xml",
+      "sha256": "ab54f613598a192a9378500d7c6ea6d9f7aabc8d83789b74bc92a83247a6baf1",
+      "bytes": 515
+    },
+    {
+      "path": "actors/props/structures/macedonians/barracks_struct_b.xml",
+      "sha256": "575cdced19ecd64886e06d5dc43f1c3bf3fb47ae827a174a592a573e00d3954f",
+      "bytes": 618
+    },
+    {
+      "path": "actors/props/structures/macedonians/barracks_tile_c.xml",
+      "sha256": "05ef063a97fa24b38773dc3f5eab685fcde67a8aa90b8b80b890c8c147d6b4a2",
+      "bytes": 546
+    },
+    {
+      "path": "actors/props/structures/persians/stable_horse_a.xml",
+      "sha256": "21acbe5d37cb5ccca7cfc9a9ff084328c3cdea31596dd6acce90bbc93fc61db6",
+      "bytes": 1401
+    },
+    {
+      "path": "actors/props/structures/persians/stable_horse_b.xml",
+      "sha256": "fe5e5bf211001b3fdd5a4211288f278b3108b2fc30dc6e41ffbba19ca98f5c6a",
+      "bytes": 1401
+    },
+    {
+      "path": "actors/props/structures/persians/stable_horse_c.xml",
+      "sha256": "e6d05e56082bb46818c73e2af95ec2329708ac97c6b88e97e6777aa57991465a",
+      "bytes": 1401
+    },
+    {
+      "path": "actors/structures/athenians/dock.xml",
+      "sha256": "6ebef50310bb11ba1c1afe7d7e8db42949195e5210cc29bade6eda969523fc02",
+      "bytes": 2044
+    },
+    {
+      "path": "actors/structures/athenians/prytaneion.xml",
+      "sha256": "b8f7a70ad9b94cac088e2910b37ca7b6264626833a8c54868d43c34ab0ef66ff",
+      "bytes": 1731
+    },
+    {
+      "path": "actors/structures/carthaginians/apartment.xml",
+      "sha256": "5fd1ae9b97c504d1c4369c5ae1803e6865491946f3dc0c21e91d56e022a17ef2",
+      "bytes": 1819
+    },
+    {
+      "path": "actors/structures/carthaginians/house.xml",
+      "sha256": "943a28aad15747ef5ad3d0f04d81fbc3f7c315f8d38141802f345123cbf2af98",
+      "bytes": 2426
+    },
+    {
+      "path": "actors/structures/carthaginians/super_dock.xml",
+      "sha256": "eaf59b2cacd3169eb9a82480553262a72d7a953013a9332b093ce547a0577267",
+      "bytes": 1148
+    },
+    {
+      "path": "actors/structures/gauls/house.xml",
+      "sha256": "113753445e2da0fc21c1eefdd3d22e372cb20dbe65eeab5db14e01fe8956fadf",
+      "bytes": 2370
+    },
+    {
+      "path": "actors/structures/gauls/storehouse.xml",
+      "sha256": "0e37cf9d7fe1acbe0f74dde782215723f724ac30c374f9af7aa7c0a36d1ab655",
+      "bytes": 1577
+    },
+    {
+      "path": "actors/structures/gauls/workshop.xml",
+      "sha256": "045a8bc48b1639468a52806d29bbf92ca305f94c39e791865348c3d90bbfa958",
+      "bytes": 1065
+    },
+    {
+      "path": "actors/structures/hellenes/prytaneion_decor.xml",
+      "sha256": "42b239a1bfccda55c758fcb6cc933fa44192a975096fd7790c4089aa414d5fcc",
+      "bytes": 569
+    },
+    {
+      "path": "actors/structures/hellenes/prytaneion_struct.xml",
+      "sha256": "5ca5d075a2eaa35c76e3a84f50275e88aaa97c0f3989a6dc0202e4191ae5f2c3",
+      "bytes": 588
+    },
+    {
+      "path": "actors/structures/hellenes/storehouse.xml",
+      "sha256": "0e64372f2a62b06b94ac7841b6bc5e4eea1999c7152bec0f20a0c0c66983ef9d",
+      "bytes": 1604
+    },
+    {
+      "path": "actors/structures/hellenes/temple.xml",
+      "sha256": "7f77f8986d8dd2e50ce556b0aa21ead25b831b76a99df17eb6bcc41c7511685d",
+      "bytes": 1962
+    },
+    {
+      "path": "actors/structures/hellenes/workshop.xml",
+      "sha256": "75875d7bb344f1724ee2cef26609ef9e7b5dff79dfd55f6c7e5aa68dc3de6023",
+      "bytes": 1452
+    },
+    {
+      "path": "actors/structures/iberians/farmstead.xml",
+      "sha256": "5df94c87f05ffcb04ca6a0eb4deacb689f4c17ecf00cba205fb1ac0a53427d9f",
+      "bytes": 1466
+    },
+    {
+      "path": "actors/structures/macedonians/barracks.xml",
+      "sha256": "d037b68e502f5d758836c5fd50d998bbe0e718906500cf0ada9a0e2ca8432a52",
+      "bytes": 2057
+    },
+    {
+      "path": "actors/structures/plot_field_medit.xml",
+      "sha256": "dac677397154b653254ed5a7b5f1e51f4691eb7d07f25bf3a6074a8f8555fab2",
+      "bytes": 128670
+    },
+    {
+      "path": "actors/structures/romans/wall_gate.xml",
+      "sha256": "fb36f4ffbb24f72b249f3858bcfa6df4706aac4f0243fac69c589217adf495c2",
+      "bytes": 1047
+    },
+    {
+      "path": "actors/structures/seleucids/stable.xml",
+      "sha256": "75c19f4b6f3384c24c9728efc1174112c12e3431789e33975b3b048977b37ad0",
+      "bytes": 1526
+    },
+    {
+      "path": "actors/structures/spartans/farmstead.xml",
+      "sha256": "aff82c819b10bb1e1c31e42d154e663a7588e7ea5bada483da6e24bdb117b780",
+      "bytes": 899
+    },
+    {
+      "path": "actors/structures/tent_greek.xml",
+      "sha256": "0c0df8ff48dccc410b085c9d0261b4934c687177f1f47b01c9a580ad65271e7a",
+      "bytes": 817
+    },
+    {
+      "path": "meshes/gaia/cross_large_short.dae",
+      "sha256": "dc2126ce0919ea8a823c0ef599ac01d4fbc085bc59220e6a56bb72b47b5a41a5",
+      "bytes": 4483
+    },
+    {
+      "path": "meshes/gaia/geo_mineral_01.dae",
+      "sha256": "354d2e14621170d0725299d6b81c77b6ba5cfd829e4051abef614108d5dcdcb3",
+      "bytes": 80443
+    },
+    {
+      "path": "meshes/gaia/geo_stonemine_large.dae",
+      "sha256": "2b86d31beebf4fc320294511b9f9cfe761c551707b9b3704fd46139bbc5cc54a",
+      "bytes": 70312
+    },
+    {
+      "path": "meshes/gaia/grass_la_tall_a.dae",
+      "sha256": "e1a291ba9aa99acaac6e896dc85669e9e465b8564985bbf604dcececa4db4be6",
+      "bytes": 5591
+    },
+    {
+      "path": "meshes/props/athen_dock_decor.dae",
+      "sha256": "cfb56de3c35e6878c938b535fcc73f8d571bf89be4b56c23ca0d0be26adcc33f",
+      "bytes": 124665
+    },
+    {
+      "path": "meshes/props/athen_dock_fishboat.dae",
+      "sha256": "83957aeafd7a5ad518fd7e42c6839dc02831ccc5d5241310e73218df14bfbf2b",
+      "bytes": 193014
+    },
+    {
+      "path": "meshes/props/athen_dock_pentekonter.dae",
+      "sha256": "102b563ebb331c6429bd8f8c11ee11b56f5dec3c56924fb78bb09d40d1094399",
+      "bytes": 315169
+    },
+    {
+      "path": "meshes/props/athen_dock_props.dae",
+      "sha256": "4e74e265d5931a65c859b08d2800ced96ed19221adcc5c9a436cc8cecaa2b439",
+      "bytes": 605990
+    },
+    {
+      "path": "meshes/props/athen_dock_tiles.dae",
+      "sha256": "d5167d1ced7f5e3204c430d8d9f97214f96c53000196d5930aafd47ced52ed7f",
+      "bytes": 106009
+    },
+    {
+      "path": "meshes/props/brit_workshop_pelts.dae",
+      "sha256": "52688c290aa62c516a643ee1334f89f04eb3c5977d38a6aa34afe1330ec24278",
+      "bytes": 74022
+    },
+    {
+      "path": "meshes/props/gaul_house_a_props_1.dae",
+      "sha256": "37db63e40e5c15c9d368b45335e3618ec4a180e5e8a32977b02ea183468706ed",
+      "bytes": 74660
+    },
+    {
+      "path": "meshes/props/gaul_house_a_props_new.dae",
+      "sha256": "e5ac1c27c908870d1e67ab6b307b8852ab07dfa5a7f5a076c035ddb0792b7eb2",
+      "bytes": 34590
+    },
+    {
+      "path": "meshes/props/gaul_storehouse_foliage_a.dae",
+      "sha256": "6cc3d148ba1a776c67bcaf7b698e56e75326c6495305a756aa5c079abc953535",
+      "bytes": 70153
+    },
+    {
+      "path": "meshes/props/gaul_storehouse_ore_a.dae",
+      "sha256": "7326363edb5a8c6edb12686fb1224e586788f926adb890f3c9f1620941724c7b",
+      "bytes": 8530
+    },
+    {
+      "path": "meshes/props/hele_storehouse_blocks.dae",
+      "sha256": "7aa2c2962992d1dec0a50e3bed88e745c158db5cb67459957266aab074c1844d",
+      "bytes": 68463
+    },
+    {
+      "path": "meshes/props/hele_storehouse_props.dae",
+      "sha256": "c2a347c009b9404d66196fab9e04864b7d94755a2b43116fba1e891031892c4c",
+      "bytes": 145612
+    },
+    {
+      "path": "meshes/props/hele_storehouse_roof.dae",
+      "sha256": "2b4d4b9aa54f5ca6d02785be23bca2858257cf861a4eb0e470fe52308a6ff494",
+      "bytes": 6166
+    },
+    {
+      "path": "meshes/props/hele_storehouse_wood.dae",
+      "sha256": "32198f22716b7d09e6108692ebb8a84b4b5957583cc2389544d8b7ee7672a888",
+      "bytes": 149738
+    },
+    {
+      "path": "meshes/props/hele_workshop_2.dae",
+      "sha256": "4a75ca4e54bc9b71625fe9d13edd85c0ebd9ccc412610555238c284ee910e19d",
+      "bytes": 834414
+    },
+    {
+      "path": "meshes/props/hele_workshop_struct.dae",
+      "sha256": "fd610be775a5a9ee88f121736615ed2bebe9dfe1aba56f532bd54bceac7a5a32",
+      "bytes": 304930
+    },
+    {
+      "path": "meshes/props/horse/hair_mane_01.dae",
+      "sha256": "59ad146c1af5f430db71bc63f5a06baec6487e22160e8366baf1cd895934947e",
+      "bytes": 96483
+    },
+    {
+      "path": "meshes/props/horse/hair_tail_01.dae",
+      "sha256": "072888a3c60ed59d5f802f155110e37ca090627533c88f57ba6785b649f384c9",
+      "bytes": 84691
+    },
+    {
+      "path": "meshes/props/iber_farmstead_hay.dae",
+      "sha256": "251d80068fcc54c66151ded3e770f98593550d0d75c64f1e43e3e7d2601e881a",
+      "bytes": 23523
+    },
+    {
+      "path": "meshes/props/kart_house_a_1.dae",
+      "sha256": "d74f41e2d5bebc4108649e327394ba980adfa3c0db3ca2cd350e9c508a0caf1c",
+      "bytes": 29404
+    },
+    {
+      "path": "meshes/props/mace_barracks_decor.dae",
+      "sha256": "08212b7a4e342e76f46a138d64ee182c11fb693731cc41f8e5a1f8e1a55e101e",
+      "bytes": 856630
+    },
+    {
+      "path": "meshes/props/mace_barracks_props_a.dae",
+      "sha256": "44bc9dc8d0ba066c1dc223359ffb4925cf508d5515aed38a3aeb9b9f0aeee549",
+      "bytes": 556257
+    },
+    {
+      "path": "meshes/props/mace_barracks_shields.dae",
+      "sha256": "997ffb26d21706f2ad617dc36cd0d6335c110867d6eb315bc550fe34df2fc480",
+      "bytes": 69789
+    },
+    {
+      "path": "meshes/props/mace_barracks_struct_b.dae",
+      "sha256": "ff978895945d1dac53e7b6a3b6ee52de74c234b5256bbcea0e5b527d9a7da3ca",
+      "bytes": 51583
+    },
+    {
+      "path": "meshes/props/mace_barracks_tile_c.dae",
+      "sha256": "ddd347919dc6643b5586d252311975aacc6f766910d7cfe353c1ebe905d6b4d8",
+      "bytes": 62401
+    },
+    {
+      "path": "meshes/props/palisade_rocks_long.dae",
+      "sha256": "9700c9169e02d884a374cc6cfc2edc9d8e5dd11db2672fda7bef3668b27ae80f",
+      "bytes": 111748
+    },
+    {
+      "path": "meshes/props/special/campfire.dae",
+      "sha256": "04150ea22bd79efb1f3e41cd836794ed394f9627b961c47600486dc9fd908297",
+      "bytes": 101024
+    },
+    {
+      "path": "meshes/props/wrld_well_a.dae",
+      "sha256": "2a269f4f585126a93d99ac08561e60b36af9e2582da290d9222a8ad1823f16aa",
+      "bytes": 10942
+    },
+    {
+      "path": "meshes/props/wrld_well_woodbit.dae",
+      "sha256": "46d47e2933bc00b42c2e869478d61c09ee32ccd60660de523a16501ad8557eb3",
+      "bytes": 7356
+    },
+    {
+      "path": "meshes/skeletal/horse_persian.dae",
+      "sha256": "fb11a108d47d292cddb4e1eb05e8d4595e794f5b46512a43d6efb48a402484b0",
+      "bytes": 329366
+    },
+    {
+      "path": "meshes/structural/athen_dock_struct.dae",
+      "sha256": "9b1ae5d53e2d3a416617b536463438ca9aa5d08b3af10950f361ecae1e8e988d",
+      "bytes": 309032
+    },
+    {
+      "path": "meshes/structural/athen_dock_struct_b.dae",
+      "sha256": "602a0129ea60db430004a87172567038122c37c1d1b2f8c6c84ffc170cc5d8a6",
+      "bytes": 126353
+    },
+    {
+      "path": "meshes/structural/field_propped_a_8x8.dae",
+      "sha256": "c461c477c0dcc494177b62ae5349a2cc800c3a06e65e81253e7d3affd579ee7c",
+      "bytes": 34801
+    },
+    {
+      "path": "meshes/structural/gaul_house_a.dae",
+      "sha256": "60f0614c1092395065c4ba8fe6bed64da873d38c579c9cbc400e9a9b8f30f3a8",
+      "bytes": 272099
+    },
+    {
+      "path": "meshes/structural/gaul_storehouse_a.dae",
+      "sha256": "36d247549b78af7ba21404282e669bdc00a01f9782308326fc77f7de8483fc91",
+      "bytes": 523269
+    },
+    {
+      "path": "meshes/structural/gaul_workshop.dae",
+      "sha256": "622aaf459078ca0db70d7ce4fd27e61b0c673bae62a33c6bf7c5c0bbe3e88269",
+      "bytes": 2399463
+    },
+    {
+      "path": "meshes/structural/hele_Prytaneion_decor.dae",
+      "sha256": "f1f60504e92b105be2408f015a65a02191352c839b848510c669331ef9805c77",
+      "bytes": 120598
+    },
+    {
+      "path": "meshes/structural/hele_Prytaneion_props.dae",
+      "sha256": "1a24d5fc5625ad458e3a5095c1700a572ea8fbafd426aa0e05698d076c0aefa2",
+      "bytes": 290044
+    },
+    {
+      "path": "meshes/structural/hele_Prytaneion_struct.dae",
+      "sha256": "c67ef84af59cacffd7606d8f8fbda6fe627cdfb308d50b6df6bc36708db71c96",
+      "bytes": 253079
+    },
+    {
+      "path": "meshes/structural/hele_Prytaneion_structB.dae",
+      "sha256": "9a47d10d9206391592308a0a08b765758efd5c8cfad151bcd77a436cfe72b9d5",
+      "bytes": 148451
+    },
+    {
+      "path": "meshes/structural/hele_Prytaneion_tiles.dae",
+      "sha256": "a4af23fbd58344102139ae0e31192a870baf89b7748b2bc5d3d6fb55aad78aa8",
+      "bytes": 56902
+    },
+    {
+      "path": "meshes/structural/hele_storehouse.dae",
+      "sha256": "d9d8b44674b10cc748ea135ccf2bb465d9eccc78f2542ff11ccb3f8c6ebb2e69",
+      "bytes": 369194
+    },
+    {
+      "path": "meshes/structural/hele_temple_a_base.dae",
+      "sha256": "dc9a7a5e91893c547ea3bd13eaf626b2e53c4759bbf72711d75027c5e1204323",
+      "bytes": 53070
+    },
+    {
+      "path": "meshes/structural/hele_temple_a_props.dae",
+      "sha256": "85d0957a2ceff72b0058e69c093d008a6590f4acca7e2fe13411150efdecde1d",
+      "bytes": 95912
+    },
+    {
+      "path": "meshes/structural/hele_temple_a_struct.dae",
+      "sha256": "4fa85cb7be46cc702f0fb8716eb3858c5fc0cf0aadcf13332e5984b6aa5cc645",
+      "bytes": 39882
+    },
+    {
+      "path": "meshes/structural/hele_workshop.dae",
+      "sha256": "f3612aadd82a64c0a0c7cfe0b03dcb0748b89748131f2bc80938ce1387bfa681",
+      "bytes": 474665
+    },
+    {
+      "path": "meshes/structural/iber_farmstead.dae",
+      "sha256": "2f691cab679a3a519f96b8973cbde6945745b1b18e6cba6b930ca9462492742e",
+      "bytes": 53188
+    },
+    {
+      "path": "meshes/structural/kart_apartment_01.dae",
+      "sha256": "6e556fc7b52127ae34a09ea738010b51e9506be2be1fa4e09f9b08d8e455e5a6",
+      "bytes": 270455
+    },
+    {
+      "path": "meshes/structural/kart_house_01.dae",
+      "sha256": "98905b42f0fc638a9bae03470d80e4d37ce97fe6b5b5012948c8a0c6ae887088",
+      "bytes": 58045
+    },
+    {
+      "path": "meshes/structural/kart_superdock.dae",
+      "sha256": "d7dc87ec8e3984913763d3220dd3964f9478f8e3028dc7fec70df96a1f3b6b97",
+      "bytes": 630436
+    },
+    {
+      "path": "meshes/structural/mace_barracks_struct.dae",
+      "sha256": "e04387523d531b86baed7da636869fa925042fb8b423c6410ef9b60db6ecb9a3",
+      "bytes": 518262
+    },
+    {
+      "path": "meshes/structural/rome_wall_gate.dae",
+      "sha256": "1fc1cdbf4c99ac40977f54447c9c6e1bb972b86daf73e07e7a3b75e9310ee683",
+      "bytes": 172275
+    },
+    {
+      "path": "meshes/structural/sele_stable.dae",
+      "sha256": "f991ffeb89923bebcca2ebfe7713abeeae652eaf3948bda0732b1eaf91bb8e21",
+      "bytes": 661901
+    },
+    {
+      "path": "meshes/structural/spart_farmstead.dae",
+      "sha256": "b69a0b6e83114859e0ac68c4345dccf5503f96f0e71df339eb70014a62f197f2",
+      "bytes": 950089
+    },
+    {
+      "path": "meshes/structural/tent_greek.dae",
+      "sha256": "1b9593e98c1ca8ebc128e7a468ddb6e5b54963d8f1b2b686550dd8fd6f9b76a1",
+      "bytes": 173911
+    },
+    {
+      "path": "meshes/structural/tent_greek_props.dae",
+      "sha256": "bb0a8ebfef0bee8b500ec29176f05a01ad3bbf5e647abfad942517ccf5bdfa06",
+      "bytes": 48548
+    },
+    {
+      "path": "textures/skins/gaia/ao/geo_mineral_01_ao.png",
+      "sha256": "d1705538a3cb39fac022f6c1d76acac292cace249cbc4050ab76597da4017960",
+      "bytes": 60062
+    },
+    {
+      "path": "textures/skins/gaia/ao/geo_stonemine_large_ao.png",
+      "sha256": "f7e0db7acce3d7df29cb48471328a9cbe61bf5c41cf51c34331eee43a945e76a",
+      "bytes": 84657
+    },
+    {
+      "path": "textures/skins/gaia/decal_stone_medit_01.dds",
+      "sha256": "55a8e183d9a59de4f48773794f4b111441319cf0b104320f060e9e4925194854",
+      "bytes": 87536
+    },
+    {
+      "path": "textures/skins/gaia/decal_stone_medit_01_norm.png",
+      "sha256": "39fbdbd0a02b72c90d4df717c5357cb67ff28a20c6b550d74502e369c55d8ed7",
+      "bytes": 246623
+    },
+    {
+      "path": "textures/skins/gaia/decal_stone_medit_01_spec.png",
+      "sha256": "81811bfd09fcac2f5d65868561c8000e04a3f7b68a7ae0502db9b21d20a5368d",
+      "bytes": 72115
+    },
+    {
+      "path": "textures/skins/gaia/farming_wheat_harvest_a.png",
+      "sha256": "3abe3c9fc88aa24c7470638ed84d9b0b34be0f139f278accdd87ddf42d10cc88",
+      "bytes": 20707
+    },
+    {
+      "path": "textures/skins/gaia/slab_medit_metal.dds",
+      "sha256": "9817ef9cb154b06632da80a94f3d1eb45af33463d79643db79e84ad943c73ec3",
+      "bytes": 349680
+    },
+    {
+      "path": "textures/skins/gaia/slab_medit_metal_spec.png",
+      "sha256": "ebda6c85a5a784473fccec7b708485b1b88e526c3a70e71072d363411bf8e81d",
+      "bytes": 170524
+    },
+    {
+      "path": "textures/skins/gaia/stone_aegean_01.png",
+      "sha256": "b0977e4e924cc89afa3574946f192576fac9b7bde29bca7f58f12e8acfa30f37",
+      "bytes": 613569
+    },
+    {
+      "path": "textures/skins/gaia/stone_india_01_norm.png",
+      "sha256": "198386312c63296e5d876247cb0f1bf65bf9c5913878af2b249a0e9863317fea",
+      "bytes": 641154
+    },
+    {
+      "path": "textures/skins/gaia/stone_india_01_spec.png",
+      "sha256": "33708c380f91ec9b478383f38a0da77fdef1566e91bd7edcc351fb1cbc3d3666",
+      "bytes": 99720
+    },
+    {
+      "path": "textures/skins/props/celt_prop_1.png",
+      "sha256": "18b08b6c1d1d7991ac85e1540201929ad688dbcf1b8d4166f3388502c823ea39",
+      "bytes": 435637
+    },
+    {
+      "path": "textures/skins/props/celt_prop_1_norm.png",
+      "sha256": "77e5f8d3be4332541fb11c65435b5732b13d7bbcdf63e669268298bdbe4b1681",
+      "bytes": 197409
+    },
+    {
+      "path": "textures/skins/props/celt_prop_1_spec.png",
+      "sha256": "7b21c474e987d57296fc5b2680c9f76efb0994f4fe29540185054723d18d9904",
+      "bytes": 12000
+    },
+    {
+      "path": "textures/skins/props/celt_props_new.dds",
+      "sha256": "ef1a124282cf39b13fa433444fad754d6cd15a773e0ebeb75f6e8809f4e4db78",
+      "bytes": 174928
+    },
+    {
+      "path": "textures/skins/props/celt_props_new_norm.png",
+      "sha256": "545d94aec4ccfb8df4b06898e6f7f46b0cc2aadfd64a76f9a9370ecceb012213",
+      "bytes": 267097
+    },
+    {
+      "path": "textures/skins/props/celt_props_new_spec.png",
+      "sha256": "a1d741e2a1136d5c5613a5ad6335da06db42590d68305c2c1bf0ec702d7a722f",
+      "bytes": 132187
+    },
+    {
+      "path": "textures/skins/props/decal_campfire.png",
+      "sha256": "9afdddc8c679cb1388f163c0f2cee1019cb4b319a4f21cb1e45254095da8832d",
+      "bytes": 14107
+    },
+    {
+      "path": "textures/skins/props/hele_tile_c.dds",
+      "sha256": "29ca35c15a8718c1493e09805aa00eeb71f7363cedf9d69e636dfbcf5b1afad1",
+      "bytes": 699216
+    },
+    {
+      "path": "textures/skins/props/hele_tile_c_norm.png",
+      "sha256": "e1f13903c85f1eaf8f7dd08673df69a48f3e0a14f8ec85722d6bf3decee901be",
+      "bytes": 826903
+    },
+    {
+      "path": "textures/skins/props/hele_tile_c_spec.png",
+      "sha256": "2e0b669915c7268c8026d496385c7fe3c6360b1e2dfb93b2cafe90bcc89780f3",
+      "bytes": 65597
+    },
+    {
+      "path": "textures/skins/props/horse/hair_brown.png",
+      "sha256": "5f96f126a9d1c56b62861156658d807e6efcb320cd7bc0b31ce5f1afa04fb42c",
+      "bytes": 78253
+    },
+    {
+      "path": "textures/skins/props/horse/hair_norm.png",
+      "sha256": "a37d8b6262d9f1a693ee79911b65665a7606e91e4d755fb5b10619308cfb0f07",
+      "bytes": 91778
+    },
+    {
+      "path": "textures/skins/props/horse/hair_spec.png",
+      "sha256": "9bd09b01c84eb103ffc808d3f88666cf6266ab35145f99e9dae26637eefcc93e",
+      "bytes": 39392
+    },
+    {
+      "path": "textures/skins/props/mace_prop_shields.png",
+      "sha256": "8e14da8db143aec81547431de020e21f9fc50a67a3c373aea00ca534ef5e6c01",
+      "bytes": 189260
+    },
+    {
+      "path": "textures/skins/props/mace_prop_shields_norm.png",
+      "sha256": "6240faaf210cee42f984ebef49f2b7984d29713856649ab7c4ca009abec38683",
+      "bytes": 141225
+    },
+    {
+      "path": "textures/skins/props/mace_prop_shields_spec.png",
+      "sha256": "d50c14b2cd6ba0d7e4890b92925dd456919072859a6785160e5af1a448e6b493",
+      "bytes": 53015
+    },
+    {
+      "path": "textures/skins/props/palisade_main.png",
+      "sha256": "14965956bb352cbb97ff1419b1dc62443e254e740fc1f0bf23598a68e970e4d0",
+      "bytes": 652293
+    },
+    {
+      "path": "textures/skins/props/road_temperate_straight_short.dds",
+      "sha256": "0982e9eda222628c0db862bc04fede309ae2abecff49a2f4c4a6b76c899fb9a9",
+      "bytes": 174928
+    },
+    {
+      "path": "textures/skins/props/rome_sb_turf.png",
+      "sha256": "28d8e6f9e879df250a2d8a05000878bd2400a615d6ee103af851f8b163901924",
+      "bytes": 812341
+    },
+    {
+      "path": "textures/skins/props/wood_c.png",
+      "sha256": "6f83e0460b972c5ebe5606271124dfdd165661e1247777274d22e5892af4d15b",
+      "bytes": 136282
+    },
+    {
+      "path": "textures/skins/props/wrld_hay_a.dds",
+      "sha256": "55fbd96c316f31d465723df79fd12b1abee7cd86ce42fe7cb1dc4ae16553693d",
+      "bytes": 8320
+    },
+    {
+      "path": "textures/skins/props/wrld_well_a_1.dds",
+      "sha256": "6f93fb7cee0ee532998c94e1a8822f77573e00cae0476bef4293c68b1a7d1f27",
+      "bytes": 2176
+    },
+    {
+      "path": "textures/skins/props/wrld_wood_2.dds",
+      "sha256": "6eb048c8eedafc05c65f1b901f30cc178ba98fb441ae0146eafb906637914817",
+      "bytes": 87536
+    },
+    {
+      "path": "textures/skins/skeletal/horse_brown.png",
+      "sha256": "3e6549478bfd81305dce532714808038a7341194150b4a80ba0d4301b7189c2a",
+      "bytes": 195649
+    },
+    {
+      "path": "textures/skins/skeletal/horse_norm.png",
+      "sha256": "7095a26efdc09c1cd1fb9980697bd7ec376bd5de715671b246ab334806128448",
+      "bytes": 61660
+    },
+    {
+      "path": "textures/skins/skeletal/horse_spec.png",
+      "sha256": "212e0d92b11cfa320a3a458241164586b7e763f9881ddf0a2120930d7165129f",
+      "bytes": 32504
+    },
+    {
+      "path": "textures/skins/structural/Sele_struct_2.png",
+      "sha256": "2e6782573caef40164b5ff2e87d5db04bf647c59bfe6229134847c5a23557fce",
+      "bytes": 2751047
+    },
+    {
+      "path": "textures/skins/structural/Sele_struct_2_norm.png",
+      "sha256": "896822dfcbe5646dcb857c68937adddf2dbce831bdfa3ce19b4151c397dbde18",
+      "bytes": 2793778
+    },
+    {
+      "path": "textures/skins/structural/Sele_struct_2_spec.png",
+      "sha256": "78db5f1b7c4ff6f7007590fc9c352faa237b1880b76504b74a5d2d38c0be9960",
+      "bytes": 196223
+    },
+    {
+      "path": "textures/skins/structural/ao/athen_dock.png",
+      "sha256": "6a15c4d91f7c0d4a44e54010bdbcde356b59b1f6afc3a65e0aca3bb4a159cae7",
+      "bytes": 322693
+    },
+    {
+      "path": "textures/skins/structural/ao/athen_prytaneion.png",
+      "sha256": "450927bb5bfc58f58f1edfac0361f73ca2f888f3ea36cb6a1c7975e541c273fe",
+      "bytes": 299614
+    },
+    {
+      "path": "textures/skins/structural/ao/brit_workshop.png",
+      "sha256": "1558a349fe367067de17f05fb64dcf333168337f169610f7485e3b41ab399ccb",
+      "bytes": 368838
+    },
+    {
+      "path": "textures/skins/structural/ao/gaul_house_a.png",
+      "sha256": "83d5a8d88b5a58daf9fcc44287a29fd145bce52ed3fb27d8e4f0ced9f21a2ffc",
+      "bytes": 233208
+    },
+    {
+      "path": "textures/skins/structural/ao/gaul_storehouse_a_ao.png",
+      "sha256": "e4c018a02f1b0a7ae9b46be0fc921261f8e8ea4bda03e91323b6e6da2d988877",
+      "bytes": 334370
+    },
+    {
+      "path": "textures/skins/structural/ao/gaul_workshop.png",
+      "sha256": "0b09b08615a29fadf2bd4f1ca3c66915c60b67300a1040d7f1de3b68c151775d",
+      "bytes": 346587
+    },
+    {
+      "path": "textures/skins/structural/ao/hele_storehouse.png",
+      "sha256": "e70e9b80d88e84123c70d6d844978e09c5c05135a6d23b31b625e2921fabd5a3",
+      "bytes": 345462
+    },
+    {
+      "path": "textures/skins/structural/ao/hele_workshop.png",
+      "sha256": "b1b29a5b3d0207b1a702422af798b005ee82fe7e7e8fe4facff4c27b3cd1cdb5",
+      "bytes": 316458
+    },
+    {
+      "path": "textures/skins/structural/ao/iber_farmstead.png",
+      "sha256": "e196267dd586ab29265a8c20716c05f77b23abb8734b965c82c5abcaacb3f4b8",
+      "bytes": 264861
+    },
+    {
+      "path": "textures/skins/structural/ao/kart_apartment_01.png",
+      "sha256": "5fdee373a5f8a51782605c3649b3ae8a741fae23cef2d78adab2072d94eac28f",
+      "bytes": 210691
+    },
+    {
+      "path": "textures/skins/structural/ao/kart_house_01.png",
+      "sha256": "0e6db63c13571704e72904da8986b556c74a0e7e31dd458cbbc1aefb9629b158",
+      "bytes": 126733
+    },
+    {
+      "path": "textures/skins/structural/ao/kart_superdock.png",
+      "sha256": "03e939f064b0aa4ce166aa1091b2ff729b8d66adecb63ac6065ff52bf97e350c",
+      "bytes": 174967
+    },
+    {
+      "path": "textures/skins/structural/ao/mace_barracks.png",
+      "sha256": "b7c413312f261e5b65dd3eb8570bcea2dd3fc52be3aeb82084e6cee62132cd58",
+      "bytes": 299550
+    },
+    {
+      "path": "textures/skins/structural/ao/sele_stable_AO.png",
+      "sha256": "696ba17fcc2d59583a745fff2e50d7c673c13eade7527cd54276987b78829c37",
+      "bytes": 304529
+    },
+    {
+      "path": "textures/skins/structural/ao/spart_farmstead_AO.png",
+      "sha256": "39251a80fe5b0a5e753535b56330864f1a331a8463d31d901a8382311bea794f",
+      "bytes": 229126
+    },
+    {
+      "path": "textures/skins/structural/ao/tent_greek.png",
+      "sha256": "92cb545c064ab30fb38107018103a971949edec7589e2a4377241bd92a2dc7e8",
+      "bytes": 67989
+    },
+    {
+      "path": "textures/skins/structural/celt_siege_ram.dds",
+      "sha256": "e0231f9bb97176bc5222c916c2e17533f995f50bb02135a9598977585b3dc664",
+      "bytes": 349680
+    },
+    {
+      "path": "textures/skins/structural/celt_struct.dds",
+      "sha256": "22b7f008856b980ab7b7cd6bb5b97a2b237db58f94452b4f2b61fe594b8f554a",
+      "bytes": 1398256
+    },
+    {
+      "path": "textures/skins/structural/celt_struct_1.dds",
+      "sha256": "704dcb25bef11e3ca5c2d77cf014f136bc26cca66763633f75f4893f76e74e86",
+      "bytes": 349680
+    },
+    {
+      "path": "textures/skins/structural/celt_struct_1_norm.png",
+      "sha256": "99821978f31a13d46b5a7a79746baa666a89d6176c12e0f80b78360938effae2",
+      "bytes": 639283
+    },
+    {
+      "path": "textures/skins/structural/celt_struct_1_spec.png",
+      "sha256": "e19be51f3fd8a8210f8ba5d8e8460f6f74deabac4599724932b6031a672d2932",
+      "bytes": 59903
+    },
+    {
+      "path": "textures/skins/structural/celt_struct_norm.png",
+      "sha256": "a25dc740b992b1eed91a3fe9f55392453feac4fa5f205e229324a43ed006bbe4",
+      "bytes": 2829815
+    },
+    {
+      "path": "textures/skins/structural/celt_struct_spec.png",
+      "sha256": "f1725f48f3712eef7d64d28aa6a60a3a68cc9a96abdc264402ccfc762421f3ec",
+      "bytes": 909350
+    },
+    {
+      "path": "textures/skins/structural/hele_fishing_boat.dds",
+      "sha256": "4a3d4b8bd07d8e56734270c33ba56b67d30880f4f140af3b4552f7b191121ffc",
+      "bytes": 87536
+    },
+    {
+      "path": "textures/skins/structural/hele_pentekonter.png",
+      "sha256": "93c2df807ed6990ee3b180324a2fa73fc08e7db2e81c781235214ee20ea7c2ad",
+      "bytes": 718533
+    },
+    {
+      "path": "textures/skins/structural/hele_struct_2.dds",
+      "sha256": "ab79620b335f3984619fa324dd00a4db61a51fcd9c473e1578681808f5bf146c",
+      "bytes": 349680
+    },
+    {
+      "path": "textures/skins/structural/rooftiles_broken.png",
+      "sha256": "dfebbabd23df63e0a66cbc833797ad0450d463a8573d8ff36e65ed64ed85f55d",
+      "bytes": 365093
+    },
+    {
+      "path": "textures/skins/structural/tent_greek.png",
+      "sha256": "6cb4d155e05001a04f2d63b47f8687aa5e97bf6347cf361bf470c4f219177014",
+      "bytes": 124048
+    },
+    {
+      "path": "textures/skins/structural/tent_greek_norm.png",
+      "sha256": "9efba8dfc69014edd6a36ab3a2a6f6dc6475ef6b7c149db97d35a7bd700516b4",
+      "bytes": 127973
+    },
+    {
+      "path": "textures/skins/structural/tent_greek_spec.png",
+      "sha256": "47704c6788a14bb9e780bbc68ffc9fbfaeb7d9d16374f88067fc3346207f19ac",
+      "bytes": 32435
+    },
+    {
+      "path": "variants/quadraped/base_horse_stable.xml",
+      "sha256": "4b08b329bb6057453e9fe46976664f5346861527bd28998740ff437480386861",
+      "bytes": 384
+    },
+    {
+      "path": "variants/quadraped/horse/base.xml",
+      "sha256": "19402f08e2abe7c32ad402dca0a67c10c49da22eda9a5c7404d2ea548457c5d7",
+      "bytes": 244
+    },
+    {
+      "path": "variants/quadraped/horse/props/hair_base.xml",
+      "sha256": "187b19d65e730d463e7cad235c788834630283a94d7fb1cdb582f0571d290275",
+      "bytes": 240
+    },
+    {
+      "path": "variants/quadraped/horse/props/hair_brown.xml",
+      "sha256": "4e8431524522857c0ea7bd672e5cd05807bf69b62eae0de148d16619da391428",
+      "bytes": 222
+    },
+    {
+      "path": "variants/quadraped/horse/stable/brown.xml",
+      "sha256": "d2277de76cd4bdf984f9a54c03f367e5328cd996a33be75b87e55e94e9545ec0",
+      "bytes": 410
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_barrel1.xml",
+      "sha256": "60c30ae78b2331dd1f39092f561401697e44a9eeec4fafa930ee89af1eb6d467",
+      "bytes": 910
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_barrel2.xml",
+      "sha256": "60c30ae78b2331dd1f39092f561401697e44a9eeec4fafa930ee89af1eb6d467",
+      "bytes": 910
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_bucket_food.xml",
+      "sha256": "361111d71a0d073040d53d5414d6450db42770b676a83454b229397f8fef191d",
+      "bytes": 584
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_bucket_water.xml",
+      "sha256": "26cfae3c9b5fc361bd0165c1034d73ef4ab2e749183f93b799870e18f9a38ee6",
+      "bytes": 582
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_shield1.xml",
+      "sha256": "52edcac0b4bec79802320602a194efb0b6a12985a30045744af859368b780d62",
+      "bytes": 570
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_shield2.xml",
+      "sha256": "71f19f903f222fe339b40b8f3fa3055d4d4812598abd52179a46571acd129489",
+      "bytes": 570
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_shield3.xml",
+      "sha256": "470ac36516bd3d8323ce806d8c73d1456c07fdab14baaa23ea90bc7eb5a2e2ad",
+      "bytes": 570
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_shield4.xml",
+      "sha256": "fce8f5194d5b3974193dc424c0d204d46d67663098ec51aed6726cf1999c2519",
+      "bytes": 570
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_table.xml",
+      "sha256": "2f8ba5ea02f2ccb74cce730d6ab13c2028ca6881749ddf0305bc8b8160e03e2f",
+      "bytes": 691
+    },
+    {
+      "path": "actors/props/structures/celts/celt_tavern_table_eyecandy.xml",
+      "sha256": "d8d5b62ec44ee8dd4817a5044c5435572b19b234d121fb0083be5fa01c67de53",
+      "bytes": 584
+    },
+    {
+      "path": "actors/props/structures/iberians/storehouse.xml",
+      "sha256": "4e724ea59f9d28528c92e0ea7a1762f3d22be1f526865e301000db214f655be3",
+      "bytes": 699
+    },
+    {
+      "path": "actors/props/structures/mauryas/stable_horse_c.xml",
+      "sha256": "6ae711c37b4e7c97e27c035cef65d1f97ecd742514b78007cd827dc53c3b3014",
+      "bytes": 1164
+    },
+    {
+      "path": "actors/props/structures/ptolemies/farmstead_cart.xml",
+      "sha256": "dac1f23677fbd341f21cf19e1b0d8bb16b7edee3209d9e283aaa941c002f8132",
+      "bytes": 634
+    },
+    {
+      "path": "actors/props/structures/ptolemies/farmstead_cart_hay.xml",
+      "sha256": "0c055c3c861d6ee6bbb7217e30a8c2a467267570c4c2920195c3f3fa3d13d86c",
+      "bytes": 502
+    },
+    {
+      "path": "actors/props/structures/romans/dock.xml",
+      "sha256": "2afdae778ed5eab5119dc334dc24c139e607c9e5d147d47da95010baa7a52f27",
+      "bytes": 525
+    },
+    {
+      "path": "actors/structures/celts/tavern.xml",
+      "sha256": "47555b4b95ef90c515017dcba9c8afc2b395525e54cf40e25da46307452637ce",
+      "bytes": 2237
+    },
+    {
+      "path": "actors/structures/iberians/storehouse.xml",
+      "sha256": "c881dbc46c30582cf7631ea4395042a9e01d8c788de67d775addf86f2615c528",
+      "bytes": 1031
+    },
+    {
+      "path": "actors/structures/ptolemies/farmstead.xml",
+      "sha256": "474f8331de248d0aabab88689dbedb719bf4730f9d349468b08f85676624b2ff",
+      "bytes": 1138
+    },
+    {
+      "path": "actors/structures/ptolemies/workshop.xml",
+      "sha256": "e8f7fefd5142249032ca471e5cec4162ae99817039755f420268c1fea7256257",
+      "bytes": 1058
+    },
+    {
+      "path": "actors/structures/romans/dock.xml",
+      "sha256": "d6abee36ef2c4883e10ce00650c9861c6544d8ca93c9948f04fd4d007e8912a8",
+      "bytes": 673
+    },
+    {
+      "path": "actors/structures/romans/house.xml",
+      "sha256": "bfae688a756bb13000c9e2fa0fe588b0aabb94990ea4175dd963a973b94e192a",
+      "bytes": 1918
+    },
+    {
+      "path": "actors/structures/tent_big.xml",
+      "sha256": "4f3f8d9940c7beb49d26306d340937389bc129aaa3d39a2621c140928f7781c5",
+      "bytes": 720
+    },
+    {
+      "path": "meshes/props/celt_tavern_bucket_food.dae",
+      "sha256": "90bff449f5476f749365e9bf38ac04b60ca021b31c93b7fbacea1db6a70999ca",
+      "bytes": 9499
+    },
+    {
+      "path": "meshes/props/celt_tavern_bucket_water.dae",
+      "sha256": "99f49b5010fa79447da51b2fd908dd0bedc6752aef39fa952c5f7e01012e31ff",
+      "bytes": 9461
+    },
+    {
+      "path": "meshes/props/celt_tavern_shield1.dae",
+      "sha256": "bd7824b8180a30cca74aee81d460d586b3c7c468f6fe0524c6622e29c837794d",
+      "bytes": 5531
+    },
+    {
+      "path": "meshes/props/celt_tavern_shield2.dae",
+      "sha256": "54ed50cc9d7e24328d0037c4d3683c980d231ffe6b8ab37638f68736595322d1",
+      "bytes": 6702
+    },
+    {
+      "path": "meshes/props/celt_tavern_shield3.dae",
+      "sha256": "fff6e17ac3be9fbf2206e210270d499622458d85bbffcf22ed97eed96dd6e8b2",
+      "bytes": 7770
+    },
+    {
+      "path": "meshes/props/celt_tavern_shield4.dae",
+      "sha256": "05ab234f2a1855c3a61c0f542a4f58cb18abbd34e104cb12ca24b3fd4419c957",
+      "bytes": 6779
+    },
+    {
+      "path": "meshes/props/celt_tavern_table.dae",
+      "sha256": "70fa4f91e0a69a372f9d76e57f67c2d91d11dd0a6bcc3479a636d1a0f85aaed2",
+      "bytes": 19598
+    },
+    {
+      "path": "meshes/props/celt_tavern_table_eyecandy.dae",
+      "sha256": "d1b6c3f65ed9b72dd10b74a03ad41980b2687a95b9d56892e4db800312466ebc",
+      "bytes": 27004
+    },
+    {
+      "path": "meshes/props/iber_storehouse_a.dae",
+      "sha256": "182469e52fb118301c168257857a1f9ce5358afe9d71eeada004df0408560a55",
+      "bytes": 33373
+    },
+    {
+      "path": "meshes/props/ptol_hay_cart.dae",
+      "sha256": "054c9b3f6f15db70fc175de7a8d9f2e6865a79bc133a54f0ab91e13fcb0355d2",
+      "bytes": 58055
+    },
+    {
+      "path": "meshes/props/ptol_hay_cart_prop.dae",
+      "sha256": "91c206dde9030e2a265ff8f462190a0a412992b1fc581ecc313ff1e48094a49f",
+      "bytes": 5852
+    },
+    {
+      "path": "meshes/props/rome_dock_1.dae",
+      "sha256": "8174b0e4bcf31cbc6dcd7355f2534962077a9051e00289658057325a169ef28b",
+      "bytes": 13195
+    },
+    {
+      "path": "meshes/skeletal/horse_marwari.dae",
+      "sha256": "27949eee569e083e562c7b916420170a064150e471e971fa922bf76630be025d",
+      "bytes": 329348
+    },
+    {
+      "path": "meshes/structural/celt_tavern.dae",
+      "sha256": "f496fdcc3d5f497a57ad11f3e34fb8cf67f641150f9c2bfac5aedf2f858ecd94",
+      "bytes": 228746
+    },
+    {
+      "path": "meshes/structural/iber_storehouse.dae",
+      "sha256": "c71328c794f00bd4bc16653d16f601e7eb68a52290bbaa1ff918f4b06bdbe9bd",
+      "bytes": 39265
+    },
+    {
+      "path": "meshes/structural/ptol_farmstead.dae",
+      "sha256": "5f591f6d3029ef552fe837403b2c5ef5cb984fa65f0300944dcb246c26d2a288",
+      "bytes": 488805
+    },
+    {
+      "path": "meshes/structural/ptol_workshop.dae",
+      "sha256": "eaa6986b85c1a453226ffd068e9a41c026d5cd198959a49316a0abdaf16ab285",
+      "bytes": 1401968
+    },
+    {
+      "path": "meshes/structural/roman_house_a.dae",
+      "sha256": "7c2b0d0a461535e0802d2a07395afb4546515ef4d3ccc3eab18d55a0993bc165",
+      "bytes": 184407
+    },
+    {
+      "path": "meshes/structural/rome_dock.dae",
+      "sha256": "e07a60530fc8a6d0eea646d011d10163df8008f132484d2271e10f54dea59b88",
+      "bytes": 742908
+    },
+    {
+      "path": "meshes/structural/tent_big.dae",
+      "sha256": "1c54a83df1ef7ff8e762143578c07e0289f7e8126b2874733e64de40c9c395da",
+      "bytes": 221490
+    },
+    {
+      "path": "textures/skins/props/ao/rome_dock_1.png",
+      "sha256": "995a6c83f42df88cb9320752a7c3dfbc53125d5712c31daf3a8b780ead25644e",
+      "bytes": 19774
+    },
+    {
+      "path": "textures/skins/structural/ao/gaul_tavern_ao.png",
+      "sha256": "f50d0167e66c5b012dc0b7d99af6420c133008d2e8603ce1012233cfec147fc2",
+      "bytes": 170268
+    },
+    {
+      "path": "textures/skins/structural/ao/iber_storehouse.png",
+      "sha256": "96c37d772a9f0e300761e135308a5f41ccba569446d45ff61c3a89fbdfd2f808",
+      "bytes": 235821
+    },
+    {
+      "path": "textures/skins/structural/ao/ptol_farmstead.png",
+      "sha256": "9d1c095633ec25b6d46cef2ce4f69bd72eef0c21b04b778b10f87de27e13805c",
+      "bytes": 303251
+    },
+    {
+      "path": "textures/skins/structural/ao/ptol_workshop_AO.png",
+      "sha256": "cd0e8d1f6ec2dde3e7cbdbc1cf57faee35cd9e7831c6e2348de9a2fc7175b6f5",
+      "bytes": 320685
+    },
+    {
+      "path": "textures/skins/structural/ao/rome_dock.png",
+      "sha256": "c0a7bc9016d39723fea2adb6fe093037ed85cf3959cbd013fbf046c9b5eb615b",
+      "bytes": 91803
+    },
+    {
+      "path": "textures/skins/structural/ao/rome_house_a.png",
+      "sha256": "11600c6abd73cdf8144ea492aaacba01200e951d392be03d677b1d83ebe90caf",
+      "bytes": 69721
+    },
+    {
+      "path": "textures/skins/structural/ao/tent_big.png",
+      "sha256": "8247568d81e0ebb333e9d75151e5f06d9d787ab2ef7f2de8aa5709c6ffb0be3a",
+      "bytes": 72893
+    },
+    {
+      "path": "textures/skins/structural/tent_big.png",
+      "sha256": "d890aed54bf376bfc20896207b894f6de993595efc0b63a7b97a20975267aca0",
+      "bytes": 160915
+    },
+    {
+      "path": "textures/skins/structural/tent_big_norm.png",
+      "sha256": "821d2e30c0d3bfbb6f72c715083ff1de4b00b3d1cad3fda6924a6a8a0a245af9",
+      "bytes": 106547
+    },
+    {
+      "path": "textures/skins/structural/tent_big_spec.png",
+      "sha256": "a7ef9d8f95f4ffa3daa4d6279a4b2e3fa9a0e0b5503ae1faa24eb7039bb8931b",
+      "bytes": 105141
+    },
+    {
+      "path": "textures/skins/aegea55/bronze-color.jpg",
+      "sha256": "e2853f306f46517f41244a08f941427ee0a05691c43a07161da0aafd35319d62",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/brick-color.jpg",
+      "sha256": "1e73d2b67730971db944d36180e66f2a28a44019334fb4af8c4d76e2744d47be",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/brick-normal.jpg",
+      "sha256": "05adc656ff9bdadbb953f892a3f2514f759b54b219faf62cd3892c9bf0b170b6",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/iron-color.jpg",
+      "sha256": "28fcb8ddc133f80a40ffb1c4f31998b35faedeadaf130e68af1693c2d7c7fdb1",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/wood-color.jpg",
+      "sha256": "4d4e1f087e929f0210dc46e3ceae442195359cd6ad623e44378f8e85555338a0",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/stone-color.jpg",
+      "sha256": "b5acc7df68fd14f6f40f8a00bdee12bd8462e8c2b30f01615945f69b834de906",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/rope-color.jpg",
+      "sha256": "3a97d303d71e67755d76da328999fdcf6ac07b0f5f894e13d386d6f3d247dbcd",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/water-color.jpg",
+      "sha256": "b864c84a65bbf613c7ea87720a3318e5aacb55058c37156fd2f7cc8069aa4121",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/coal-color.jpg",
+      "sha256": "af00d42e4fd58f194e5390a5c2cc659e05a6ed8bb4c4ebc459f5762f60446b3d",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/stone-normal.jpg",
+      "sha256": "54249272d7cb8eb013754b1e874c2b01af233bddad60f7a4a2e3b85a1c69d889",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/wood-normal.jpg",
+      "sha256": "b5b299960e8b39ff451693f84f19d6db320b75417809566e732b6a3a194d89c1",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/glow-color.jpg",
+      "sha256": "96025b774d9b343e8b4038f14b446c8d98bbc0dd4cdd7dee8d2091d70191fef4",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea55/leather-color.jpg",
+      "sha256": "654ec2e3caa6e487b79054cfb05b42563ddcce2ffed392d6caa6e0001d09577a",
+      "source": "AEGEA geometry / Poly Haven CC0 texture adaptation",
+      "license": "CC0"
+    },
+    {
+      "path": "textures/skins/aegea56/plaster-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/beige_wall_001/beige_wall_001_diff_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "222d4d2e7d5c425c97e5a66790852388cec7706714d773f769fba6bfe08cea4e"
+    },
+    {
+      "path": "textures/skins/aegea56/plaster-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/beige_wall_001/beige_wall_001_nor_gl_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "7f5cbecd6766f44034f3b78b4addb1559e12bdd5a77501bd418a736609e7cedc"
+    },
+    {
+      "path": "textures/skins/aegea56/plaster-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/beige_wall_001/beige_wall_001_rough_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "a76e2307d8ec47d1be1d4710851fc4545db7aecfa176333738a6756358b64767"
+    },
+    {
+      "path": "textures/skins/aegea56/clay-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/clay_plaster/clay_plaster_diff_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "e7ed1892b319d8a1ddb8b95242cc8b9d627bd2a558ec107da174a463f3dbc561"
+    },
+    {
+      "path": "textures/skins/aegea56/clay-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/clay_plaster/clay_plaster_nor_gl_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "126f8d299022ed26fa70e0fa213d2b34db58e1f9aced1ee571902b575dced754"
+    },
+    {
+      "path": "textures/skins/aegea56/clay-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/clay_plaster/clay_plaster_rough_2k.jpg",
+      "author": "Poly Haven",
+      "license": "CC0",
+      "sha256": "56bb3e5a38f5d58227d53bde1b7423a72169511d491f2c057b5d6be153bef51a"
+    },
+    {
+      "path": "textures/skins/aegea56/stone-color.jpg",
+      "source": "Poly Haven rock",
+      "license": "CC0",
+      "sha256": "b5acc7df68fd14f6f40f8a00bdee12bd8462e8c2b30f01615945f69b834de906"
+    },
+    {
+      "path": "textures/skins/aegea56/stone-normal.jpg",
+      "source": "Poly Haven rock",
+      "license": "CC0",
+      "sha256": "54249272d7cb8eb013754b1e874c2b01af233bddad60f7a4a2e3b85a1c69d889"
+    },
+    {
+      "path": "textures/skins/aegea56/wood-color.jpg",
+      "source": "Poly Haven wood_planks_grey",
+      "license": "CC0",
+      "sha256": "4d4e1f087e929f0210dc46e3ceae442195359cd6ad623e44378f8e85555338a0"
+    },
+    {
+      "path": "textures/skins/aegea56/wood-normal.jpg",
+      "source": "Poly Haven wood_planks_grey",
+      "license": "CC0",
+      "sha256": "b5b299960e8b39ff451693f84f19d6db320b75417809566e732b6a3a194d89c1"
+    },
+    {
+      "path": "textures/skins/aegea56/brick-color.jpg",
+      "source": "Poly Haven castle_brick_02_red",
+      "license": "CC0",
+      "sha256": "1e73d2b67730971db944d36180e66f2a28a44019334fb4af8c4d76e2744d47be"
+    },
+    {
+      "path": "textures/skins/aegea56/brick-normal.jpg",
+      "source": "Poly Haven castle_brick_02_red",
+      "license": "CC0",
+      "sha256": "05adc656ff9bdadbb953f892a3f2514f759b54b219faf62cd3892c9bf0b170b6"
+    },
+    {
+      "path": "textures/skins/aegea56/roof-color.jpg",
+      "source": "Poly Haven roof_tiles_14",
+      "license": "CC0",
+      "sha256": "402099a36676a8c8470b61fbd22e2e898af2662d7174f7fea1d48a698a040ec0"
+    },
+    {
+      "path": "textures/skins/aegea56/roof-normal.jpg",
+      "source": "Poly Haven roof_tiles_14",
+      "license": "CC0",
+      "sha256": "88e994b63cf2099fbb196c7f11d17c3c770e984640aed90eb86494eeb553279c"
+    },
+    {
+      "path": "textures/skins/aegea56/iron-color.jpg",
+      "sha256": "710039a3e5706b36a7d1d9ab37d2c526b846caa5c8566097e2199f3da4988310",
+      "author": "AEGEA",
+      "license": "CC BY-SA 3.0",
+      "source": "Original uniform material swatch"
+    },
+    {
+      "path": "textures/skins/aegea56/dark-color.jpg",
+      "sha256": "9e651053796619becf12c559e979ce57b5cfec1f8f2f10f86d2ed908b089cada",
+      "author": "AEGEA",
+      "license": "CC BY-SA 3.0",
+      "source": "Original uniform material swatch"
+    },
+    {
+      "path": "textures/skins/aegea56/linen-color.jpg",
+      "sha256": "2170e014c2000c34a4e23cba6b22b2f54c3ad59965c3a604896eb3ed5d883994",
+      "author": "AEGEA",
+      "license": "CC BY-SA 3.0",
+      "source": "Original uniform material swatch"
+    },
+    {
+      "path": "textures/skins/aegea56/water-color.jpg",
+      "sha256": "63d69fc61518cd43fcabd0604141ab383d980e139bfa350a0be0b7727d7f5b29",
+      "author": "AEGEA",
+      "license": "CC BY-SA 3.0",
+      "source": "Original uniform material swatch"
+    }
+  ]
+}
